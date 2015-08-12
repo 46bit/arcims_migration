@@ -1,0 +1,43 @@
+/* LAYER NAME level52_prehistoric_before_750bc */
+/* CLASSIFIER INFO {'value': '0.27483', 'label': '0.27483'} */
+[qryPottPerDen.PH = "0.27483"] {
+  fill: #cc99cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.49634', 'lower': '0.27483', 'equality': 'upper', 'label': '0.27484 - 0.49634'} */
+[qryPottPerDen.PH > 0.27483] [qryPottPerDen.PH <= 0.49634] {
+  fill: #cc66cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '2.92001', 'lower': '0.49634', 'equality': 'upper', 'label': '0.49635 - 2.92001'} */
+[qryPottPerDen.PH > 0.49634] [qryPottPerDen.PH <= 2.92001] {
+  fill: #996799;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.27483', 'label': '0.27483'} */
+[qryPottPerDen.PH = "0.27483"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.49634', 'lower': '0.27483', 'equality': 'upper', 'label': '0.27484 - 0.49634'} */
+[qryPottPerDen.PH > 0.27483] [qryPottPerDen.PH <= 0.49634] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '2.92001', 'lower': '0.49634', 'equality': 'upper', 'label': '0.49635 - 2.92001'} */
+[qryPottPerDen.PH > 0.49634] [qryPottPerDen.PH <= 2.92001] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

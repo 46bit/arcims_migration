@@ -1,0 +1,50 @@
+/* LAYER NAME level222_surface_cover */
+/* CLASSIFIER INFO {'value': 'Sab', 'label': 'Sab'} */
+[tblGUF.SoilCov = "Sab"] {
+  fill: #006600;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'label': '<all other values>'} */
+* {
+  fill: #cccc99;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Sot', 'label': 'Sot'} */
+[tblGUF.SoilCov = "Sot"] {
+  fill: #cccc66;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Shg', 'label': 'Shg'} */
+[tblGUF.SoilCov = "Shg"] {
+  fill: #999967;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Smi', 'label': 'Smi'} */
+[tblGUF.SoilCov = "Smi"] {
+  fill: #669932;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Sab', 'label': 'Sab'} */
+[tblGUF.SoilCov = "Sab"] {
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'value': '<Null>', 'label': '<Null>'} */
+[tblGUF.SoilCov = "<Null>"] {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+

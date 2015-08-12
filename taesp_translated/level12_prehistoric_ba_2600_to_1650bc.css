@@ -1,0 +1,60 @@
+/* LAYER NAME level12_prehistoric_ba_2600_to_1650bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.66649', 'lower': '0.03375', 'equality': 'upper', 'label': '0.03375 - 0.66649'} */
+[qryPottPerDen.PEB > 0.03375] [qryPottPerDen.PEB <= 0.66649] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.PEB > 0.03375] [qryPottPerDen.PEB <= 0.66649] :mark {
+  fill: #850082;
+}
+
+/* CLASSIFIER INFO {'upper': '1.74433', 'lower': '0.66649', 'equality': 'upper', 'label': '0.66650 - 1.74433'} */
+[qryPottPerDen.PEB > 0.66649] [qryPottPerDen.PEB <= 1.74433] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.PEB > 0.66649] [qryPottPerDen.PEB <= 1.74433] :mark {
+  fill: #850082;
+}
+
+/* CLASSIFIER INFO {'upper': '3.48913', 'lower': '1.74433', 'equality': 'upper', 'label': '1.74434 - 3.48913'} */
+[qryPottPerDen.PEB > 1.74433] [qryPottPerDen.PEB <= 3.48913] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.PEB > 1.74433] [qryPottPerDen.PEB <= 3.48913] :mark {
+  fill: #850082;
+}
+
+/* CLASSIFIER INFO {'upper': '7.0502', 'lower': '3.48913', 'equality': 'upper', 'label': '3.48914 - 7.05020'} */
+[qryPottPerDen.PEB > 3.48913] [qryPottPerDen.PEB <= 7.0502] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.PEB > 3.48913] [qryPottPerDen.PEB <= 7.0502] :mark {
+  fill: #850082;
+}
+
+/* CLASSIFIER INFO {'upper': '11.41605', 'lower': '7.0502', 'equality': 'upper', 'label': '7.05021 - 11.41605'} */
+[qryPottPerDen.PEB > 7.0502] [qryPottPerDen.PEB <= 11.41605] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.PEB > 7.0502] [qryPottPerDen.PEB <= 11.41605] :mark {
+  fill: #850082;
+}
+
+/* CLASSIFIER INFO {'upper': '19.2248', 'lower': '11.41605', 'equality': 'upper', 'label': '11.41606 - 19.22480'} */
+[qryPottPerDen.PEB > 11.41605] [qryPottPerDen.PEB <= 19.2248] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.PEB > 11.41605] [qryPottPerDen.PEB <= 19.2248] :mark {
+  fill: #850082;
+}
+

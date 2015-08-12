@@ -1,0 +1,10 @@
+/* LAYER NAME level268_weir */
+/* CLASSIFIER INFO {'value': 'WR', 'label': 'WR'} */
+[TYPE = "WR"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "WR"] :mark {
+  fill: #0000ff;
+}
+

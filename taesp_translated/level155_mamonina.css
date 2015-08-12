@@ -1,0 +1,15 @@
+/* LAYER NAME level155_mamonina */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.19388', 'label': '0.19388'} */
+[qryLithMatDen.MAM = "0.19388"] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryLithMatDen.MAM = "0.19388"] :mark {
+  fill: #336699;
+}
+

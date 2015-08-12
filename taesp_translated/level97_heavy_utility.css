@@ -1,0 +1,60 @@
+/* LAYER NAME level97_heavy_utility */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.3227', 'lower': '0.04824', 'equality': 'upper', 'label': '0.04824 - 0.32270'} */
+[qryPottFctPreHisDen.HU > 0.04824] [qryPottFctPreHisDen.HU <= 0.3227] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFctPreHisDen.HU > 0.04824] [qryPottFctPreHisDen.HU <= 0.3227] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.59885', 'lower': '0.3227', 'equality': 'upper', 'label': '0.32271 - 0.59885'} */
+[qryPottFctPreHisDen.HU > 0.3227] [qryPottFctPreHisDen.HU <= 0.59885] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottFctPreHisDen.HU > 0.3227] [qryPottFctPreHisDen.HU <= 0.59885] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.26937', 'lower': '0.59885', 'equality': 'upper', 'label': '0.59886 - 1.26937'} */
+[qryPottFctPreHisDen.HU > 0.59885] [qryPottFctPreHisDen.HU <= 1.26937] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottFctPreHisDen.HU > 0.59885] [qryPottFctPreHisDen.HU <= 1.26937] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.79535', 'lower': '1.26937', 'equality': 'upper', 'label': '1.26938 - 2.79535'} */
+[qryPottFctPreHisDen.HU > 1.26937] [qryPottFctPreHisDen.HU <= 2.79535] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottFctPreHisDen.HU > 1.26937] [qryPottFctPreHisDen.HU <= 2.79535] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '6.20503', 'lower': '2.79535', 'equality': 'upper', 'label': '2.79536 - 6.20503'} */
+[qryPottFctPreHisDen.HU > 2.79535] [qryPottFctPreHisDen.HU <= 6.20503] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottFctPreHisDen.HU > 2.79535] [qryPottFctPreHisDen.HU <= 6.20503] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '12.84577', 'lower': '6.20503', 'equality': 'upper', 'label': '6.20504 - 12.84577'} */
+[qryPottFctPreHisDen.HU > 6.20503] [qryPottFctPreHisDen.HU <= 12.84577] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFctPreHisDen.HU > 6.20503] [qryPottFctPreHisDen.HU <= 12.84577] :mark {
+  fill: #993266;
+}
+

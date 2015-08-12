@@ -1,0 +1,10 @@
+/* LAYER NAME level260_other_agricultural_structure */
+/* CLASSIFIER INFO {'value': 'OS', 'label': 'OS'} */
+[TYPE = "OS"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "OS"] :mark {
+  fill: #0000ff;
+}
+

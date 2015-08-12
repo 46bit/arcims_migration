@@ -1,0 +1,15 @@
+/* LAYER NAME level115_transport */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.11529', 'label': '0.11529'} */
+[qryPotFctMedModDen.TR = "0.11529"] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryPotFctMedModDen.TR = "0.11529"] :mark {
+  fill: #993266;
+}
+

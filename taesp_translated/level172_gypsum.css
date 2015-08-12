@@ -1,0 +1,29 @@
+/* LAYER NAME level172_gypsum */
+/* CLASSIFIER INFO {'value': '0.03051', 'label': '0.03051'} */
+[qryLithMatDen.GYP = "0.03051"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.32179', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03052 - 0.32179'} */
+[qryLithMatDen.GYP > 0.03051] [qryLithMatDen.GYP <= 0.32179] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.03051', 'label': '0.03051'} */
+[qryLithMatDen.GYP = "0.03051"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.32179', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03052 - 0.32179'} */
+[qryLithMatDen.GYP > 0.03051] [qryLithMatDen.GYP <= 0.32179] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

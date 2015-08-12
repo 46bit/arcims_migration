@@ -1,0 +1,33 @@
+/* LAYER NAME level19_cypro_classical_475_to_312bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.51982', 'label': '0.51982'} */
+[qryPottPerDen.CL = "0.51982"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.CL = "0.51982"] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.51982', 'equality': 'upper', 'label': '0.51983 - 0.68924'} */
+[qryPottPerDen.CL > 0.51982] [qryPottPerDen.CL <= 0.68924] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryPottPerDen.CL > 0.51982] [qryPottPerDen.CL <= 0.68924] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '4.97252', 'lower': '0.68924', 'equality': 'upper', 'label': '0.68925 - 4.97252'} */
+[qryPottPerDen.CL > 0.68924] [qryPottPerDen.CL <= 4.97252] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.CL > 0.68924] [qryPottPerDen.CL <= 4.97252] :mark {
+  fill: #993266;
+}
+

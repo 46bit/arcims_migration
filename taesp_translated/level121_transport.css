@@ -1,0 +1,60 @@
+/* LAYER NAME level121_transport */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.6442', 'lower': '0.03155', 'equality': 'upper', 'label': '0.03155 - 0.64420'} */
+[qryPotFctDen.TR > 0.03155] [qryPotFctDen.TR <= 0.6442] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPotFctDen.TR > 0.03155] [qryPotFctDen.TR <= 0.6442] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.43989', 'lower': '0.6442', 'equality': 'upper', 'label': '0.64421 - 1.43989'} */
+[qryPotFctDen.TR > 0.6442] [qryPotFctDen.TR <= 1.43989] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPotFctDen.TR > 0.6442] [qryPotFctDen.TR <= 1.43989] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.42569', 'lower': '1.43989', 'equality': 'upper', 'label': '1.43990 - 2.42569'} */
+[qryPotFctDen.TR > 1.43989] [qryPotFctDen.TR <= 2.42569] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPotFctDen.TR > 1.43989] [qryPotFctDen.TR <= 2.42569] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '5.47075', 'lower': '2.42569', 'equality': 'upper', 'label': '2.42570 - 5.47075'} */
+[qryPotFctDen.TR > 2.42569] [qryPotFctDen.TR <= 5.47075] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPotFctDen.TR > 2.42569] [qryPotFctDen.TR <= 5.47075] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '11.67736', 'lower': '5.47075', 'equality': 'upper', 'label': '5.47076 - 11.67736'} */
+[qryPotFctDen.TR > 5.47075] [qryPotFctDen.TR <= 11.67736] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPotFctDen.TR > 5.47075] [qryPotFctDen.TR <= 11.67736] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '48.97719', 'lower': '11.67736', 'equality': 'upper', 'label': '11.67737 - 48.97719'} */
+[qryPotFctDen.TR > 11.67736] [qryPotFctDen.TR <= 48.97719] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPotFctDen.TR > 11.67736] [qryPotFctDen.TR <= 48.97719] :mark {
+  fill: #993266;
+}
+

@@ -1,0 +1,10 @@
+/* LAYER NAME level235_other_structures */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.OTHCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.OTHCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

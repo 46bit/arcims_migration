@@ -1,0 +1,60 @@
+/* LAYER NAME level20_classical_hellanistic_475_to_31bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.18833', 'lower': '0.07064', 'equality': 'upper', 'label': '0.07064 - 0.18833'} */
+[qryPottPerDen.CLH > 0.07064] [qryPottPerDen.CLH <= 0.18833] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.CLH > 0.07064] [qryPottPerDen.CLH <= 0.18833] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.32218', 'lower': '0.18833', 'equality': 'upper', 'label': '0.18834 - 0.32218'} */
+[qryPottPerDen.CLH > 0.18833] [qryPottPerDen.CLH <= 0.32218] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.CLH > 0.18833] [qryPottPerDen.CLH <= 0.32218] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.45463', 'lower': '0.32218', 'equality': 'upper', 'label': '0.32219 - 0.45463'} */
+[qryPottPerDen.CLH > 0.32218] [qryPottPerDen.CLH <= 0.45463] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.CLH > 0.32218] [qryPottPerDen.CLH <= 0.45463] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.58625', 'lower': '0.45463', 'equality': 'upper', 'label': '0.45464 - 0.58625'} */
+[qryPottPerDen.CLH > 0.45463] [qryPottPerDen.CLH <= 0.58625] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.CLH > 0.45463] [qryPottPerDen.CLH <= 0.58625] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.71628', 'lower': '0.58625', 'equality': 'upper', 'label': '0.58626 - 0.71628'} */
+[qryPottPerDen.CLH > 0.58625] [qryPottPerDen.CLH <= 0.71628] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.CLH > 0.58625] [qryPottPerDen.CLH <= 0.71628] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.94178', 'lower': '0.71628', 'equality': 'upper', 'label': '0.71629 - 0.94178'} */
+[qryPottPerDen.CLH > 0.71628] [qryPottPerDen.CLH <= 0.94178] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.CLH > 0.71628] [qryPottPerDen.CLH <= 0.94178] :mark {
+  fill: #993266;
+}
+

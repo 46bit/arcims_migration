@@ -1,0 +1,60 @@
+/* LAYER NAME level98_tableware */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.22911', 'lower': '0.08835', 'equality': 'upper', 'label': '0.08835 - 0.22911'} */
+[qryPottFctIADen.TW > 0.08835] [qryPottFctIADen.TW <= 0.22911] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFctIADen.TW > 0.08835] [qryPottFctIADen.TW <= 0.22911] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.47089', 'lower': '0.22911', 'equality': 'upper', 'label': '0.22912 - 0.47089'} */
+[qryPottFctIADen.TW > 0.22911] [qryPottFctIADen.TW <= 0.47089] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottFctIADen.TW > 0.22911] [qryPottFctIADen.TW <= 0.47089] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.7846', 'lower': '0.47089', 'equality': 'upper', 'label': '0.47090 - 0.78460'} */
+[qryPottFctIADen.TW > 0.47089] [qryPottFctIADen.TW <= 0.7846] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottFctIADen.TW > 0.47089] [qryPottFctIADen.TW <= 0.7846] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.37849', 'lower': '0.7846', 'equality': 'upper', 'label': '0.78461 - 1.37849'} */
+[qryPottFctIADen.TW > 0.7846] [qryPottFctIADen.TW <= 1.37849] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottFctIADen.TW > 0.7846] [qryPottFctIADen.TW <= 1.37849] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.21563', 'lower': '1.37849', 'equality': 'upper', 'label': '1.37850 - 3.21563'} */
+[qryPottFctIADen.TW > 1.37849] [qryPottFctIADen.TW <= 3.21563] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottFctIADen.TW > 1.37849] [qryPottFctIADen.TW <= 3.21563] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '6.99674', 'lower': '3.21563', 'equality': 'upper', 'label': '3.21564 - 6.99674'} */
+[qryPottFctIADen.TW > 3.21563] [qryPottFctIADen.TW <= 6.99674] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFctIADen.TW > 3.21563] [qryPottFctIADen.TW <= 6.99674] :mark {
+  fill: #993266;
+}
+

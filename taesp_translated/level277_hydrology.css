@@ -1,0 +1,8 @@
+/* LAYER NAME level277_hydrology */
+/* CLASSIFIER INFO {'value': '1', 'label': 'Rivers'} */
+[ORDER_ = "1"] {
+  stroke: #006699;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

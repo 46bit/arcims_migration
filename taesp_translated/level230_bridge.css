@@ -1,0 +1,10 @@
+/* LAYER NAME level230_bridge */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.BRDGCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.BRDGCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

@@ -1,0 +1,29 @@
+/* LAYER NAME level62_cypro_archaic_to_classical_750_to_312bc */
+/* CLASSIFIER INFO {'value': '0.12273', 'label': '0.12273'} */
+[qryPottPerDen.AC = "0.12273"] {
+  fill: #cc99cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.12273', 'equality': 'upper', 'label': '0.12274 - 0.68924'} */
+[qryPottPerDen.AC > 0.12273] [qryPottPerDen.AC <= 0.68924] {
+  fill: #993266;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.12273', 'label': '0.12273'} */
+[qryPottPerDen.AC = "0.12273"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.12273', 'equality': 'upper', 'label': '0.12274 - 0.68924'} */
+[qryPottPerDen.AC > 0.12273] [qryPottPerDen.AC <= 0.68924] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

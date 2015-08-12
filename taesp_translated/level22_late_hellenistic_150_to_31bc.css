@@ -1,0 +1,60 @@
+/* LAYER NAME level22_late_hellenistic_150_to_31bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.13172', 'label': '0.13172'} */
+[qryPottPerDen.LH = "0.13172"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.LH = "0.13172"] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.27869', 'lower': '0.13172', 'equality': 'upper', 'label': '0.13173 - 0.27869'} */
+[qryPottPerDen.LH > 0.13172] [qryPottPerDen.LH <= 0.27869] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.LH > 0.13172] [qryPottPerDen.LH <= 0.27869] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.44732', 'lower': '0.27869', 'equality': 'upper', 'label': '0.27870 - 0.44732'} */
+[qryPottPerDen.LH > 0.27869] [qryPottPerDen.LH <= 0.44732] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.LH > 0.27869] [qryPottPerDen.LH <= 0.44732] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.65467', 'lower': '0.44732', 'equality': 'upper', 'label': '0.44733 - 0.65467'} */
+[qryPottPerDen.LH > 0.44732] [qryPottPerDen.LH <= 0.65467] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.LH > 0.44732] [qryPottPerDen.LH <= 0.65467] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.91456', 'lower': '0.65467', 'equality': 'upper', 'label': '0.65468 - 0.91456'} */
+[qryPottPerDen.LH > 0.65467] [qryPottPerDen.LH <= 0.91456] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.LH > 0.65467] [qryPottPerDen.LH <= 0.91456] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.7105', 'lower': '0.91456', 'equality': 'upper', 'label': '0.91457 - 1.71050'} */
+[qryPottPerDen.LH > 0.91456] [qryPottPerDen.LH <= 1.7105] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.LH > 0.91456] [qryPottPerDen.LH <= 1.7105] :mark {
+  fill: #993266;
+}
+

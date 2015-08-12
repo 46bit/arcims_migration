@@ -1,0 +1,57 @@
+/* LAYER NAME level167_basalt */
+/* CLASSIFIER INFO {'value': '0.05037', 'label': '0.05037'} */
+[qryLithMatDen.BAS = "0.05037"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.09833', 'lower': '0.05037', 'equality': 'upper', 'label': '0.05038 - 0.09833'} */
+[qryLithMatDen.BAS > 0.05037] [qryLithMatDen.BAS <= 0.09833] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.27545', 'lower': '0.09833', 'equality': 'upper', 'label': '0.09834 - 0.27545'} */
+[qryLithMatDen.BAS > 0.09833] [qryLithMatDen.BAS <= 0.27545] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.27545', 'equality': 'upper', 'label': '0.27546 - 0.30452'} */
+[qryLithMatDen.BAS > 0.27545] [qryLithMatDen.BAS <= 0.30452] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.05037', 'label': '0.05037'} */
+[qryLithMatDen.BAS = "0.05037"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.09833', 'lower': '0.05037', 'equality': 'upper', 'label': '0.05038 - 0.09833'} */
+[qryLithMatDen.BAS > 0.05037] [qryLithMatDen.BAS <= 0.09833] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.27545', 'lower': '0.09833', 'equality': 'upper', 'label': '0.09834 - 0.27545'} */
+[qryLithMatDen.BAS > 0.09833] [qryLithMatDen.BAS <= 0.27545] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.27545', 'equality': 'upper', 'label': '0.27546 - 0.30452'} */
+[qryLithMatDen.BAS > 0.27545] [qryLithMatDen.BAS <= 0.30452] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

@@ -1,0 +1,64 @@
+/* LAYER NAME level224_substratum */
+/* CLASSIFIER INFO {'label': 'Values with less than 20 occurances'} */
+* {
+  fill: #00c800;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'ap', 'label': 'ap'} */
+[tblGUF.Subst = "ap"] {
+  fill: #006600;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'label': 'Values with less than 20 occurances'} */
+* {
+  stroke: #333333;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'value': 'Bo', 'label': 'Bo'} */
+[tblGUF.Subst = "Bo"] {
+  fill: #cccc99;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Bob ', 'label': 'Bob '} */
+[tblGUF.Subst = "Bob "] {
+  fill: #cccc66;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Bop', 'label': 'Bop'} */
+[tblGUF.Subst = "Bop"] {
+  fill: #999967;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'al', 'label': 'al'} */
+[tblGUF.Subst = "al"] {
+  fill: #669932;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'ap', 'label': 'ap'} */
+[tblGUF.Subst = "ap"] {
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'value': 'at', 'label': 'at'} */
+[tblGUF.Subst = "at"] {
+  fill: #003300;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+

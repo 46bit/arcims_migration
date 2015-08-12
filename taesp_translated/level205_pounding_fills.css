@@ -1,0 +1,85 @@
+/* LAYER NAME level205_pounding_fills */
+/* CLASSIFIER INFO {'upper': '0.08103', 'lower': '0.0529', 'equality': 'upper', 'label': '0.05290 - 0.08103'} */
+[qryGrdClassDen.POU > 0.0529] [qryGrdClassDen.POU <= 0.08103] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.12111', 'lower': '0.08103', 'equality': 'upper', 'label': '0.08104 - 0.12111'} */
+[qryGrdClassDen.POU > 0.08103] [qryGrdClassDen.POU <= 0.12111] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.18969', 'lower': '0.12111', 'equality': 'upper', 'label': '0.12112 - 0.18969'} */
+[qryGrdClassDen.POU > 0.12111] [qryGrdClassDen.POU <= 0.18969] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.28922', 'lower': '0.18969', 'equality': 'upper', 'label': '0.18970 - 0.28922'} */
+[qryGrdClassDen.POU > 0.18969] [qryGrdClassDen.POU <= 0.28922] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.5018', 'lower': '0.28922', 'equality': 'upper', 'label': '0.28923 - 0.50180'} */
+[qryGrdClassDen.POU > 0.28922] [qryGrdClassDen.POU <= 0.5018] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.75219', 'lower': '0.5018', 'equality': 'upper', 'label': '0.50181 - 0.75219'} */
+[qryGrdClassDen.POU > 0.5018] [qryGrdClassDen.POU <= 0.75219] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.08103', 'lower': '0.0529', 'equality': 'upper', 'label': '0.05290 - 0.08103'} */
+[qryGrdClassDen.POU > 0.0529] [qryGrdClassDen.POU <= 0.08103] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.12111', 'lower': '0.08103', 'equality': 'upper', 'label': '0.08104 - 0.12111'} */
+[qryGrdClassDen.POU > 0.08103] [qryGrdClassDen.POU <= 0.12111] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.18969', 'lower': '0.12111', 'equality': 'upper', 'label': '0.12112 - 0.18969'} */
+[qryGrdClassDen.POU > 0.12111] [qryGrdClassDen.POU <= 0.18969] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.28922', 'lower': '0.18969', 'equality': 'upper', 'label': '0.18970 - 0.28922'} */
+[qryGrdClassDen.POU > 0.18969] [qryGrdClassDen.POU <= 0.28922] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.5018', 'lower': '0.28922', 'equality': 'upper', 'label': '0.28923 - 0.50180'} */
+[qryGrdClassDen.POU > 0.28922] [qryGrdClassDen.POU <= 0.5018] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.75219', 'lower': '0.5018', 'equality': 'upper', 'label': '0.50181 - 0.75219'} */
+[qryGrdClassDen.POU > 0.5018] [qryGrdClassDen.POU <= 0.75219] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

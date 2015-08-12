@@ -1,0 +1,60 @@
+/* LAYER NAME level111_tableware */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.95318', 'lower': '0.02709', 'equality': 'upper', 'label': '0.02709 - 0.95318'} */
+[qryPotFctMedModDen.TW > 0.02709] [qryPotFctMedModDen.TW <= 0.95318] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPotFctMedModDen.TW > 0.02709] [qryPotFctMedModDen.TW <= 0.95318] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.35936', 'lower': '0.95318', 'equality': 'upper', 'label': '0.95319 - 2.35936'} */
+[qryPotFctMedModDen.TW > 0.95318] [qryPotFctMedModDen.TW <= 2.35936] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPotFctMedModDen.TW > 0.95318] [qryPotFctMedModDen.TW <= 2.35936] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '4.32913', 'lower': '2.35936', 'equality': 'upper', 'label': '2.35937 - 4.32913'} */
+[qryPotFctMedModDen.TW > 2.35936] [qryPotFctMedModDen.TW <= 4.32913] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPotFctMedModDen.TW > 2.35936] [qryPotFctMedModDen.TW <= 4.32913] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '7.18629', 'lower': '4.32913', 'equality': 'upper', 'label': '4.32914 - 7.18629'} */
+[qryPotFctMedModDen.TW > 4.32913] [qryPotFctMedModDen.TW <= 7.18629] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPotFctMedModDen.TW > 4.32913] [qryPotFctMedModDen.TW <= 7.18629] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '11.67794', 'lower': '7.18629', 'equality': 'upper', 'label': '7.18630 - 11.67794'} */
+[qryPotFctMedModDen.TW > 7.18629] [qryPotFctMedModDen.TW <= 11.67794] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPotFctMedModDen.TW > 7.18629] [qryPotFctMedModDen.TW <= 11.67794] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '20.15848', 'lower': '11.67794', 'equality': 'upper', 'label': '11.67795 - 20.15848'} */
+[qryPotFctMedModDen.TW > 11.67794] [qryPotFctMedModDen.TW <= 20.15848] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPotFctMedModDen.TW > 11.67794] [qryPotFctMedModDen.TW <= 20.15848] :mark {
+  fill: #993266;
+}
+

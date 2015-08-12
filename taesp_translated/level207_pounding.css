@@ -1,0 +1,33 @@
+/* LAYER NAME level207_pounding */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '1.00000', 'label': '1.00000'} */
+[qryGrdClassCounts.POU = "1.00000"] {
+  mark: symbol(circle);
+  mark-size: 4px;
+}
+[qryGrdClassCounts.POU = "1.00000"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '2', 'lower': '1', 'equality': 'upper', 'label': '1.00001 - 2.00000'} */
+[qryGrdClassCounts.POU > 1] [qryGrdClassCounts.POU <= 2] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryGrdClassCounts.POU > 1] [qryGrdClassCounts.POU <= 2] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '3', 'lower': '2', 'equality': 'upper', 'label': '2.00001 - 3.00000'} */
+[qryGrdClassCounts.POU > 2] [qryGrdClassCounts.POU <= 3] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryGrdClassCounts.POU > 2] [qryGrdClassCounts.POU <= 3] :mark {
+  fill: #336699;
+}
+

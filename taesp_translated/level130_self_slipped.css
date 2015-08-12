@@ -1,0 +1,60 @@
+/* LAYER NAME level130_self_slipped */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '4.4421', 'lower': '0.02709', 'equality': 'upper', 'label': '0.02709 - 4.44210'} */
+[qryPottFabDen.SS > 0.02709] [qryPottFabDen.SS <= 4.4421] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFabDen.SS > 0.02709] [qryPottFabDen.SS <= 4.4421] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '12.07079', 'lower': '4.4421', 'equality': 'upper', 'label': '4.44211 - 12.07079'} */
+[qryPottFabDen.SS > 4.4421] [qryPottFabDen.SS <= 12.07079] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottFabDen.SS > 4.4421] [qryPottFabDen.SS <= 12.07079] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '27.33142', 'lower': '12.07079', 'equality': 'upper', 'label': '12.07080 - 27.33142'} */
+[qryPottFabDen.SS > 12.07079] [qryPottFabDen.SS <= 27.33142] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottFabDen.SS > 12.07079] [qryPottFabDen.SS <= 27.33142] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '54.8043', 'lower': '27.33142', 'equality': 'upper', 'label': '27.33143 - 54.80430'} */
+[qryPottFabDen.SS > 27.33142] [qryPottFabDen.SS <= 54.8043] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottFabDen.SS > 27.33142] [qryPottFabDen.SS <= 54.8043] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '114.59809', 'lower': '54.8043', 'equality': 'upper', 'label': '54.80431 - 114.59809'} */
+[qryPottFabDen.SS > 54.8043] [qryPottFabDen.SS <= 114.59809] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottFabDen.SS > 54.8043] [qryPottFabDen.SS <= 114.59809] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '209.90223', 'lower': '114.59809', 'equality': 'upper', 'label': '114.59810 - 209.90223'} */
+[qryPottFabDen.SS > 114.59809] [qryPottFabDen.SS <= 209.90223] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFabDen.SS > 114.59809] [qryPottFabDen.SS <= 209.90223] :mark {
+  fill: #993266;
+}
+

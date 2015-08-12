@@ -1,0 +1,10 @@
+/* LAYER NAME level257_isolated_house */
+/* CLASSIFIER INFO {'value': 'IH', 'label': 'IH'} */
+[TYPE = "IH"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "IH"] :mark {
+  fill: #0000ff;
+}
+

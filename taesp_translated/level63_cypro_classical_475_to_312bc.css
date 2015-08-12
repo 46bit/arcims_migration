@@ -1,0 +1,43 @@
+/* LAYER NAME level63_cypro_classical_475_to_312bc */
+/* CLASSIFIER INFO {'value': '0.51982', 'label': '0.51982'} */
+[qryPottPerDen.CL = "0.51982"] {
+  fill: #cc99cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.51982', 'equality': 'upper', 'label': '0.51983 - 0.68924'} */
+[qryPottPerDen.CL > 0.51982] [qryPottPerDen.CL <= 0.68924] {
+  fill: #993266;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '4.97252', 'lower': '0.68924', 'equality': 'upper', 'label': '0.68925 - 4.97252'} */
+[qryPottPerDen.CL > 0.68924] [qryPottPerDen.CL <= 4.97252] {
+  fill: #330000;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.51982', 'label': '0.51982'} */
+[qryPottPerDen.CL = "0.51982"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.51982', 'equality': 'upper', 'label': '0.51983 - 0.68924'} */
+[qryPottPerDen.CL > 0.51982] [qryPottPerDen.CL <= 0.68924] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '4.97252', 'lower': '0.68924', 'equality': 'upper', 'label': '0.68925 - 4.97252'} */
+[qryPottPerDen.CL > 0.68924] [qryPottPerDen.CL <= 4.97252] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

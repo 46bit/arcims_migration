@@ -1,0 +1,60 @@
+/* LAYER NAME level128_ferrous */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '8.27914', 'lower': '0.02441', 'equality': 'upper', 'label': '0.02441 - 8.27914'} */
+[qryPottFabDen.F > 0.02441] [qryPottFabDen.F <= 8.27914] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFabDen.F > 0.02441] [qryPottFabDen.F <= 8.27914] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '25.14304', 'lower': '8.27914', 'equality': 'upper', 'label': '8.27915 - 25.14304'} */
+[qryPottFabDen.F > 8.27914] [qryPottFabDen.F <= 25.14304] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottFabDen.F > 8.27914] [qryPottFabDen.F <= 25.14304] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '57.32987', 'lower': '25.14304', 'equality': 'upper', 'label': '25.14305 - 57.32987'} */
+[qryPottFabDen.F > 25.14304] [qryPottFabDen.F <= 57.32987] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottFabDen.F > 25.14304] [qryPottFabDen.F <= 57.32987] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '109.54986', 'lower': '57.32987', 'equality': 'upper', 'label': '57.32988 - 109.54986'} */
+[qryPottFabDen.F > 57.32987] [qryPottFabDen.F <= 109.54986] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottFabDen.F > 57.32987] [qryPottFabDen.F <= 109.54986] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '232.18294', 'lower': '109.54986', 'equality': 'upper', 'label': '109.54987 - 232.18294'} */
+[qryPottFabDen.F > 109.54986] [qryPottFabDen.F <= 232.18294] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottFabDen.F > 109.54986] [qryPottFabDen.F <= 232.18294] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '510.97971', 'lower': '232.18294', 'equality': 'upper', 'label': '232.18295 - 510.97971'} */
+[qryPottFabDen.F > 232.18294] [qryPottFabDen.F <= 510.97971] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFabDen.F > 232.18294] [qryPottFabDen.F <= 510.97971] :mark {
+  fill: #993266;
+}
+

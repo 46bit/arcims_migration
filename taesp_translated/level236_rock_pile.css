@@ -1,0 +1,10 @@
+/* LAYER NAME level236_rock_pile */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.ROCKCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.ROCKCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

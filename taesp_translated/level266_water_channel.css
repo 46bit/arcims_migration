@@ -1,0 +1,10 @@
+/* LAYER NAME level266_water_channel */
+/* CLASSIFIER INFO {'value': 'WC', 'label': 'WC'} */
+[TYPE = "WC"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "WC"] :mark {
+  fill: #0000ff;
+}
+

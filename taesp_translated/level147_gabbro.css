@@ -1,0 +1,51 @@
+/* LAYER NAME level147_gabbro */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.10955', 'label': '0.10955'} */
+[qryLithMatDen.GAB = "0.10955"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryLithMatDen.GAB = "0.10955"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.13721', 'lower': '0.10955', 'equality': 'upper', 'label': '0.10956 - 0.13721'} */
+[qryLithMatDen.GAB > 0.10955] [qryLithMatDen.GAB <= 0.13721] {
+  mark: symbol(circle);
+  mark-size: 9px;
+}
+[qryLithMatDen.GAB > 0.10955] [qryLithMatDen.GAB <= 0.13721] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.13863', 'lower': '0.13721', 'equality': 'upper', 'label': '0.13722 - 0.13863'} */
+[qryLithMatDen.GAB > 0.13721] [qryLithMatDen.GAB <= 0.13863] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryLithMatDen.GAB > 0.13721] [qryLithMatDen.GAB <= 0.13863] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.13863', 'equality': 'upper', 'label': '0.13864 - 0.19453'} */
+[qryLithMatDen.GAB > 0.13863] [qryLithMatDen.GAB <= 0.19453] {
+  mark: symbol(circle);
+  mark-size: 15px;
+}
+[qryLithMatDen.GAB > 0.13863] [qryLithMatDen.GAB <= 0.19453] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.3323', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.33230'} */
+[qryLithMatDen.GAB > 0.19453] [qryLithMatDen.GAB <= 0.3323] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryLithMatDen.GAB > 0.19453] [qryLithMatDen.GAB <= 0.3323] :mark {
+  fill: #336699;
+}
+

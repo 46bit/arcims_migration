@@ -1,0 +1,8 @@
+/* LAYER NAME level346_helenistic_to_roman_settlements */
+* {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+* :mark {
+  fill: #ff0000;
+}

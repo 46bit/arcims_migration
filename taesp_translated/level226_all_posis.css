@@ -1,0 +1,8 @@
+/* LAYER NAME level226_all_posis */
+* {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+* :mark {
+  fill: #ff0000;
+}

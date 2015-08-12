@@ -1,0 +1,10 @@
+/* LAYER NAME level232_threshing_floors */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.TFCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.TFCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

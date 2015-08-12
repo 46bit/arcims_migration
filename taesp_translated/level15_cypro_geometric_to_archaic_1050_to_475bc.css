@@ -1,0 +1,60 @@
+/* LAYER NAME level15_cypro_geometric_to_archaic_1050_to_475bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.27083', 'label': '0.27083'} */
+[qryPottPerDen.GA = "0.27083"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.GA = "0.27083"] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68924', 'lower': '0.27083', 'equality': 'upper', 'label': '0.27084 - 0.68924'} */
+[qryPottPerDen.GA > 0.27083] [qryPottPerDen.GA <= 0.68924] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.GA > 0.27083] [qryPottPerDen.GA <= 0.68924] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.04356', 'lower': '0.68924', 'equality': 'upper', 'label': '0.68925 - 1.04356'} */
+[qryPottPerDen.GA > 0.68924] [qryPottPerDen.GA <= 1.04356] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.GA > 0.68924] [qryPottPerDen.GA <= 1.04356] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.50692', 'lower': '1.04356', 'equality': 'upper', 'label': '1.04357 - 1.50692'} */
+[qryPottPerDen.GA > 1.04356] [qryPottPerDen.GA <= 1.50692] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.GA > 1.04356] [qryPottPerDen.GA <= 1.50692] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.38954', 'lower': '1.50692', 'equality': 'upper', 'label': '1.50693 - 3.38954'} */
+[qryPottPerDen.GA > 1.50692] [qryPottPerDen.GA <= 3.38954] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.GA > 1.50692] [qryPottPerDen.GA <= 3.38954] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '5.57392', 'lower': '3.38954', 'equality': 'upper', 'label': '3.38955 - 5.57392'} */
+[qryPottPerDen.GA > 3.38954] [qryPottPerDen.GA <= 5.57392] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.GA > 3.38954] [qryPottPerDen.GA <= 5.57392] :mark {
+  fill: #993266;
+}
+

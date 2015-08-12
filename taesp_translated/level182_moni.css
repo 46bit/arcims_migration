@@ -1,0 +1,29 @@
+/* LAYER NAME level182_moni */
+/* CLASSIFIER INFO {'value': '0.15983', 'label': '0.15983'} */
+[qryLithMatDen.MON = "0.15983"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.21186', 'lower': '0.15983', 'equality': 'upper', 'label': '0.15984 - 0.21186'} */
+[qryLithMatDen.MON > 0.15983] [qryLithMatDen.MON <= 0.21186] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.15983', 'label': '0.15983'} */
+[qryLithMatDen.MON = "0.15983"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.21186', 'lower': '0.15983', 'equality': 'upper', 'label': '0.15984 - 0.21186'} */
+[qryLithMatDen.MON > 0.15983] [qryLithMatDen.MON <= 0.21186] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

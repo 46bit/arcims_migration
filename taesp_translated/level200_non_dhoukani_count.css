@@ -1,0 +1,60 @@
+/* LAYER NAME level200_non_dhoukani_count */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '1', 'label': '1.00000'} */
+[qryChipDhoCounts.NOTDHO = "1"] {
+  mark: symbol(circle);
+  mark-size: 4px;
+}
+[qryChipDhoCounts.NOTDHO = "1"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '2', 'lower': '1', 'equality': 'upper', 'label': '1.00001 - 2.00000'} */
+[qryChipDhoCounts.NOTDHO > 1] [qryChipDhoCounts.NOTDHO <= 2] {
+  mark: symbol(circle);
+  mark-size: 7px;
+}
+[qryChipDhoCounts.NOTDHO > 1] [qryChipDhoCounts.NOTDHO <= 2] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '4', 'lower': '2', 'equality': 'upper', 'label': '2.00001 - 4.00000'} */
+[qryChipDhoCounts.NOTDHO > 2] [qryChipDhoCounts.NOTDHO <= 4] {
+  mark: symbol(circle);
+  mark-size: 10px;
+}
+[qryChipDhoCounts.NOTDHO > 2] [qryChipDhoCounts.NOTDHO <= 4] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '6', 'lower': '4', 'equality': 'upper', 'label': '4.00001 - 6.00000'} */
+[qryChipDhoCounts.NOTDHO > 4] [qryChipDhoCounts.NOTDHO <= 6] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryChipDhoCounts.NOTDHO > 4] [qryChipDhoCounts.NOTDHO <= 6] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '10', 'lower': '6', 'equality': 'upper', 'label': '6.00001 - 10.00000'} */
+[qryChipDhoCounts.NOTDHO > 6] [qryChipDhoCounts.NOTDHO <= 10] {
+  mark: symbol(circle);
+  mark-size: 15px;
+}
+[qryChipDhoCounts.NOTDHO > 6] [qryChipDhoCounts.NOTDHO <= 10] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '14', 'lower': '10', 'equality': 'upper', 'label': '10.00001 - 14.00000'} */
+[qryChipDhoCounts.NOTDHO > 10] [qryChipDhoCounts.NOTDHO <= 14] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryChipDhoCounts.NOTDHO > 10] [qryChipDhoCounts.NOTDHO <= 14] :mark {
+  fill: #336699;
+}
+

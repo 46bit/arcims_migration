@@ -1,0 +1,42 @@
+/* LAYER NAME level143_basalt */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '2.54079932527831E-05', 'label': '0.000025408'} */
+[qryLithMatDen.BAS = "2.54079932527831E-05"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryLithMatDen.BAS = "2.54079932527831E-05"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '9.81880201229023E-05', 'lower': '2.54079932527831E-05', 'equality': 'upper', 'label': '0.000025409 - 0.000098188'} */
+[qryLithMatDen.BAS > 2.54079932527831E-05] [qryLithMatDen.BAS <= 9.81880201229023E-05] {
+  mark: symbol(circle);
+  mark-size: 10px;
+}
+[qryLithMatDen.BAS > 2.54079932527831E-05] [qryLithMatDen.BAS <= 9.81880201229023E-05] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '5.31838894037689E-04', 'lower': '9.81880201229023E-05', 'equality': 'upper', 'label': '0.000098189 - 0.000531839'} */
+[qryLithMatDen.BAS > 9.81880201229023E-05] [qryLithMatDen.BAS <= 5.31838894037689E-04] {
+  mark: symbol(circle);
+  mark-size: 14px;
+}
+[qryLithMatDen.BAS > 9.81880201229023E-05] [qryLithMatDen.BAS <= 5.31838894037689E-04] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '9.30878055341575E-04', 'lower': '5.31838894037689E-04', 'equality': 'upper', 'label': '0.000531840 - 0.000930878'} */
+[qryLithMatDen.BAS > 5.31838894037689E-04] [qryLithMatDen.BAS <= 9.30878055341575E-04] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryLithMatDen.BAS > 5.31838894037689E-04] [qryLithMatDen.BAS <= 9.30878055341575E-04] :mark {
+  fill: #336699;
+}
+

@@ -1,0 +1,64 @@
+/* LAYER NAME level220_erosion */
+/* CLASSIFIER INFO {'value': 'Sheet', 'label': 'Sheet'} */
+[tblGUF.Eros = "Sheet"] {
+  fill: #006600;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Non', 'label': 'Non'} */
+[tblGUF.Eros = "Non"] {
+  fill: #00c800;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Cons', 'label': 'Cons'} */
+[tblGUF.Eros = "Cons"] {
+  fill: #cccc99;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Push', 'label': 'Push'} */
+[tblGUF.Eros = "Push"] {
+  fill: #cccc66;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Mix', 'label': 'Mix'} */
+[tblGUF.Eros = "Mix"] {
+  fill: #999967;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Incise', 'label': 'Incise'} */
+[tblGUF.Eros = "Incise"] {
+  fill: #669932;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Sheet', 'label': 'Sheet'} */
+[tblGUF.Eros = "Sheet"] {
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'value': 'Till', 'label': 'Till'} */
+[tblGUF.Eros = "Till"] {
+  fill: #003300;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Non', 'label': 'Non'} */
+[tblGUF.Eros = "Non"] {
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

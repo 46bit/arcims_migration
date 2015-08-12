@@ -1,0 +1,33 @@
+/* LAYER NAME level145_chert_non_lefkara */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.06066', 'label': '0.06066'} */
+[qryLithMatDen.CNL = "0.06066"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryLithMatDen.CNL = "0.06066"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.11767', 'lower': '0.06066', 'equality': 'upper', 'label': '0.06067 - 0.11767'} */
+[qryLithMatDen.CNL > 0.06066] [qryLithMatDen.CNL <= 0.11767] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryLithMatDen.CNL > 0.06066] [qryLithMatDen.CNL <= 0.11767] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68054', 'lower': '0.11767', 'equality': 'upper', 'label': '0.11768 - 0.68054'} */
+[qryLithMatDen.CNL > 0.11767] [qryLithMatDen.CNL <= 0.68054] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryLithMatDen.CNL > 0.11767] [qryLithMatDen.CNL <= 0.68054] :mark {
+  fill: #336699;
+}
+

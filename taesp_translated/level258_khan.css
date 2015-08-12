@@ -1,0 +1,10 @@
+/* LAYER NAME level258_khan */
+/* CLASSIFIER INFO {'value': 'KH', 'label': 'KH'} */
+[TYPE = "KH"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "KH"] :mark {
+  fill: #0000ff;
+}
+

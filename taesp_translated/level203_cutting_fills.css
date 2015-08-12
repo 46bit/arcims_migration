@@ -1,0 +1,29 @@
+/* LAYER NAME level203_cutting_fills */
+/* CLASSIFIER INFO {'value': '1.01327155053011E-04', 'label': '0.000101327'} */
+[qryGrdClassDen.CUT = "1.01327155053011E-04"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '2.12618251340228E-04', 'lower': '1.01327155053011E-04', 'equality': 'upper', 'label': '0.000101328 - 0.000212618'} */
+[qryGrdClassDen.CUT > 1.01327155053011E-04] [qryGrdClassDen.CUT <= 2.12618251340228E-04] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '1.01327155053011E-04', 'label': '0.000101327'} */
+[qryGrdClassDen.CUT = "1.01327155053011E-04"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '2.12618251340228E-04', 'lower': '1.01327155053011E-04', 'equality': 'upper', 'label': '0.000101328 - 0.000212618'} */
+[qryGrdClassDen.CUT > 1.01327155053011E-04] [qryGrdClassDen.CUT <= 2.12618251340228E-04] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

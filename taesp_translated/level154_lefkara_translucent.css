@@ -1,0 +1,60 @@
+/* LAYER NAME level154_lefkara_translucent */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.04697', 'lower': '0.04196', 'equality': 'upper', 'label': '0.04196 - 0.04697'} */
+[qryLithMatDen.LTR > 0.04196] [qryLithMatDen.LTR <= 0.04697] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryLithMatDen.LTR > 0.04196] [qryLithMatDen.LTR <= 0.04697] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.07206', 'lower': '0.04697', 'equality': 'upper', 'label': '0.04698 - 0.07206'} */
+[qryLithMatDen.LTR > 0.04697] [qryLithMatDen.LTR <= 0.07206] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryLithMatDen.LTR > 0.04697] [qryLithMatDen.LTR <= 0.07206] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.1441', 'lower': '0.07206', 'equality': 'upper', 'label': '0.07207 - 0.14410'} */
+[qryLithMatDen.LTR > 0.07206] [qryLithMatDen.LTR <= 0.1441] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryLithMatDen.LTR > 0.07206] [qryLithMatDen.LTR <= 0.1441] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.24634', 'lower': '0.1441', 'equality': 'upper', 'label': '0.14411 - 0.24634'} */
+[qryLithMatDen.LTR > 0.1441] [qryLithMatDen.LTR <= 0.24634] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryLithMatDen.LTR > 0.1441] [qryLithMatDen.LTR <= 0.24634] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.37387', 'lower': '0.24634', 'equality': 'upper', 'label': '0.24635 - 0.37387'} */
+[qryLithMatDen.LTR > 0.24634] [qryLithMatDen.LTR <= 0.37387] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryLithMatDen.LTR > 0.24634] [qryLithMatDen.LTR <= 0.37387] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.59665', 'lower': '0.37387', 'equality': 'upper', 'label': '0.37388 - 0.59665'} */
+[qryLithMatDen.LTR > 0.37387] [qryLithMatDen.LTR <= 0.59665] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryLithMatDen.LTR > 0.37387] [qryLithMatDen.LTR <= 0.59665] :mark {
+  fill: #336699;
+}
+

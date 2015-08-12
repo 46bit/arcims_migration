@@ -1,0 +1,10 @@
+/* LAYER NAME level238_botany */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.BOTCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.BOTCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

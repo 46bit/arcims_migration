@@ -1,0 +1,2 @@
+-- LAYER NAME level347_hellenistic_to_roman_mining
+SELECT * FROM tp_posi, tblposirec WHERE tp_posi.posi_no = tblposirec.posino AND (tblposirec.hrchk=1 and tblposirec.minechk=1) or (tblposirec.hrchk=1 and tblposirec.slagchk=1);

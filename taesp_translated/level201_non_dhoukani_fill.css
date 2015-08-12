@@ -1,0 +1,90 @@
+/* LAYER NAME level201_non_dhoukani_fill */
+* {
+  fill: #bef7d4;
+  stroke: #6e6e6e;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.19495', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 0.19495'} */
+[qryChipDhoDen.NOTDHO > 0.03121] [qryChipDhoDen.NOTDHO <= 0.19495] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.3998', 'lower': '0.19495', 'equality': 'upper', 'label': '0.19496 - 0.39980'} */
+[qryChipDhoDen.NOTDHO > 0.19495] [qryChipDhoDen.NOTDHO <= 0.3998] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68236', 'lower': '0.3998', 'equality': 'upper', 'label': '0.39981 - 0.68236'} */
+[qryChipDhoDen.NOTDHO > 0.3998] [qryChipDhoDen.NOTDHO <= 0.68236] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '1.24388', 'lower': '0.68236', 'equality': 'upper', 'label': '0.68237 - 1.24388'} */
+[qryChipDhoDen.NOTDHO > 0.68236] [qryChipDhoDen.NOTDHO <= 1.24388] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '2.00557', 'lower': '1.24388', 'equality': 'upper', 'label': '1.24389 - 2.00557'} */
+[qryChipDhoDen.NOTDHO > 1.24388] [qryChipDhoDen.NOTDHO <= 2.00557] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '4.79364', 'lower': '2.00557', 'equality': 'upper', 'label': '2.00558 - 4.79364'} */
+[qryChipDhoDen.NOTDHO > 2.00557] [qryChipDhoDen.NOTDHO <= 4.79364] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.19495', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 0.19495'} */
+[qryChipDhoDen.NOTDHO > 0.03121] [qryChipDhoDen.NOTDHO <= 0.19495] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.3998', 'lower': '0.19495', 'equality': 'upper', 'label': '0.19496 - 0.39980'} */
+[qryChipDhoDen.NOTDHO > 0.19495] [qryChipDhoDen.NOTDHO <= 0.3998] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68236', 'lower': '0.3998', 'equality': 'upper', 'label': '0.39981 - 0.68236'} */
+[qryChipDhoDen.NOTDHO > 0.3998] [qryChipDhoDen.NOTDHO <= 0.68236] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '1.24388', 'lower': '0.68236', 'equality': 'upper', 'label': '0.68237 - 1.24388'} */
+[qryChipDhoDen.NOTDHO > 0.68236] [qryChipDhoDen.NOTDHO <= 1.24388] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '2.00557', 'lower': '1.24388', 'equality': 'upper', 'label': '1.24389 - 2.00557'} */
+[qryChipDhoDen.NOTDHO > 1.24388] [qryChipDhoDen.NOTDHO <= 2.00557] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '4.79364', 'lower': '2.00557', 'equality': 'upper', 'label': '2.00558 - 4.79364'} */
+[qryChipDhoDen.NOTDHO > 2.00557] [qryChipDhoDen.NOTDHO <= 4.79364] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

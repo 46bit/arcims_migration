@@ -1,0 +1,60 @@
+/* LAYER NAME level104_tableware */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '1.40769', 'lower': '0.02232', 'equality': 'upper', 'label': '0.02232 - 1.40769'} */
+[qryPottFctHelRomDen.TW > 0.02232] [qryPottFctHelRomDen.TW <= 1.40769] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFctHelRomDen.TW > 0.02232] [qryPottFctHelRomDen.TW <= 1.40769] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.94261', 'lower': '1.40769', 'equality': 'upper', 'label': '1.40770 - 3.94261'} */
+[qryPottFctHelRomDen.TW > 1.40769] [qryPottFctHelRomDen.TW <= 3.94261] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottFctHelRomDen.TW > 1.40769] [qryPottFctHelRomDen.TW <= 3.94261] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '9.34189', 'lower': '3.94261', 'equality': 'upper', 'label': '3.94262 - 9.34189'} */
+[qryPottFctHelRomDen.TW > 3.94261] [qryPottFctHelRomDen.TW <= 9.34189] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottFctHelRomDen.TW > 3.94261] [qryPottFctHelRomDen.TW <= 9.34189] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '17.96047', 'lower': '9.34189', 'equality': 'upper', 'label': '9.34190 - 17.96047'} */
+[qryPottFctHelRomDen.TW > 9.34189] [qryPottFctHelRomDen.TW <= 17.96047] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottFctHelRomDen.TW > 9.34189] [qryPottFctHelRomDen.TW <= 17.96047] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '40.63201', 'lower': '17.96047', 'equality': 'upper', 'label': '17.96048 - 40.63201'} */
+[qryPottFctHelRomDen.TW > 17.96047] [qryPottFctHelRomDen.TW <= 40.63201] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottFctHelRomDen.TW > 17.96047] [qryPottFctHelRomDen.TW <= 40.63201] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '116.32058', 'lower': '40.63201', 'equality': 'upper', 'label': '40.63202 - 116.32058'} */
+[qryPottFctHelRomDen.TW > 40.63201] [qryPottFctHelRomDen.TW <= 116.32058] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFctHelRomDen.TW > 40.63201] [qryPottFctHelRomDen.TW <= 116.32058] :mark {
+  fill: #993266;
+}
+

@@ -1,0 +1,60 @@
+/* LAYER NAME level37_medieval_modern_ad1191_to_present */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '2.94441', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 2.94441'} */
+[qryPottPerDen.MM > 0.03121] [qryPottPerDen.MM <= 2.94441] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.MM > 0.03121] [qryPottPerDen.MM <= 2.94441] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '8.36401', 'lower': '2.94441', 'equality': 'upper', 'label': '2.94442 - 8.36401'} */
+[qryPottPerDen.MM > 2.94441] [qryPottPerDen.MM <= 8.36401] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.MM > 2.94441] [qryPottPerDen.MM <= 8.36401] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '18.92509', 'lower': '8.36401', 'equality': 'upper', 'label': '8.36402 - 18.92509'} */
+[qryPottPerDen.MM > 8.36401] [qryPottPerDen.MM <= 18.92509] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.MM > 8.36401] [qryPottPerDen.MM <= 18.92509] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '35.81589', 'lower': '18.92509', 'equality': 'upper', 'label': '18.92510 - 35.81589'} */
+[qryPottPerDen.MM > 18.92509] [qryPottPerDen.MM <= 35.81589] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.MM > 18.92509] [qryPottPerDen.MM <= 35.81589] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '62.3976', 'lower': '35.81589', 'equality': 'upper', 'label': '35.81590 - 62.39760'} */
+[qryPottPerDen.MM > 35.81589] [qryPottPerDen.MM <= 62.3976] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.MM > 35.81589] [qryPottPerDen.MM <= 62.3976] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '121.3902', 'lower': '62.3976', 'equality': 'upper', 'label': '62.39761 - 121.39020'} */
+[qryPottPerDen.MM > 62.3976] [qryPottPerDen.MM <= 121.3902] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.MM > 62.3976] [qryPottPerDen.MM <= 121.3902] :mark {
+  fill: #993266;
+}
+

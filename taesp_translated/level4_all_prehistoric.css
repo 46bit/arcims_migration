@@ -1,0 +1,60 @@
+/* LAYER NAME level4_all_prehistoric */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.75525', 'lower': '0.04989', 'equality': 'upper', 'label': '0.04989 - 0.75525'} */
+[qryPottPerGroupDen.PREHISTORI > 0.04989] [qryPottPerGroupDen.PREHISTORI <= 0.75525] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerGroupDen.PREHISTORI > 0.04989] [qryPottPerGroupDen.PREHISTORI <= 0.75525] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.13631', 'lower': '0.75525', 'equality': 'upper', 'label': '0.75526 - 2.13631'} */
+[qryPottPerGroupDen.PREHISTORI > 0.75525] [qryPottPerGroupDen.PREHISTORI <= 2.13631] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerGroupDen.PREHISTORI > 0.75525] [qryPottPerGroupDen.PREHISTORI <= 2.13631] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '4.73104', 'lower': '2.13631', 'equality': 'upper', 'label': '2.13632 - 4.73104'} */
+[qryPottPerGroupDen.PREHISTORI > 2.13631] [qryPottPerGroupDen.PREHISTORI <= 4.73104] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerGroupDen.PREHISTORI > 2.13631] [qryPottPerGroupDen.PREHISTORI <= 4.73104] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '9.73834', 'lower': '4.73104', 'equality': 'upper', 'label': '4.73105 - 9.73834'} */
+[qryPottPerGroupDen.PREHISTORI > 4.73104] [qryPottPerGroupDen.PREHISTORI <= 9.73834] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerGroupDen.PREHISTORI > 4.73104] [qryPottPerGroupDen.PREHISTORI <= 9.73834] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '18.13072', 'lower': '9.73834', 'equality': 'upper', 'label': '9.73835 - 18.13072'} */
+[qryPottPerGroupDen.PREHISTORI > 9.73834] [qryPottPerGroupDen.PREHISTORI <= 18.13072] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerGroupDen.PREHISTORI > 9.73834] [qryPottPerGroupDen.PREHISTORI <= 18.13072] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '44.3763', 'lower': '18.13072', 'equality': 'upper', 'label': '18.13073 - 44.37630'} */
+[qryPottPerGroupDen.PREHISTORI > 18.13072] [qryPottPerGroupDen.PREHISTORI <= 44.3763] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerGroupDen.PREHISTORI > 18.13072] [qryPottPerGroupDen.PREHISTORI <= 44.3763] :mark {
+  fill: #993266;
+}
+

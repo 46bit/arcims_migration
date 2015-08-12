@@ -1,0 +1,10 @@
+/* LAYER NAME level259_lime_kiln */
+/* CLASSIFIER INFO {'value': 'LK', 'label': 'LK'} */
+[TYPE = "LK"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "LK"] :mark {
+  fill: #0000ff;
+}
+

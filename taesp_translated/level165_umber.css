@@ -1,0 +1,60 @@
+/* LAYER NAME level165_umber */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.15488', 'label': '0.15488'} */
+[qryLithMatDen.UMB = "0.15488"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryLithMatDen.UMB = "0.15488"] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.23777', 'lower': '0.15488', 'equality': 'upper', 'label': '0.15489 - 0.23777'} */
+[qryLithMatDen.UMB > 0.15488] [qryLithMatDen.UMB <= 0.23777] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryLithMatDen.UMB > 0.15488] [qryLithMatDen.UMB <= 0.23777] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.35942', 'lower': '0.23777', 'equality': 'upper', 'label': '0.23778 - 0.35942'} */
+[qryLithMatDen.UMB > 0.23777] [qryLithMatDen.UMB <= 0.35942] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryLithMatDen.UMB > 0.23777] [qryLithMatDen.UMB <= 0.35942] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.5091', 'lower': '0.35942', 'equality': 'upper', 'label': '0.35943 - 0.50910'} */
+[qryLithMatDen.UMB > 0.35942] [qryLithMatDen.UMB <= 0.5091] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryLithMatDen.UMB > 0.35942] [qryLithMatDen.UMB <= 0.5091] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.66852', 'lower': '0.5091', 'equality': 'upper', 'label': '0.50911 - 0.66852'} */
+[qryLithMatDen.UMB > 0.5091] [qryLithMatDen.UMB <= 0.66852] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryLithMatDen.UMB > 0.5091] [qryLithMatDen.UMB <= 0.66852] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.84228', 'lower': '0.66852', 'equality': 'upper', 'label': '0.66853 - 0.84228'} */
+[qryLithMatDen.UMB > 0.66852] [qryLithMatDen.UMB <= 0.84228] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryLithMatDen.UMB > 0.66852] [qryLithMatDen.UMB <= 0.84228] :mark {
+  fill: #336699;
+}
+

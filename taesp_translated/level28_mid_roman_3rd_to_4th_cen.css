@@ -1,0 +1,60 @@
+/* LAYER NAME level28_mid_roman_3rd_to_4th_cen */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.08504', 'label': '0.08504'} */
+[qryPottPerDen.MR = "0.08504"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.MR = "0.08504"] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.1798', 'lower': '0.08504', 'equality': 'upper', 'label': '0.08505 - 0.17980'} */
+[qryPottPerDen.MR > 0.08504] [qryPottPerDen.MR <= 0.1798] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.MR > 0.08504] [qryPottPerDen.MR <= 0.1798] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.28974', 'lower': '0.1798', 'equality': 'upper', 'label': '0.17981 - 0.28974'} */
+[qryPottPerDen.MR > 0.1798] [qryPottPerDen.MR <= 0.28974] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.MR > 0.1798] [qryPottPerDen.MR <= 0.28974] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.71628', 'lower': '0.28974', 'equality': 'upper', 'label': '0.28975 - 0.71628'} */
+[qryPottPerDen.MR > 0.28974] [qryPottPerDen.MR <= 0.71628] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.MR > 0.28974] [qryPottPerDen.MR <= 0.71628] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.7105', 'lower': '0.71628', 'equality': 'upper', 'label': '0.71629 - 1.71050'} */
+[qryPottPerDen.MR > 0.71628] [qryPottPerDen.MR <= 1.7105] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.MR > 0.71628] [qryPottPerDen.MR <= 1.7105] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.22536', 'lower': '1.7105', 'equality': 'upper', 'label': '1.71051 - 3.22536'} */
+[qryPottPerDen.MR > 1.7105] [qryPottPerDen.MR <= 3.22536] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.MR > 1.7105] [qryPottPerDen.MR <= 3.22536] :mark {
+  fill: #993266;
+}
+

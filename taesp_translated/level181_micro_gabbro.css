@@ -1,0 +1,85 @@
+/* LAYER NAME level181_micro_gabbro */
+/* CLASSIFIER INFO {'upper': '0.06498', 'lower': '0.04208', 'equality': 'upper', 'label': '0.04208 - 0.06498'} */
+[qryLithMatDen.MGA > 0.04208] [qryLithMatDen.MGA <= 0.06498] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.10475', 'lower': '0.06498', 'equality': 'upper', 'label': '0.06499 - 0.10475'} */
+[qryLithMatDen.MGA > 0.06498] [qryLithMatDen.MGA <= 0.10475] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.14969', 'lower': '0.10475', 'equality': 'upper', 'label': '0.10476 - 0.14969'} */
+[qryLithMatDen.MGA > 0.10475] [qryLithMatDen.MGA <= 0.14969] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.14969', 'equality': 'upper', 'label': '0.14970 - 0.19453'} */
+[qryLithMatDen.MGA > 0.14969] [qryLithMatDen.MGA <= 0.19453] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.40155', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.40155'} */
+[qryLithMatDen.MGA > 0.19453] [qryLithMatDen.MGA <= 0.40155] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.60904', 'lower': '0.40155', 'equality': 'upper', 'label': '0.40156 - 0.60904'} */
+[qryLithMatDen.MGA > 0.40155] [qryLithMatDen.MGA <= 0.60904] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.06498', 'lower': '0.04208', 'equality': 'upper', 'label': '0.04208 - 0.06498'} */
+[qryLithMatDen.MGA > 0.04208] [qryLithMatDen.MGA <= 0.06498] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.10475', 'lower': '0.06498', 'equality': 'upper', 'label': '0.06499 - 0.10475'} */
+[qryLithMatDen.MGA > 0.06498] [qryLithMatDen.MGA <= 0.10475] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.14969', 'lower': '0.10475', 'equality': 'upper', 'label': '0.10476 - 0.14969'} */
+[qryLithMatDen.MGA > 0.10475] [qryLithMatDen.MGA <= 0.14969] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.14969', 'equality': 'upper', 'label': '0.14970 - 0.19453'} */
+[qryLithMatDen.MGA > 0.14969] [qryLithMatDen.MGA <= 0.19453] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.40155', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.40155'} */
+[qryLithMatDen.MGA > 0.19453] [qryLithMatDen.MGA <= 0.40155] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.60904', 'lower': '0.40155', 'equality': 'upper', 'label': '0.40156 - 0.60904'} */
+[qryLithMatDen.MGA > 0.40155] [qryLithMatDen.MGA <= 0.60904] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

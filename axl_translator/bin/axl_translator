@@ -1,0 +1,47 @@
+#!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
+
+if __name__ == "__main__":
+    import os, sys, argparse, axl_translator
+    import xml.etree.ElementTree as ET
+
+    try:
+        from StringIO import StringIO
+    except ImportError:
+        from io import StringIO, BytesIO
+
+    ArgP = argparse.ArgumentParser(description="")
+    ArgP.add_argument('in_axl', nargs='?', type=argparse.FileType('rb'), default='-')
+    # argparse.FileType interprets "-" as Stdin.
+    ArgP.add_argument("-o", "--output_dir", required=True)
+    Args = ArgP.parse_args()
+
+    axl = Args.in_axl.read()
+    Args.in_axl.close()
+
+    if not os.path.exists(Args.output_dir):
+      os.makedirs(Args.output_dir)
+
+    # Do stuff!
+    tree = ET.fromstring(axl)
+    root = tree
+
+    for layer_node in root.find("CONFIG").find("MAP").findall("LAYER"):
+      if layer_node.attrib["type"] != "featureclass":
+        sys.stderr.write("LAYER that isn't a featureclass encountered! Unsupported and ignoring.\n")
+        continue
+
+      sys.stderr.write("-----\n")
+      layer = axl_translator.Layer(layer_node)
+      #layer_sql = layer.to_sql()
+      #layer_css = layer.to_css()
+      #layer_sld = layer.to_sld()
+      sys.stderr.write("LAYER {0}\n".format(layer.layer_name))
+      #print layer_sql
+      #print layer_css
+      #print layer_sld
+      layer_exporter = axl_translator.LayerExport(Args.output_dir, layer)
+      sys.stderr.write("Wrote SQL to {0}\n".format(layer_exporter.export_sql()))
+      sys.stderr.write("Wrote CSS to {0}\n".format(layer_exporter.export_css()))
+      sys.stderr.write("Wrote SLD to {0}\n".format(layer_exporter.export_sld()))
+      sys.stderr.write("-----\n")

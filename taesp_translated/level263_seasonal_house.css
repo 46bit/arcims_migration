@@ -1,0 +1,10 @@
+/* LAYER NAME level263_seasonal_house */
+/* CLASSIFIER INFO {'value': 'SH', 'label': 'SH'} */
+[TYPE = "SH"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "SH"] :mark {
+  fill: #0000ff;
+}
+

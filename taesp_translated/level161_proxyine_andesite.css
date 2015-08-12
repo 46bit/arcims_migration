@@ -1,0 +1,15 @@
+/* LAYER NAME level161_proxyine_andesite */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.14969', 'label': '0.14969'} */
+[qryLithMatDen.PRX = "0.14969"] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryLithMatDen.PRX = "0.14969"] :mark {
+  fill: #336699;
+}
+

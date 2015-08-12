@@ -1,0 +1,10 @@
+/* LAYER NAME level229_building */
+/* CLASSIFIER INFO {'value': '1', 'label': '1'} */
+[tblPOSIRec.BUILDCHK = "1"] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[tblPOSIRec.BUILDCHK = "1"] :mark {
+  fill: #ff0000;
+}
+

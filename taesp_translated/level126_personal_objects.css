@@ -1,0 +1,60 @@
+/* LAYER NAME level126_personal_objects */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'value': '0.1356', 'label': '0.13560'} */
+[qryPotFctDen.PO = "0.1356"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPotFctDen.PO = "0.1356"] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.16429', 'lower': '0.1356', 'equality': 'upper', 'label': '0.13561 - 0.16429'} */
+[qryPotFctDen.PO > 0.1356] [qryPotFctDen.PO <= 0.16429] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPotFctDen.PO > 0.1356] [qryPotFctDen.PO <= 0.16429] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.3137', 'lower': '0.16429', 'equality': 'upper', 'label': '0.16430 - 0.31370'} */
+[qryPotFctDen.PO > 0.16429] [qryPotFctDen.PO <= 0.3137] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPotFctDen.PO > 0.16429] [qryPotFctDen.PO <= 0.3137] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.48955', 'lower': '0.3137', 'equality': 'upper', 'label': '0.31371 - 0.48955'} */
+[qryPotFctDen.PO > 0.3137] [qryPotFctDen.PO <= 0.48955] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPotFctDen.PO > 0.3137] [qryPotFctDen.PO <= 0.48955] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.56492', 'lower': '0.48955', 'equality': 'upper', 'label': '0.48956 - 0.56492'} */
+[qryPotFctDen.PO > 0.48955] [qryPotFctDen.PO <= 0.56492] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPotFctDen.PO > 0.48955] [qryPotFctDen.PO <= 0.56492] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.47839', 'lower': '0.56492', 'equality': 'upper', 'label': '0.56493 - 2.47839'} */
+[qryPotFctDen.PO > 0.56492] [qryPotFctDen.PO <= 2.47839] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPotFctDen.PO > 0.56492] [qryPotFctDen.PO <= 2.47839] :mark {
+  fill: #993266;
+}
+

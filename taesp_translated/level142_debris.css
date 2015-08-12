@@ -1,0 +1,60 @@
+/* LAYER NAME level142_debris */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.15891', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03051 - 0.15891'} */
+[qryChipCoBlDeDen.DE > 0.03051] [qryChipCoBlDeDen.DE <= 0.15891] {
+  mark: symbol(circle);
+  mark-size: 4px;
+}
+[qryChipCoBlDeDen.DE > 0.03051] [qryChipCoBlDeDen.DE <= 0.15891] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.34548', 'lower': '0.15891', 'equality': 'upper', 'label': '0.15892 - 0.34548'} */
+[qryChipCoBlDeDen.DE > 0.15891] [qryChipCoBlDeDen.DE <= 0.34548] {
+  mark: symbol(circle);
+  mark-size: 7px;
+}
+[qryChipCoBlDeDen.DE > 0.15891] [qryChipCoBlDeDen.DE <= 0.34548] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '0.60128', 'lower': '0.34548', 'equality': 'upper', 'label': '0.34549 - 0.60128'} */
+[qryChipCoBlDeDen.DE > 0.34548] [qryChipCoBlDeDen.DE <= 0.60128] {
+  mark: symbol(circle);
+  mark-size: 10px;
+}
+[qryChipCoBlDeDen.DE > 0.34548] [qryChipCoBlDeDen.DE <= 0.60128] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '1.02397', 'lower': '0.60128', 'equality': 'upper', 'label': '0.60129 - 1.02397'} */
+[qryChipCoBlDeDen.DE > 0.60128] [qryChipCoBlDeDen.DE <= 1.02397] {
+  mark: symbol(circle);
+  mark-size: 12px;
+}
+[qryChipCoBlDeDen.DE > 0.60128] [qryChipCoBlDeDen.DE <= 1.02397] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '2.05442', 'lower': '1.02397', 'equality': 'upper', 'label': '1.02398 - 2.05442'} */
+[qryChipCoBlDeDen.DE > 1.02397] [qryChipCoBlDeDen.DE <= 2.05442] {
+  mark: symbol(circle);
+  mark-size: 15px;
+}
+[qryChipCoBlDeDen.DE > 1.02397] [qryChipCoBlDeDen.DE <= 2.05442] :mark {
+  fill: #336699;
+}
+
+/* CLASSIFIER INFO {'upper': '3.8064', 'lower': '2.05442', 'equality': 'upper', 'label': '2.05443 - 3.80640'} */
+[qryChipCoBlDeDen.DE > 2.05442] [qryChipCoBlDeDen.DE <= 3.8064] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryChipCoBlDeDen.DE > 2.05442] [qryChipCoBlDeDen.DE <= 3.8064] :mark {
+  fill: #336699;
+}
+

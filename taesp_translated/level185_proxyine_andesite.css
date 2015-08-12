@@ -1,0 +1,15 @@
+/* LAYER NAME level185_proxyine_andesite */
+/* CLASSIFIER INFO {'value': '0.14969', 'label': '0.14969'} */
+[qryLithMatDen.PRX = "0.14969"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.14969', 'label': '0.14969'} */
+[qryLithMatDen.PRX = "0.14969"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

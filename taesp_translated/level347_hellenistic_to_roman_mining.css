@@ -1,0 +1,8 @@
+/* LAYER NAME level347_hellenistic_to_roman_mining */
+* {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+* :mark {
+  fill: #ff0000;
+}

@@ -1,0 +1,10 @@
+/* LAYER NAME level253_bridge */
+/* CLASSIFIER INFO {'value': 'BR', 'label': 'BR'} */
+[TYPE = "BR"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "BR"] :mark {
+  fill: #0000ff;
+}
+

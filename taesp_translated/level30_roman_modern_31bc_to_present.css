@@ -1,0 +1,60 @@
+/* LAYER NAME level30_roman_modern_31bc_to_present */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.82531', 'lower': '0', 'equality': 'upper', 'label': '0.00000 - 0.82531'} */
+[qryPottPerDen.RM > 0] [qryPottPerDen.RM <= 0.82531] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.RM > 0] [qryPottPerDen.RM <= 0.82531] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '2.66503', 'lower': '0.82531', 'equality': 'upper', 'label': '0.82532 - 2.66503'} */
+[qryPottPerDen.RM > 0.82531] [qryPottPerDen.RM <= 2.66503] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.RM > 0.82531] [qryPottPerDen.RM <= 2.66503] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '6.99674', 'lower': '2.66503', 'equality': 'upper', 'label': '2.66504 - 6.99674'} */
+[qryPottPerDen.RM > 2.66503] [qryPottPerDen.RM <= 6.99674] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.RM > 2.66503] [qryPottPerDen.RM <= 6.99674] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '15.89729', 'lower': '6.99674', 'equality': 'upper', 'label': '6.99675 - 15.89729'} */
+[qryPottPerDen.RM > 6.99674] [qryPottPerDen.RM <= 15.89729] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.RM > 6.99674] [qryPottPerDen.RM <= 15.89729] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '42.31624', 'lower': '15.89729', 'equality': 'upper', 'label': '15.89730 - 42.31624'} */
+[qryPottPerDen.RM > 15.89729] [qryPottPerDen.RM <= 42.31624] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.RM > 15.89729] [qryPottPerDen.RM <= 42.31624] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '112.16628', 'lower': '42.31624', 'equality': 'upper', 'label': '42.31625 - 112.16628'} */
+[qryPottPerDen.RM > 42.31624] [qryPottPerDen.RM <= 112.16628] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.RM > 42.31624] [qryPottPerDen.RM <= 112.16628] :mark {
+  fill: #993266;
+}
+

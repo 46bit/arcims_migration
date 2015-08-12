@@ -1,0 +1,43 @@
+/* LAYER NAME level190_vasicular_basalt */
+/* CLASSIFIER INFO {'value': '0.06501', 'label': '0.06501'} */
+[qryLithMatDen.VAS = "0.06501"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.13197', 'lower': '0.06501', 'equality': 'upper', 'label': '0.06502 - 0.13197'} */
+[qryLithMatDen.VAS > 0.06501] [qryLithMatDen.VAS <= 0.13197] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.13197', 'equality': 'upper', 'label': '0.13198 - 0.30452'} */
+[qryLithMatDen.VAS > 0.13197] [qryLithMatDen.VAS <= 0.30452] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.06501', 'label': '0.06501'} */
+[qryLithMatDen.VAS = "0.06501"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.13197', 'lower': '0.06501', 'equality': 'upper', 'label': '0.06502 - 0.13197'} */
+[qryLithMatDen.VAS > 0.06501] [qryLithMatDen.VAS <= 0.13197] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.13197', 'equality': 'upper', 'label': '0.13198 - 0.30452'} */
+[qryLithMatDen.VAS > 0.13197] [qryLithMatDen.VAS <= 0.30452] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

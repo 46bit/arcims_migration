@@ -1,0 +1,60 @@
+/* LAYER NAME level10_late_chalcolithic_philia_2700_to_2500bc */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.35312', 'lower': '0.26574', 'equality': 'upper', 'label': '0.26574 - 0.35312'} */
+[qryPottPerDen.LCHPH > 0.26574] [qryPottPerDen.LCHPH <= 0.35312] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.LCHPH > 0.26574] [qryPottPerDen.LCHPH <= 0.35312] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.54167', 'lower': '0.35312', 'equality': 'upper', 'label': '0.35313 - 0.54167'} */
+[qryPottPerDen.LCHPH > 0.35312] [qryPottPerDen.LCHPH <= 0.54167] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.LCHPH > 0.35312] [qryPottPerDen.LCHPH <= 0.54167] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.62275', 'lower': '0.54167', 'equality': 'upper', 'label': '0.54168 - 0.62275'} */
+[qryPottPerDen.LCHPH > 0.54167] [qryPottPerDen.LCHPH <= 0.62275] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.LCHPH > 0.54167] [qryPottPerDen.LCHPH <= 0.62275] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.06551', 'lower': '0.62275', 'equality': 'upper', 'label': '0.62276 - 1.06551'} */
+[qryPottPerDen.LCHPH > 0.62275] [qryPottPerDen.LCHPH <= 1.06551] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.LCHPH > 0.62275] [qryPottPerDen.LCHPH <= 1.06551] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.34632', 'lower': '1.06551', 'equality': 'upper', 'label': '1.06552 - 1.34632'} */
+[qryPottPerDen.LCHPH > 1.06551] [qryPottPerDen.LCHPH <= 1.34632] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.LCHPH > 1.06551] [qryPottPerDen.LCHPH <= 1.34632] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.10145', 'lower': '1.34632', 'equality': 'upper', 'label': '1.34633 - 3.10145'} */
+[qryPottPerDen.LCHPH > 1.34632] [qryPottPerDen.LCHPH <= 3.10145] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.LCHPH > 1.34632] [qryPottPerDen.LCHPH <= 3.10145] :mark {
+  fill: #993266;
+}
+

@@ -1,0 +1,60 @@
+/* LAYER NAME level46_modern_ad1878_to_present */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '1.30256', 'lower': '0.02709', 'equality': 'upper', 'label': '0.02709 - 1.30256'} */
+[qryPottPerDen.MOD > 0.02709] [qryPottPerDen.MOD <= 1.30256] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.MOD > 0.02709] [qryPottPerDen.MOD <= 1.30256] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.50149', 'lower': '1.30256', 'equality': 'upper', 'label': '1.30257 - 3.50149'} */
+[qryPottPerDen.MOD > 1.30256] [qryPottPerDen.MOD <= 3.50149] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.MOD > 1.30256] [qryPottPerDen.MOD <= 3.50149] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '7.71778', 'lower': '3.50149', 'equality': 'upper', 'label': '3.50150 - 7.71778'} */
+[qryPottPerDen.MOD > 3.50149] [qryPottPerDen.MOD <= 7.71778] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.MOD > 3.50149] [qryPottPerDen.MOD <= 7.71778] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '15.9681', 'lower': '7.71778', 'equality': 'upper', 'label': '7.71779 - 15.96810'} */
+[qryPottPerDen.MOD > 7.71778] [qryPottPerDen.MOD <= 15.9681] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.MOD > 7.71778] [qryPottPerDen.MOD <= 15.9681] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '28.73676', 'lower': '15.9681', 'equality': 'upper', 'label': '15.96811 - 28.73676'} */
+[qryPottPerDen.MOD > 15.9681] [qryPottPerDen.MOD <= 28.73676] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.MOD > 15.9681] [qryPottPerDen.MOD <= 28.73676] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '66.84855', 'lower': '28.73676', 'equality': 'upper', 'label': '28.73677 - 66.84855'} */
+[qryPottPerDen.MOD > 28.73676] [qryPottPerDen.MOD <= 66.84855] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.MOD > 28.73676] [qryPottPerDen.MOD <= 66.84855] :mark {
+  fill: #993266;
+}
+

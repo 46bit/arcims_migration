@@ -1,0 +1,85 @@
+/* LAYER NAME level55_bronze_age_2600_to_1050bc */
+/* CLASSIFIER INFO {'upper': '0.35078', 'lower': '0.07658', 'equality': 'upper', 'label': '0.07658 - 0.35078'} */
+[qryPottPerDen.BA > 0.07658] [qryPottPerDen.BA <= 0.35078] {
+  fill: #cc99cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.7297', 'lower': '0.35078', 'equality': 'upper', 'label': '0.35079 - 0.72970'} */
+[qryPottPerDen.BA > 0.35078] [qryPottPerDen.BA <= 0.7297] {
+  fill: #cc66cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '1.1678', 'lower': '0.7297', 'equality': 'upper', 'label': '0.72971 - 1.16780'} */
+[qryPottPerDen.BA > 0.7297] [qryPottPerDen.BA <= 1.1678] {
+  fill: #996799;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '2.20464', 'lower': '1.1678', 'equality': 'upper', 'label': '1.16781 - 2.20464'} */
+[qryPottPerDen.BA > 1.1678] [qryPottPerDen.BA <= 2.20464] {
+  fill: #993266;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '4.0747', 'lower': '2.20464', 'equality': 'upper', 'label': '2.20465 - 4.07470'} */
+[qryPottPerDen.BA > 2.20464] [qryPottPerDen.BA <= 4.0747] {
+  fill: #660000;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '10.57364', 'lower': '4.0747', 'equality': 'upper', 'label': '4.07471 - 10.57364'} */
+[qryPottPerDen.BA > 4.0747] [qryPottPerDen.BA <= 10.57364] {
+  fill: #330000;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.35078', 'lower': '0.07658', 'equality': 'upper', 'label': '0.07658 - 0.35078'} */
+[qryPottPerDen.BA > 0.07658] [qryPottPerDen.BA <= 0.35078] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.7297', 'lower': '0.35078', 'equality': 'upper', 'label': '0.35079 - 0.72970'} */
+[qryPottPerDen.BA > 0.35078] [qryPottPerDen.BA <= 0.7297] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '1.1678', 'lower': '0.7297', 'equality': 'upper', 'label': '0.72971 - 1.16780'} */
+[qryPottPerDen.BA > 0.7297] [qryPottPerDen.BA <= 1.1678] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '2.20464', 'lower': '1.1678', 'equality': 'upper', 'label': '1.16781 - 2.20464'} */
+[qryPottPerDen.BA > 1.1678] [qryPottPerDen.BA <= 2.20464] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '4.0747', 'lower': '2.20464', 'equality': 'upper', 'label': '2.20465 - 4.07470'} */
+[qryPottPerDen.BA > 2.20464] [qryPottPerDen.BA <= 4.0747] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '10.57364', 'lower': '4.0747', 'equality': 'upper', 'label': '4.07471 - 10.57364'} */
+[qryPottPerDen.BA > 4.0747] [qryPottPerDen.BA <= 10.57364] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

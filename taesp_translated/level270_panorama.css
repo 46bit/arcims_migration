@@ -1,0 +1,8 @@
+/* LAYER NAME level270_panorama */
+* {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+* :mark {
+  fill: #4ba600;
+}

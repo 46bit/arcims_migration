@@ -1,0 +1,60 @@
+/* LAYER NAME level44_med_ven_to_e_ott_16th_to_17th_cen */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '0.38783', 'lower': '0.07064', 'equality': 'upper', 'label': '0.07064 - 0.38783'} */
+[qryPottPerDen.MEDVOTT > 0.07064] [qryPottPerDen.MEDVOTT <= 0.38783] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerDen.MEDVOTT > 0.07064] [qryPottPerDen.MEDVOTT <= 0.38783] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '0.8889', 'lower': '0.38783', 'equality': 'upper', 'label': '0.38784 - 0.88890'} */
+[qryPottPerDen.MEDVOTT > 0.38783] [qryPottPerDen.MEDVOTT <= 0.8889] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerDen.MEDVOTT > 0.38783] [qryPottPerDen.MEDVOTT <= 0.8889] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '1.84788', 'lower': '0.8889', 'equality': 'upper', 'label': '0.88891 - 1.84788'} */
+[qryPottPerDen.MEDVOTT > 0.8889] [qryPottPerDen.MEDVOTT <= 1.84788] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerDen.MEDVOTT > 0.8889] [qryPottPerDen.MEDVOTT <= 1.84788] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '3.29132', 'lower': '1.84788', 'equality': 'upper', 'label': '1.84789 - 3.29132'} */
+[qryPottPerDen.MEDVOTT > 1.84788] [qryPottPerDen.MEDVOTT <= 3.29132] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerDen.MEDVOTT > 1.84788] [qryPottPerDen.MEDVOTT <= 3.29132] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '5.29678', 'lower': '3.29132', 'equality': 'upper', 'label': '3.29133 - 5.29678'} */
+[qryPottPerDen.MEDVOTT > 3.29132] [qryPottPerDen.MEDVOTT <= 5.29678] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerDen.MEDVOTT > 3.29132] [qryPottPerDen.MEDVOTT <= 5.29678] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '11.01218', 'lower': '5.29678', 'equality': 'upper', 'label': '5.29679 - 11.01218'} */
+[qryPottPerDen.MEDVOTT > 5.29678] [qryPottPerDen.MEDVOTT <= 11.01218] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerDen.MEDVOTT > 5.29678] [qryPottPerDen.MEDVOTT <= 11.01218] :mark {
+  fill: #993266;
+}
+

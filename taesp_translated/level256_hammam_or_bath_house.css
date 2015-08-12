@@ -1,0 +1,10 @@
+/* LAYER NAME level256_hammam_or_bath_house */
+/* CLASSIFIER INFO {'value': 'HM', 'label': 'HM'} */
+[TYPE = "HM"] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[TYPE = "HM"] :mark {
+  fill: #0000ff;
+}
+

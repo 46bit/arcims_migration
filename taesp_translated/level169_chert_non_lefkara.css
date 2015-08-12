@@ -1,0 +1,43 @@
+/* LAYER NAME level169_chert_non_lefkara */
+/* CLASSIFIER INFO {'value': '0.06066', 'label': '0.06066'} */
+[qryLithMatDen.CNL = "0.06066"] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.11767', 'lower': '0.06066', 'equality': 'upper', 'label': '0.06067 - 0.11767'} */
+[qryLithMatDen.CNL > 0.06066] [qryLithMatDen.CNL <= 0.11767] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68054', 'lower': '0.11767', 'equality': 'upper', 'label': '0.11768 - 0.68054'} */
+[qryLithMatDen.CNL > 0.11767] [qryLithMatDen.CNL <= 0.68054] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': '0.06066', 'label': '0.06066'} */
+[qryLithMatDen.CNL = "0.06066"] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.11767', 'lower': '0.06066', 'equality': 'upper', 'label': '0.06067 - 0.11767'} */
+[qryLithMatDen.CNL > 0.06066] [qryLithMatDen.CNL <= 0.11767] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.68054', 'lower': '0.11767', 'equality': 'upper', 'label': '0.11768 - 0.68054'} */
+[qryLithMatDen.CNL > 0.11767] [qryLithMatDen.CNL <= 0.68054] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

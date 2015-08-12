@@ -1,0 +1,24 @@
+/* LAYER NAME level93_cookingware */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '1.57068', 'lower': '0.28128', 'equality': 'upper', 'label': '0.28128 - 1.57068'} */
+[qryPottFctHellDen.CW > 0.28128] [qryPottFctHellDen.CW <= 1.57068] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottFctHellDen.CW > 0.28128] [qryPottFctHellDen.CW <= 1.57068] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '4.73792', 'lower': '1.57068', 'equality': 'upper', 'label': '1.57069 - 4.73792'} */
+[qryPottFctHellDen.CW > 1.57068] [qryPottFctHellDen.CW <= 4.73792] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottFctHellDen.CW > 1.57068] [qryPottFctHellDen.CW <= 4.73792] :mark {
+  fill: #993266;
+}
+

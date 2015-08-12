@@ -1,0 +1,60 @@
+/* LAYER NAME level6_all_hel_roman */
+* {
+  fill: #d4cfc7;
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+}
+/* CLASSIFIER INFO {'upper': '7.24044', 'lower': '0.02232', 'equality': 'upper', 'label': '0.02232 - 7.24044'} */
+[qryPottPerGroupDen.HELLENISTI > 0.02232] [qryPottPerGroupDen.HELLENISTI <= 7.24044] {
+  mark: symbol(circle);
+  mark-size: 6px;
+}
+[qryPottPerGroupDen.HELLENISTI > 0.02232] [qryPottPerGroupDen.HELLENISTI <= 7.24044] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '26.7748', 'lower': '7.24044', 'equality': 'upper', 'label': '7.24045 - 26.77480'} */
+[qryPottPerGroupDen.HELLENISTI > 7.24044] [qryPottPerGroupDen.HELLENISTI <= 26.7748] {
+  mark: symbol(circle);
+  mark-size: 8px;
+}
+[qryPottPerGroupDen.HELLENISTI > 7.24044] [qryPottPerGroupDen.HELLENISTI <= 26.7748] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '71.11978', 'lower': '26.7748', 'equality': 'upper', 'label': '26.77481 - 71.11978'} */
+[qryPottPerGroupDen.HELLENISTI > 26.7748] [qryPottPerGroupDen.HELLENISTI <= 71.11978] {
+  mark: symbol(circle);
+  mark-size: 11px;
+}
+[qryPottPerGroupDen.HELLENISTI > 26.7748] [qryPottPerGroupDen.HELLENISTI <= 71.11978] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '159.22782', 'lower': '71.11978', 'equality': 'upper', 'label': '71.11979 - 159.22782'} */
+[qryPottPerGroupDen.HELLENISTI > 71.11978] [qryPottPerGroupDen.HELLENISTI <= 159.22782] {
+  mark: symbol(circle);
+  mark-size: 13px;
+}
+[qryPottPerGroupDen.HELLENISTI > 71.11978] [qryPottPerGroupDen.HELLENISTI <= 159.22782] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '293.86312', 'lower': '159.22782', 'equality': 'upper', 'label': '159.22783 - 293.86312'} */
+[qryPottPerGroupDen.HELLENISTI > 159.22782] [qryPottPerGroupDen.HELLENISTI <= 293.86312] {
+  mark: symbol(circle);
+  mark-size: 16px;
+}
+[qryPottPerGroupDen.HELLENISTI > 159.22782] [qryPottPerGroupDen.HELLENISTI <= 293.86312] :mark {
+  fill: #993266;
+}
+
+/* CLASSIFIER INFO {'upper': '490.20817', 'lower': '293.86312', 'equality': 'upper', 'label': '293.86313 - 490.20817'} */
+[qryPottPerGroupDen.HELLENISTI > 293.86312] [qryPottPerGroupDen.HELLENISTI <= 490.20817] {
+  mark: symbol(circle);
+  mark-size: 18px;
+}
+[qryPottPerGroupDen.HELLENISTI > 293.86312] [qryPottPerGroupDen.HELLENISTI <= 490.20817] :mark {
+  fill: #993266;
+}
+

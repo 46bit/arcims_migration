@@ -1,0 +1,8 @@
+/* LAYER NAME level273_greenline */
+* {
+  mark: symbol(cross);
+  mark-size: 8px;
+}
+* :mark {
+  fill: #808080;
+}

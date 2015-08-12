@@ -1,0 +1,29 @@
+/* LAYER NAME level397_morphostrat_age */
+/* CLASSIFIER INFO {'value': 'H', 'label': 'Holocene'} */
+[tblGUF.MORPHAGE = "H"] {
+  fill: #cccc66;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'M', 'label': 'Modern'} */
+[tblGUF.MORPHAGE = "M"] {
+  fill: #999967;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'P', 'label': 'Pleistocen'} */
+[tblGUF.MORPHAGE = "P"] {
+  fill: #669932;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'value': 'Q', 'label': 'Quaternary'} */
+[tblGUF.MORPHAGE = "Q"] {
+  fill: #003300;
+  stroke: #d4d0c8;
+  stroke-width: 1px;
+}
+

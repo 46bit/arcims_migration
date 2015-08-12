@@ -1,0 +1,85 @@
+/* LAYER NAME level178_lefkara_translucent */
+/* CLASSIFIER INFO {'upper': '0.04697', 'lower': '0.04196', 'equality': 'upper', 'label': '0.04196 - 0.04697'} */
+[qryLithMatDen.LTR > 0.04196] [qryLithMatDen.LTR <= 0.04697] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.07206', 'lower': '0.04697', 'equality': 'upper', 'label': '0.04698 - 0.07206'} */
+[qryLithMatDen.LTR > 0.04697] [qryLithMatDen.LTR <= 0.07206] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.1441', 'lower': '0.07206', 'equality': 'upper', 'label': '0.07207 - 0.14410'} */
+[qryLithMatDen.LTR > 0.07206] [qryLithMatDen.LTR <= 0.1441] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.24634', 'lower': '0.1441', 'equality': 'upper', 'label': '0.14411 - 0.24634'} */
+[qryLithMatDen.LTR > 0.1441] [qryLithMatDen.LTR <= 0.24634] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.37387', 'lower': '0.24634', 'equality': 'upper', 'label': '0.24635 - 0.37387'} */
+[qryLithMatDen.LTR > 0.24634] [qryLithMatDen.LTR <= 0.37387] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.59665', 'lower': '0.37387', 'equality': 'upper', 'label': '0.37388 - 0.59665'} */
+[qryLithMatDen.LTR > 0.37387] [qryLithMatDen.LTR <= 0.59665] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.04697', 'lower': '0.04196', 'equality': 'upper', 'label': '0.04196 - 0.04697'} */
+[qryLithMatDen.LTR > 0.04196] [qryLithMatDen.LTR <= 0.04697] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.07206', 'lower': '0.04697', 'equality': 'upper', 'label': '0.04698 - 0.07206'} */
+[qryLithMatDen.LTR > 0.04697] [qryLithMatDen.LTR <= 0.07206] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.1441', 'lower': '0.07206', 'equality': 'upper', 'label': '0.07207 - 0.14410'} */
+[qryLithMatDen.LTR > 0.07206] [qryLithMatDen.LTR <= 0.1441] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.24634', 'lower': '0.1441', 'equality': 'upper', 'label': '0.14411 - 0.24634'} */
+[qryLithMatDen.LTR > 0.1441] [qryLithMatDen.LTR <= 0.24634] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.37387', 'lower': '0.24634', 'equality': 'upper', 'label': '0.24635 - 0.37387'} */
+[qryLithMatDen.LTR > 0.24634] [qryLithMatDen.LTR <= 0.37387] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.59665', 'lower': '0.37387', 'equality': 'upper', 'label': '0.37388 - 0.59665'} */
+[qryLithMatDen.LTR > 0.37387] [qryLithMatDen.LTR <= 0.59665] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

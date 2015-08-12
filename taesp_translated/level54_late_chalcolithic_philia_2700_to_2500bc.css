@@ -1,0 +1,85 @@
+/* LAYER NAME level54_late_chalcolithic_philia_2700_to_2500bc */
+/* CLASSIFIER INFO {'upper': '0.35312', 'lower': '0.26574', 'equality': 'upper', 'label': '0.26574 - 0.35312'} */
+[qryPottPerDen.LCHPH > 0.26574] [qryPottPerDen.LCHPH <= 0.35312] {
+  fill: #cc99cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.54167', 'lower': '0.35312', 'equality': 'upper', 'label': '0.35313 - 0.54167'} */
+[qryPottPerDen.LCHPH > 0.35312] [qryPottPerDen.LCHPH <= 0.54167] {
+  fill: #cc66cc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.62275', 'lower': '0.54167', 'equality': 'upper', 'label': '0.54168 - 0.62275'} */
+[qryPottPerDen.LCHPH > 0.54167] [qryPottPerDen.LCHPH <= 0.62275] {
+  fill: #996799;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '1.06551', 'lower': '0.62275', 'equality': 'upper', 'label': '0.62276 - 1.06551'} */
+[qryPottPerDen.LCHPH > 0.62275] [qryPottPerDen.LCHPH <= 1.06551] {
+  fill: #993266;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '1.34632', 'lower': '1.06551', 'equality': 'upper', 'label': '1.06552 - 1.34632'} */
+[qryPottPerDen.LCHPH > 1.06551] [qryPottPerDen.LCHPH <= 1.34632] {
+  fill: #660000;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '3.10145', 'lower': '1.34632', 'equality': 'upper', 'label': '1.34633 - 3.10145'} */
+[qryPottPerDen.LCHPH > 1.34632] [qryPottPerDen.LCHPH <= 3.10145] {
+  fill: #330000;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.35312', 'lower': '0.26574', 'equality': 'upper', 'label': '0.26574 - 0.35312'} */
+[qryPottPerDen.LCHPH > 0.26574] [qryPottPerDen.LCHPH <= 0.35312] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.54167', 'lower': '0.35312', 'equality': 'upper', 'label': '0.35313 - 0.54167'} */
+[qryPottPerDen.LCHPH > 0.35312] [qryPottPerDen.LCHPH <= 0.54167] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.62275', 'lower': '0.54167', 'equality': 'upper', 'label': '0.54168 - 0.62275'} */
+[qryPottPerDen.LCHPH > 0.54167] [qryPottPerDen.LCHPH <= 0.62275] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '1.06551', 'lower': '0.62275', 'equality': 'upper', 'label': '0.62276 - 1.06551'} */
+[qryPottPerDen.LCHPH > 0.62275] [qryPottPerDen.LCHPH <= 1.06551] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '1.34632', 'lower': '1.06551', 'equality': 'upper', 'label': '1.06552 - 1.34632'} */
+[qryPottPerDen.LCHPH > 1.06551] [qryPottPerDen.LCHPH <= 1.34632] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '3.10145', 'lower': '1.34632', 'equality': 'upper', 'label': '1.34633 - 3.10145'} */
+[qryPottPerDen.LCHPH > 1.34632] [qryPottPerDen.LCHPH <= 3.10145] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+

@@ -1,0 +1,85 @@
+/* LAYER NAME level188_translucent */
+/* CLASSIFIER INFO {'upper': '0.06325', 'lower': '0.03857', 'equality': 'upper', 'label': '0.03857 - 0.06325'} */
+[qryLithMatDen.TRA > 0.03857] [qryLithMatDen.TRA <= 0.06325] {
+  fill: #99cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.12843', 'lower': '0.06325', 'equality': 'upper', 'label': '0.06326 - 0.12843'} */
+[qryLithMatDen.TRA > 0.06325] [qryLithMatDen.TRA <= 0.12843] {
+  fill: #66cccc;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.20848', 'lower': '0.12843', 'equality': 'upper', 'label': '0.12844 - 0.20848'} */
+[qryLithMatDen.TRA > 0.12843] [qryLithMatDen.TRA <= 0.20848] {
+  fill: #669999;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.26407', 'lower': '0.20848', 'equality': 'upper', 'label': '0.20849 - 0.26407'} */
+[qryLithMatDen.TRA > 0.20848] [qryLithMatDen.TRA <= 0.26407] {
+  fill: #336699;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.36176', 'lower': '0.26407', 'equality': 'upper', 'label': '0.26408 - 0.36176'} */
+[qryLithMatDen.TRA > 0.26407] [qryLithMatDen.TRA <= 0.36176] {
+  fill: #000066;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.70118', 'lower': '0.36176', 'equality': 'upper', 'label': '0.36177 - 0.70118'} */
+[qryLithMatDen.TRA > 0.36176] [qryLithMatDen.TRA <= 0.70118] {
+  fill: #000033;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+/* CLASSIFIER INFO {'upper': '0.06325', 'lower': '0.03857', 'equality': 'upper', 'label': '0.03857 - 0.06325'} */
+[qryLithMatDen.TRA > 0.03857] [qryLithMatDen.TRA <= 0.06325] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.12843', 'lower': '0.06325', 'equality': 'upper', 'label': '0.06326 - 0.12843'} */
+[qryLithMatDen.TRA > 0.06325] [qryLithMatDen.TRA <= 0.12843] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.20848', 'lower': '0.12843', 'equality': 'upper', 'label': '0.12844 - 0.20848'} */
+[qryLithMatDen.TRA > 0.12843] [qryLithMatDen.TRA <= 0.20848] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.26407', 'lower': '0.20848', 'equality': 'upper', 'label': '0.20849 - 0.26407'} */
+[qryLithMatDen.TRA > 0.20848] [qryLithMatDen.TRA <= 0.26407] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.36176', 'lower': '0.26407', 'equality': 'upper', 'label': '0.26408 - 0.36176'} */
+[qryLithMatDen.TRA > 0.26407] [qryLithMatDen.TRA <= 0.36176] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
+/* CLASSIFIER INFO {'upper': '0.70118', 'lower': '0.36176', 'equality': 'upper', 'label': '0.36177 - 0.70118'} */
+[qryLithMatDen.TRA > 0.36176] [qryLithMatDen.TRA <= 0.70118] {
+  stroke: #d4cfc7;
+  stroke-width: 1px;
+  stroke-linecap: round;
+}
+
