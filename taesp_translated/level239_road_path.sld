@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblPOSIRec.ROADCHK</ogc:PropertyName>
+              <ogc:PropertyName>tblposirec.roadchk</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

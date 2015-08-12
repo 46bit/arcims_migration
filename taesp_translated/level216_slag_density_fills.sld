@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>8.31998269722676E-06</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.234085010080757</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.234085010080757</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.717704400308794</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.717704400308794</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>1.54633295088237</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>1.54633295088237</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>5.10833122953207</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>5.10833122953207</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>16.7900162730928</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>16.7900162730928</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>36.0017102812029</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>8.31998269722676E-06</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.234085010080757</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.234085010080757</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.717704400308794</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>0.717704400308794</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>1.54633295088237</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>1.54633295088237</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>5.10833122953207</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>5.10833122953207</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>16.7900162730928</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>16.7900162730928</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagDen.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagden.slag</ogc:PropertyName>
                 <ogc:Literal>36.0017102812029</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

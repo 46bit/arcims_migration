@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>0.02709</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>1.59921</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>1.59921</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>4.08169</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>4.08169</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>7.43736</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>7.43736</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>12.39746</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>12.39746</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>22.5901</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>22.5901</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>39.61484</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>0.02709</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>1.59921</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>1.59921</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>4.08169</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>4.08169</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>7.43736</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>7.43736</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>12.39746</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>12.39746</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>22.5901</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>22.5901</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaDen.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycaden.cartridge</ogc:PropertyName>
                 <ogc:Literal>39.61484</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

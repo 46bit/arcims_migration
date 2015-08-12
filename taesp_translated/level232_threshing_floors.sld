@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblPOSIRec.TFCHK</ogc:PropertyName>
+              <ogc:PropertyName>tblposirec.tfchk</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

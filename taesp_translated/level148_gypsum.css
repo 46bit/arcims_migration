@@ -5,20 +5,20 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.03051', 'label': '0.03051'} */
-[qryLithMatDen.GYP = "0.03051"] {
+[qrylithmatden.gyp = "0.03051"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryLithMatDen.GYP = "0.03051"] :mark {
+[qrylithmatden.gyp = "0.03051"] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.32179', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03052 - 0.32179'} */
-[qryLithMatDen.GYP > 0.03051] [qryLithMatDen.GYP <= 0.32179] {
+[qrylithmatden.gyp > 0.03051] [qrylithmatden.gyp <= 0.32179] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryLithMatDen.GYP > 0.03051] [qryLithMatDen.GYP <= 0.32179] :mark {
+[qrylithmatden.gyp > 0.03051] [qrylithmatden.gyp <= 0.32179] :mark {
   fill: #336699;
 }
 

@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.17496', 'label': '0.17496'} */
-[qryPottPerDen.MEDOTT = "0.17496"] {
+[qrypottperden.medott = "0.17496"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottPerDen.MEDOTT = "0.17496"] :mark {
+[qrypottperden.medott = "0.17496"] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.35679', 'lower': '0.17496', 'equality': 'upper', 'label': '0.17497 - 0.35679'} */
-[qryPottPerDen.MEDOTT > 0.17496] [qryPottPerDen.MEDOTT <= 0.35679] {
+[qrypottperden.medott > 0.17496] [qrypottperden.medott <= 0.35679] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottPerDen.MEDOTT > 0.17496] [qryPottPerDen.MEDOTT <= 0.35679] :mark {
+[qrypottperden.medott > 0.17496] [qrypottperden.medott <= 0.35679] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.63226', 'lower': '0.35679', 'equality': 'upper', 'label': '0.35680 - 0.63226'} */
-[qryPottPerDen.MEDOTT > 0.35679] [qryPottPerDen.MEDOTT <= 0.63226] {
+[qrypottperden.medott > 0.35679] [qrypottperden.medott <= 0.63226] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottPerDen.MEDOTT > 0.35679] [qryPottPerDen.MEDOTT <= 0.63226] :mark {
+[qrypottperden.medott > 0.35679] [qrypottperden.medott <= 0.63226] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.01489', 'lower': '0.63226', 'equality': 'upper', 'label': '0.63227 - 1.01489'} */
-[qryPottPerDen.MEDOTT > 0.63226] [qryPottPerDen.MEDOTT <= 1.01489] {
+[qrypottperden.medott > 0.63226] [qrypottperden.medott <= 1.01489] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottPerDen.MEDOTT > 0.63226] [qryPottPerDen.MEDOTT <= 1.01489] :mark {
+[qrypottperden.medott > 0.63226] [qrypottperden.medott <= 1.01489] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.86908', 'lower': '1.01489', 'equality': 'upper', 'label': '1.01490 - 1.86908'} */
-[qryPottPerDen.MEDOTT > 1.01489] [qryPottPerDen.MEDOTT <= 1.86908] {
+[qrypottperden.medott > 1.01489] [qrypottperden.medott <= 1.86908] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottPerDen.MEDOTT > 1.01489] [qryPottPerDen.MEDOTT <= 1.86908] :mark {
+[qrypottperden.medott > 1.01489] [qrypottperden.medott <= 1.86908] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '5.1998', 'lower': '1.86908', 'equality': 'upper', 'label': '1.86909 - 5.19980'} */
-[qryPottPerDen.MEDOTT > 1.86908] [qryPottPerDen.MEDOTT <= 5.1998] {
+[qrypottperden.medott > 1.86908] [qrypottperden.medott <= 5.1998] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottPerDen.MEDOTT > 1.86908] [qryPottPerDen.MEDOTT <= 5.1998] :mark {
+[qrypottperden.medott > 1.86908] [qrypottperden.medott <= 5.1998] :mark {
   fill: #993266;
 }
 

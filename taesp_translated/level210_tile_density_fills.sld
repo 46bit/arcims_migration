@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>0.04224</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>2.27318</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>2.27318</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>6.21169</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>6.21169</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>24.5663</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>24.5663</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>91.39474</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>0.04224</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>2.27318</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>2.27318</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>6.21169</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>6.21169</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>24.5663</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>24.5663</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileDen.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttileden.tile</ogc:PropertyName>
                 <ogc:Literal>91.39474</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

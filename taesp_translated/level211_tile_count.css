@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '3', 'lower': '1', 'equality': 'upper', 'label': '1.00000 - 3.00000'} */
-[qryPottTileCounts.TILE > 1] [qryPottTileCounts.TILE <= 3] {
+[qrypotttilecounts.tile > 1] [qrypotttilecounts.tile <= 3] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottTileCounts.TILE > 1] [qryPottTileCounts.TILE <= 3] :mark {
+[qrypotttilecounts.tile > 1] [qrypotttilecounts.tile <= 3] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '7', 'lower': '3', 'equality': 'upper', 'label': '3.00001 - 7.00000'} */
-[qryPottTileCounts.TILE > 3] [qryPottTileCounts.TILE <= 7] {
+[qrypotttilecounts.tile > 3] [qrypotttilecounts.tile <= 7] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottTileCounts.TILE > 3] [qryPottTileCounts.TILE <= 7] :mark {
+[qrypotttilecounts.tile > 3] [qrypotttilecounts.tile <= 7] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '12', 'lower': '7', 'equality': 'upper', 'label': '7.00001 - 12.00000'} */
-[qryPottTileCounts.TILE > 7] [qryPottTileCounts.TILE <= 12] {
+[qrypotttilecounts.tile > 7] [qrypotttilecounts.tile <= 12] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottTileCounts.TILE > 7] [qryPottTileCounts.TILE <= 12] :mark {
+[qrypotttilecounts.tile > 7] [qrypotttilecounts.tile <= 12] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '18', 'lower': '12', 'equality': 'upper', 'label': '12.00001 - 18.00000'} */
-[qryPottTileCounts.TILE > 12] [qryPottTileCounts.TILE <= 18] {
+[qrypotttilecounts.tile > 12] [qrypotttilecounts.tile <= 18] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottTileCounts.TILE > 12] [qryPottTileCounts.TILE <= 18] :mark {
+[qrypotttilecounts.tile > 12] [qrypotttilecounts.tile <= 18] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '27', 'lower': '18', 'equality': 'upper', 'label': '18.00001 - 27.00000'} */
-[qryPottTileCounts.TILE > 18] [qryPottTileCounts.TILE <= 27] {
+[qrypotttilecounts.tile > 18] [qrypotttilecounts.tile <= 27] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottTileCounts.TILE > 18] [qryPottTileCounts.TILE <= 27] :mark {
+[qrypotttilecounts.tile > 18] [qrypotttilecounts.tile <= 27] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '37', 'lower': '27', 'equality': 'upper', 'label': '27.00001 - 37.00000'} */
-[qryPottTileCounts.TILE > 27] [qryPottTileCounts.TILE <= 37] {
+[qrypotttilecounts.tile > 27] [qrypotttilecounts.tile <= 37] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottTileCounts.TILE > 27] [qryPottTileCounts.TILE <= 37] :mark {
+[qrypotttilecounts.tile > 27] [qrypotttilecounts.tile <= 37] :mark {
   fill: #336699;
 }
 

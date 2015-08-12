@@ -5,47 +5,47 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '0.60137', 'lower': '0.03375', 'equality': 'upper', 'label': '0.03375 - 0.60137'} */
-[qryPottFctPreHisDen.LU > 0.03375] [qryPottFctPreHisDen.LU <= 0.60137] {
+[qrypottfctprehisden.lu > 0.03375] [qrypottfctprehisden.lu <= 0.60137] {
   mark: symbol(circle);
   mark-size: 4px;
 }
-[qryPottFctPreHisDen.LU > 0.03375] [qryPottFctPreHisDen.LU <= 0.60137] :mark {
+[qrypottfctprehisden.lu > 0.03375] [qrypottfctprehisden.lu <= 0.60137] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.56796', 'lower': '0.60137', 'equality': 'upper', 'label': '0.60138 - 1.56796'} */
-[qryPottFctPreHisDen.LU > 0.60137] [qryPottFctPreHisDen.LU <= 1.56796] {
+[qrypottfctprehisden.lu > 0.60137] [qrypottfctprehisden.lu <= 1.56796] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottFctPreHisDen.LU > 0.60137] [qryPottFctPreHisDen.LU <= 1.56796] :mark {
+[qrypottfctprehisden.lu > 0.60137] [qrypottfctprehisden.lu <= 1.56796] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '3.43331', 'lower': '1.56796', 'equality': 'upper', 'label': '1.56797 - 3.43331'} */
-[qryPottFctPreHisDen.LU > 1.56796] [qryPottFctPreHisDen.LU <= 3.43331] {
+[qrypottfctprehisden.lu > 1.56796] [qrypottfctprehisden.lu <= 3.43331] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottFctPreHisDen.LU > 1.56796] [qryPottFctPreHisDen.LU <= 3.43331] :mark {
+[qrypottfctprehisden.lu > 1.56796] [qrypottfctprehisden.lu <= 3.43331] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '8.0581', 'lower': '3.43331', 'equality': 'upper', 'label': '3.43332 - 8.05810'} */
-[qryPottFctPreHisDen.LU > 3.43331] [qryPottFctPreHisDen.LU <= 8.0581] {
+[qrypottfctprehisden.lu > 3.43331] [qrypottfctprehisden.lu <= 8.0581] {
   mark: symbol(circle);
   mark-size: 14px;
 }
-[qryPottFctPreHisDen.LU > 3.43331] [qryPottFctPreHisDen.LU <= 8.0581] :mark {
+[qrypottfctprehisden.lu > 3.43331] [qrypottfctprehisden.lu <= 8.0581] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '20.18604', 'lower': '8.0581', 'equality': 'upper', 'label': '8.05811 - 20.18604'} */
-[qryPottFctPreHisDen.LU > 8.0581] [qryPottFctPreHisDen.LU <= 20.18604] {
+[qrypottfctprehisden.lu > 8.0581] [qrypottfctprehisden.lu <= 20.18604] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottFctPreHisDen.LU > 8.0581] [qryPottFctPreHisDen.LU <= 20.18604] :mark {
+[qrypottfctprehisden.lu > 8.0581] [qrypottfctprehisden.lu <= 20.18604] :mark {
   fill: #993266;
 }
 

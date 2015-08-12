@@ -1,41 +1,41 @@
 /* LAYER NAME level186_sandstone */
 /* CLASSIFIER INFO {'value': '0.09788', 'label': '0.09788'} */
-[qryLithMatDen.SAN = "0.09788"] {
+[qrylithmatden.san = "0.09788"] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.09788', 'equality': 'upper', 'label': '0.09789 - 0.30452'} */
-[qryLithMatDen.SAN > 0.09788] [qryLithMatDen.SAN <= 0.30452] {
+[qrylithmatden.san > 0.09788] [qrylithmatden.san <= 0.30452] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.75219', 'lower': '0.30452', 'equality': 'upper', 'label': '0.30453 - 0.75219'} */
-[qryLithMatDen.SAN > 0.30452] [qryLithMatDen.SAN <= 0.75219] {
+[qrylithmatden.san > 0.30452] [qrylithmatden.san <= 0.75219] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': '0.09788', 'label': '0.09788'} */
-[qryLithMatDen.SAN = "0.09788"] {
+[qrylithmatden.san = "0.09788"] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.09788', 'equality': 'upper', 'label': '0.09789 - 0.30452'} */
-[qryLithMatDen.SAN > 0.09788] [qryLithMatDen.SAN <= 0.30452] {
+[qrylithmatden.san > 0.09788] [qrylithmatden.san <= 0.30452] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.75219', 'lower': '0.30452', 'equality': 'upper', 'label': '0.30453 - 0.75219'} */
-[qryLithMatDen.SAN > 0.30452] [qryLithMatDen.SAN <= 0.75219] {
+[qrylithmatden.san > 0.30452] [qrylithmatden.san <= 0.75219] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

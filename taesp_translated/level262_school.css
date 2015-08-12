@@ -1,10 +1,10 @@
 /* LAYER NAME level262_school */
 /* CLASSIFIER INFO {'value': 'SC', 'label': 'SC'} */
-[TYPE = "SC"] {
+[type = "SC"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "SC"] :mark {
+[type = "SC"] :mark {
   fill: #0000ff;
 }
 

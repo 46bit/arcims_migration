@@ -21,7 +21,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblPOSIRec.MOCHK</ogc:PropertyName>
+              <ogc:PropertyName>tblposirec.mochk</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

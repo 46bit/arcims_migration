@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+              <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
               <ogc:Literal>0.05234</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>0.05234</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>0.11999</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -63,11 +63,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>0.11999</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>1.1678</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -88,11 +88,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>1.1678</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.cw</ogc:PropertyName>
                 <ogc:Literal>5.76744</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

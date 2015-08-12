@@ -1,10 +1,10 @@
 /* LAYER NAME level245_iron_age */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.IACHK = "1"] {
+[tblposirec.iachk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.IACHK = "1"] :mark {
+[tblposirec.iachk = "1"] :mark {
   fill: #ff0000;
 }
 

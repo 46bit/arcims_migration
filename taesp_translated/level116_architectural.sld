@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>0.04224</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>0.45265</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>0.45265</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>1.01764</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>1.01764</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>1.95984</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>1.95984</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>3.73816</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>3.73816</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>7.49744</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>7.49744</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPotFctMedModDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypotfctmedmodden.ar</ogc:PropertyName>
                 <ogc:Literal>10.3996</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

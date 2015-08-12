@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryPottPerDen.AC</ogc:PropertyName>
+              <ogc:PropertyName>qrypottperden.ac</ogc:PropertyName>
               <ogc:Literal>0.12273</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.AC</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ac</ogc:PropertyName>
                 <ogc:Literal>0.12273</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.AC</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ac</ogc:PropertyName>
                 <ogc:Literal>0.68924</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

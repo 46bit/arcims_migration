@@ -5,11 +5,11 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.24634', 'label': '0.24634'} */
-[qryLithMatDen.OBS = "0.24634"] {
+[qrylithmatden.obs = "0.24634"] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryLithMatDen.OBS = "0.24634"] :mark {
+[qrylithmatden.obs = "0.24634"] :mark {
   fill: #336699;
 }
 

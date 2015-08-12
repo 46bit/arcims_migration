@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>C</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>SCL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,7 +41,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>CL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -58,7 +58,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>SiCL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -75,7 +75,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>SiL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -92,7 +92,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SOILTEXT</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soiltext</ogc:PropertyName>
               <ogc:Literal>SL</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

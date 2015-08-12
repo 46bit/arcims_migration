@@ -1,83 +1,83 @@
 /* LAYER NAME level138_core_fill */
 /* CLASSIFIER INFO {'upper': '0.14633', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03051 - 0.14633'} */
-[qryChipCoBlDeDen.CO > 0.03051] [qryChipCoBlDeDen.CO <= 0.14633] {
+[qrychipcobldeden.co > 0.03051] [qrychipcobldeden.co <= 0.14633] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.33276', 'lower': '0.14633', 'equality': 'upper', 'label': '0.14634 - 0.33276'} */
-[qryChipCoBlDeDen.CO > 0.14633] [qryChipCoBlDeDen.CO <= 0.33276] {
+[qrychipcobldeden.co > 0.14633] [qrychipcobldeden.co <= 0.33276] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.69956', 'lower': '0.33276', 'equality': 'upper', 'label': '0.33277 - 0.69956'} */
-[qryChipCoBlDeDen.CO > 0.33276] [qryChipCoBlDeDen.CO <= 0.69956] {
+[qrychipcobldeden.co > 0.33276] [qrychipcobldeden.co <= 0.69956] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '1.07827', 'lower': '0.69956', 'equality': 'upper', 'label': '0.69957 - 1.07827'} */
-[qryChipCoBlDeDen.CO > 0.69956] [qryChipCoBlDeDen.CO <= 1.07827] {
+[qrychipcobldeden.co > 0.69956] [qrychipcobldeden.co <= 1.07827] {
   fill: #336699;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '1.99708', 'lower': '1.07827', 'equality': 'upper', 'label': '1.07828 - 1.99708'} */
-[qryChipCoBlDeDen.CO > 1.07827] [qryChipCoBlDeDen.CO <= 1.99708] {
+[qrychipcobldeden.co > 1.07827] [qrychipcobldeden.co <= 1.99708] {
   fill: #000066;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '4.00481', 'lower': '1.99708', 'equality': 'upper', 'label': '1.99709 - 4.00481'} */
-[qryChipCoBlDeDen.CO > 1.99708] [qryChipCoBlDeDen.CO <= 4.00481] {
+[qrychipcobldeden.co > 1.99708] [qrychipcobldeden.co <= 4.00481] {
   fill: #000033;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.14633', 'lower': '0.03051', 'equality': 'upper', 'label': '0.03051 - 0.14633'} */
-[qryChipCoBlDeDen.CO > 0.03051] [qryChipCoBlDeDen.CO <= 0.14633] {
+[qrychipcobldeden.co > 0.03051] [qrychipcobldeden.co <= 0.14633] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.33276', 'lower': '0.14633', 'equality': 'upper', 'label': '0.14634 - 0.33276'} */
-[qryChipCoBlDeDen.CO > 0.14633] [qryChipCoBlDeDen.CO <= 0.33276] {
+[qrychipcobldeden.co > 0.14633] [qrychipcobldeden.co <= 0.33276] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.69956', 'lower': '0.33276', 'equality': 'upper', 'label': '0.33277 - 0.69956'} */
-[qryChipCoBlDeDen.CO > 0.33276] [qryChipCoBlDeDen.CO <= 0.69956] {
+[qrychipcobldeden.co > 0.33276] [qrychipcobldeden.co <= 0.69956] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '1.07827', 'lower': '0.69956', 'equality': 'upper', 'label': '0.69957 - 1.07827'} */
-[qryChipCoBlDeDen.CO > 0.69956] [qryChipCoBlDeDen.CO <= 1.07827] {
+[qrychipcobldeden.co > 0.69956] [qrychipcobldeden.co <= 1.07827] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '1.99708', 'lower': '1.07827', 'equality': 'upper', 'label': '1.07828 - 1.99708'} */
-[qryChipCoBlDeDen.CO > 1.07827] [qryChipCoBlDeDen.CO <= 1.99708] {
+[qrychipcobldeden.co > 1.07827] [qrychipcobldeden.co <= 1.99708] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '4.00481', 'lower': '1.99708', 'equality': 'upper', 'label': '1.99709 - 4.00481'} */
-[qryChipCoBlDeDen.CO > 1.99708] [qryChipCoBlDeDen.CO <= 4.00481] {
+[qrychipcobldeden.co > 1.99708] [qrychipcobldeden.co <= 4.00481] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

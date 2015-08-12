@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>0.03375</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>0.60137</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>0.60137</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>1.56796</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>1.56796</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>3.43331</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>3.43331</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>8.0581</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>8.0581</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctPreHisDen.LU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctprehisden.lu</ogc:PropertyName>
                 <ogc:Literal>20.18604</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

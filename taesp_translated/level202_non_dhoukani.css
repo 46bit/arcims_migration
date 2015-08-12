@@ -1,46 +1,46 @@
 /* LAYER NAME level202_non_dhoukani */
 /* CLASSIFIER INFO {'upper': '0.25926', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 0.25926'} */
-[qryChipDhoDen.NOTDHO > 0.03121] [qryChipDhoDen.NOTDHO <= 0.25926] {
+[qrychipdhoden.notdho > 0.03121] [qrychipdhoden.notdho <= 0.25926] {
   mark: symbol(circle);
   mark-size: 4px;
 }
-[qryChipDhoDen.NOTDHO > 0.03121] [qryChipDhoDen.NOTDHO <= 0.25926] :mark {
+[qrychipdhoden.notdho > 0.03121] [qrychipdhoden.notdho <= 0.25926] :mark {
   fill: #0089ab;
 }
 
 /* CLASSIFIER INFO {'upper': '0.63568', 'lower': '0.25926', 'equality': 'upper', 'label': '0.25927 - 0.63568'} */
-[qryChipDhoDen.NOTDHO > 0.25926] [qryChipDhoDen.NOTDHO <= 0.63568] {
+[qrychipdhoden.notdho > 0.25926] [qrychipdhoden.notdho <= 0.63568] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryChipDhoDen.NOTDHO > 0.25926] [qryChipDhoDen.NOTDHO <= 0.63568] :mark {
+[qrychipdhoden.notdho > 0.25926] [qrychipdhoden.notdho <= 0.63568] :mark {
   fill: #0089ab;
 }
 
 /* CLASSIFIER INFO {'upper': '1.1933', 'lower': '0.63568', 'equality': 'upper', 'label': '0.63569 - 1.19330'} */
-[qryChipDhoDen.NOTDHO > 0.63568] [qryChipDhoDen.NOTDHO <= 1.1933] {
+[qrychipdhoden.notdho > 0.63568] [qrychipdhoden.notdho <= 1.1933] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryChipDhoDen.NOTDHO > 0.63568] [qryChipDhoDen.NOTDHO <= 1.1933] :mark {
+[qrychipdhoden.notdho > 0.63568] [qrychipdhoden.notdho <= 1.1933] :mark {
   fill: #0089ab;
 }
 
 /* CLASSIFIER INFO {'upper': '2.00557', 'lower': '1.1933', 'equality': 'upper', 'label': '1.19331 - 2.00557'} */
-[qryChipDhoDen.NOTDHO > 1.1933] [qryChipDhoDen.NOTDHO <= 2.00557] {
+[qrychipdhoden.notdho > 1.1933] [qrychipdhoden.notdho <= 2.00557] {
   mark: symbol(circle);
   mark-size: 14px;
 }
-[qryChipDhoDen.NOTDHO > 1.1933] [qryChipDhoDen.NOTDHO <= 2.00557] :mark {
+[qrychipdhoden.notdho > 1.1933] [qrychipdhoden.notdho <= 2.00557] :mark {
   fill: #0089ab;
 }
 
 /* CLASSIFIER INFO {'upper': '4.79364', 'lower': '2.00557', 'equality': 'upper', 'label': '2.00558 - 4.79364'} */
-[qryChipDhoDen.NOTDHO > 2.00557] [qryChipDhoDen.NOTDHO <= 4.79364] {
+[qrychipdhoden.notdho > 2.00557] [qrychipdhoden.notdho <= 4.79364] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryChipDhoDen.NOTDHO > 2.00557] [qryChipDhoDen.NOTDHO <= 4.79364] :mark {
+[qrychipdhoden.notdho > 2.00557] [qrychipdhoden.notdho <= 4.79364] :mark {
   fill: #0089ab;
 }
 

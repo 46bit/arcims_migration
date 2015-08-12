@@ -5,29 +5,29 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '1', 'label': '1.00000'} */
-[qryChipToolCounts.FLA = "1"] {
+[qrychiptoolcounts.fla = "1"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryChipToolCounts.FLA = "1"] :mark {
+[qrychiptoolcounts.fla = "1"] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '2', 'lower': '1', 'equality': 'upper', 'label': '1.00001 - 2.00000'} */
-[qryChipToolCounts.FLA > 1] [qryChipToolCounts.FLA <= 2] {
+[qrychiptoolcounts.fla > 1] [qrychiptoolcounts.fla <= 2] {
   mark: symbol(circle);
   mark-size: 12px;
 }
-[qryChipToolCounts.FLA > 1] [qryChipToolCounts.FLA <= 2] :mark {
+[qrychiptoolcounts.fla > 1] [qrychiptoolcounts.fla <= 2] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '4', 'lower': '2', 'equality': 'upper', 'label': '2.00001 - 4.00000'} */
-[qryChipToolCounts.FLA > 2] [qryChipToolCounts.FLA <= 4] {
+[qrychiptoolcounts.fla > 2] [qrychiptoolcounts.fla <= 4] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryChipToolCounts.FLA > 2] [qryChipToolCounts.FLA <= 4] :mark {
+[qrychiptoolcounts.fla > 2] [qrychiptoolcounts.fla <= 4] :mark {
   fill: #336699;
 }
 

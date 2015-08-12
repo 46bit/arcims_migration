@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '0.07068', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 0.07068'} */
-[qryChipToolDen.DHO > 0.03121] [qryChipToolDen.DHO <= 0.07068] {
+[qrychiptoolden.dho > 0.03121] [qrychiptoolden.dho <= 0.07068] {
   mark: symbol(circle);
   mark-size: 4px;
 }
-[qryChipToolDen.DHO > 0.03121] [qryChipToolDen.DHO <= 0.07068] :mark {
+[qrychiptoolden.dho > 0.03121] [qrychiptoolden.dho <= 0.07068] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.11697', 'lower': '0.07068', 'equality': 'upper', 'label': '0.07069 - 0.11697'} */
-[qryChipToolDen.DHO > 0.07068] [qryChipToolDen.DHO <= 0.11697] {
+[qrychiptoolden.dho > 0.07068] [qrychiptoolden.dho <= 0.11697] {
   mark: symbol(circle);
   mark-size: 7px;
 }
-[qryChipToolDen.DHO > 0.07068] [qryChipToolDen.DHO <= 0.11697] :mark {
+[qrychiptoolden.dho > 0.07068] [qrychiptoolden.dho <= 0.11697] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.17049', 'lower': '0.11697', 'equality': 'upper', 'label': '0.11698 - 0.17049'} */
-[qryChipToolDen.DHO > 0.11697] [qryChipToolDen.DHO <= 0.17049] {
+[qrychiptoolden.dho > 0.11697] [qrychiptoolden.dho <= 0.17049] {
   mark: symbol(circle);
   mark-size: 10px;
 }
-[qryChipToolDen.DHO > 0.11697] [qryChipToolDen.DHO <= 0.17049] :mark {
+[qrychiptoolden.dho > 0.11697] [qrychiptoolden.dho <= 0.17049] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.25665', 'lower': '0.17049', 'equality': 'upper', 'label': '0.17050 - 0.25665'} */
-[qryChipToolDen.DHO > 0.17049] [qryChipToolDen.DHO <= 0.25665] {
+[qrychiptoolden.dho > 0.17049] [qrychiptoolden.dho <= 0.25665] {
   mark: symbol(circle);
   mark-size: 12px;
 }
-[qryChipToolDen.DHO > 0.17049] [qryChipToolDen.DHO <= 0.25665] :mark {
+[qrychiptoolden.dho > 0.17049] [qrychiptoolden.dho <= 0.25665] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.47951', 'lower': '0.25665', 'equality': 'upper', 'label': '0.25666 - 0.47951'} */
-[qryChipToolDen.DHO > 0.25665] [qryChipToolDen.DHO <= 0.47951] {
+[qrychiptoolden.dho > 0.25665] [qrychiptoolden.dho <= 0.47951] {
   mark: symbol(circle);
   mark-size: 15px;
 }
-[qryChipToolDen.DHO > 0.25665] [qryChipToolDen.DHO <= 0.47951] :mark {
+[qrychiptoolden.dho > 0.25665] [qrychiptoolden.dho <= 0.47951] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '1.12162', 'lower': '0.47951', 'equality': 'upper', 'label': '0.47952 - 1.12162'} */
-[qryChipToolDen.DHO > 0.47951] [qryChipToolDen.DHO <= 1.12162] {
+[qrychiptoolden.dho > 0.47951] [qrychiptoolden.dho <= 1.12162] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryChipToolDen.DHO > 0.47951] [qryChipToolDen.DHO <= 1.12162] :mark {
+[qrychiptoolden.dho > 0.47951] [qrychiptoolden.dho <= 1.12162] :mark {
   fill: #336699;
 }
 

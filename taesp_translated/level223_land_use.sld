@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Gr</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -36,7 +36,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Fa</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -53,7 +53,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Cu</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -70,7 +70,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Fo</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -87,7 +87,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Gr</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -101,7 +101,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.LandUse</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.landuse</ogc:PropertyName>
               <ogc:Literal>Og</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

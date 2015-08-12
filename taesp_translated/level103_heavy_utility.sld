@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>8.67498960927854E-02</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.236160803311545</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.236160803311545</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.460805276809145</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.460805276809145</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.644205453056203</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.644205453056203</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.934389280582751</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>0.934389280582751</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>1.46865994341943</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>1.46865994341943</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryIVFUNCIA.HU_IV</ogc:PropertyName>
+                <ogc:PropertyName>qryivfuncia.hu_iv</ogc:PropertyName>
                 <ogc:Literal>3.18509668901568</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

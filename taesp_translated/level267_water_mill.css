@@ -1,10 +1,10 @@
 /* LAYER NAME level267_water_mill */
 /* CLASSIFIER INFO {'value': 'WM', 'label': 'WM'} */
-[TYPE = "WM"] {
+[type = "WM"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "WM"] :mark {
+[type = "WM"] :mark {
   fill: #0000ff;
 }
 

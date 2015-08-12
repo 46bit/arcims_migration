@@ -1,27 +1,27 @@
 /* LAYER NAME level61_cypro_archaic_750_to_475bc */
 /* CLASSIFIER INFO {'value': '0.11529', 'label': '0.11529'} */
-[qryPottPerDen.AR = "0.11529"] {
+[qrypottperden.ar = "0.11529"] {
   fill: #cc99cc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.26754', 'lower': '0.11529', 'equality': 'upper', 'label': '0.11530 - 0.26754'} */
-[qryPottPerDen.AR > 0.11529] [qryPottPerDen.AR <= 0.26754] {
+[qrypottperden.ar > 0.11529] [qrypottperden.ar <= 0.26754] {
   fill: #993266;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': '0.11529', 'label': '0.11529'} */
-[qryPottPerDen.AR = "0.11529"] {
+[qrypottperden.ar = "0.11529"] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.26754', 'lower': '0.11529', 'equality': 'upper', 'label': '0.11530 - 0.26754'} */
-[qryPottPerDen.AR > 0.11529] [qryPottPerDen.AR <= 0.26754] {
+[qrypottperden.ar > 0.11529] [qrypottperden.ar <= 0.26754] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

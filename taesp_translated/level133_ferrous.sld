@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>0.02441</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>8.27914</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>8.27914</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>25.14304</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>25.14304</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>57.32987</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>57.32987</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>109.54986</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>109.54986</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>232.18294</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>232.18294</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>510.97971</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>0.02441</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>8.27914</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>8.27914</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>25.14304</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>25.14304</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>57.32987</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>57.32987</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>109.54986</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>109.54986</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>232.18294</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>232.18294</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFabDen.F</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfabden.f</ogc:PropertyName>
                 <ogc:Literal>510.97971</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

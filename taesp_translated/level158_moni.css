@@ -5,20 +5,20 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.15983', 'label': '0.15983'} */
-[qryLithMatDen.MON = "0.15983"] {
+[qrylithmatden.mon = "0.15983"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryLithMatDen.MON = "0.15983"] :mark {
+[qrylithmatden.mon = "0.15983"] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.21186', 'lower': '0.15983', 'equality': 'upper', 'label': '0.15984 - 0.21186'} */
-[qryLithMatDen.MON > 0.15983] [qryLithMatDen.MON <= 0.21186] {
+[qrylithmatden.mon > 0.15983] [qrylithmatden.mon <= 0.21186] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryLithMatDen.MON > 0.15983] [qryLithMatDen.MON <= 0.21186] :mark {
+[qrylithmatden.mon > 0.15983] [qrylithmatden.mon <= 0.21186] :mark {
   fill: #336699;
 }
 

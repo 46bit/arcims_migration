@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.MAR</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.mar</ogc:PropertyName>
               <ogc:Literal>0.51908</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.MAR</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.mar</ogc:PropertyName>
               <ogc:Literal>0.51908</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

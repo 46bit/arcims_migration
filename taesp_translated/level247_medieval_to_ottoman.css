@@ -9,11 +9,11 @@
 }
 
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.MOCHK = "1"] {
+[tblposirec.mochk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.MOCHK = "1"] :mark {
+[tblposirec.mochk = "1"] :mark {
   fill: #ff0000;
 }
 

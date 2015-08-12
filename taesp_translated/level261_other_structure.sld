@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TYPE</ogc:PropertyName>
+              <ogc:PropertyName>type</ogc:PropertyName>
               <ogc:Literal>OT</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

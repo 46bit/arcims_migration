@@ -1,10 +1,10 @@
 /* LAYER NAME level244_prehistoric */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.PREHCHK = "1"] {
+[tblposirec.prehchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.PREHCHK = "1"] :mark {
+[tblposirec.prehchk = "1"] :mark {
   fill: #ff0000;
 }
 

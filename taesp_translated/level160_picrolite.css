@@ -5,11 +5,11 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.09216', 'label': '0.09216'} */
-[qryLithMatDen.PIC = "0.09216"] {
+[qrylithmatden.pic = "0.09216"] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryLithMatDen.PIC = "0.09216"] :mark {
+[qrylithmatden.pic = "0.09216"] :mark {
   fill: #336699;
 }
 

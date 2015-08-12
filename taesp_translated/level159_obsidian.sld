@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.OBS</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.obs</ogc:PropertyName>
               <ogc:Literal>0.24634</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

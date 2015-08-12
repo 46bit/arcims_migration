@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>0.02709</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>4.58884</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>4.58884</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>12.76814</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>12.76814</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>27.10167</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>27.10167</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>48.29952</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>48.29952</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>90.9965</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>90.9965</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>158.1492</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>0.02709</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>4.58884</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>4.58884</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>12.76814</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>12.76814</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>27.10167</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>27.10167</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>48.29952</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>48.29952</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>90.9965</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>90.9965</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.MEDIEVAL_M</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.medieval_m</ogc:PropertyName>
                 <ogc:Literal>158.1492</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.08674</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.23615</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.23615</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.4608</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.4608</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.6442</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.6442</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.93438</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>0.93438</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>1.46866</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>1.46866</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctIADen.HU</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfctiaden.hu</ogc:PropertyName>
                 <ogc:Literal>3.1851</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

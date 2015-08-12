@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>0.03121</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>0.25926</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -33,11 +33,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>0.25926</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>0.63568</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -58,11 +58,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>0.63568</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>1.1933</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -83,11 +83,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>1.1933</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>2.00557</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -108,11 +108,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>2.00557</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoDen.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhoden.notdho</ogc:PropertyName>
                 <ogc:Literal>4.79364</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

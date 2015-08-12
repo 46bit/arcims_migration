@@ -1,83 +1,83 @@
 /* LAYER NAME level174_jasper */
 /* CLASSIFIER INFO {'upper': '0.28322', 'lower': '0.03262', 'equality': 'upper', 'label': '0.03262 - 0.28322'} */
-[qryLithMatDen.JAS > 0.03262] [qryLithMatDen.JAS <= 0.28322] {
+[qrylithmatden.jas > 0.03262] [qrylithmatden.jas <= 0.28322] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.65011', 'lower': '0.28322', 'equality': 'upper', 'label': '0.28323 - 0.65011'} */
-[qryLithMatDen.JAS > 0.28322] [qryLithMatDen.JAS <= 0.65011] {
+[qrylithmatden.jas > 0.28322] [qrylithmatden.jas <= 0.65011] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '1.15368', 'lower': '0.65011', 'equality': 'upper', 'label': '0.65012 - 1.15368'} */
-[qryLithMatDen.JAS > 0.65011] [qryLithMatDen.JAS <= 1.15368] {
+[qrylithmatden.jas > 0.65011] [qrylithmatden.jas <= 1.15368] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '2.0905', 'lower': '1.15368', 'equality': 'upper', 'label': '1.15369 - 2.09050'} */
-[qryLithMatDen.JAS > 1.15368] [qryLithMatDen.JAS <= 2.0905] {
+[qrylithmatden.jas > 1.15368] [qrylithmatden.jas <= 2.0905] {
   fill: #336699;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '4.35017', 'lower': '2.0905', 'equality': 'upper', 'label': '2.09051 - 4.35017'} */
-[qryLithMatDen.JAS > 2.0905] [qryLithMatDen.JAS <= 4.35017] {
+[qrylithmatden.jas > 2.0905] [qrylithmatden.jas <= 4.35017] {
   fill: #000066;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '8.51022', 'lower': '4.35017', 'equality': 'upper', 'label': '4.35018 - 8.51022'} */
-[qryLithMatDen.JAS > 4.35017] [qryLithMatDen.JAS <= 8.51022] {
+[qrylithmatden.jas > 4.35017] [qrylithmatden.jas <= 8.51022] {
   fill: #000033;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.28322', 'lower': '0.03262', 'equality': 'upper', 'label': '0.03262 - 0.28322'} */
-[qryLithMatDen.JAS > 0.03262] [qryLithMatDen.JAS <= 0.28322] {
+[qrylithmatden.jas > 0.03262] [qrylithmatden.jas <= 0.28322] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.65011', 'lower': '0.28322', 'equality': 'upper', 'label': '0.28323 - 0.65011'} */
-[qryLithMatDen.JAS > 0.28322] [qryLithMatDen.JAS <= 0.65011] {
+[qrylithmatden.jas > 0.28322] [qrylithmatden.jas <= 0.65011] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '1.15368', 'lower': '0.65011', 'equality': 'upper', 'label': '0.65012 - 1.15368'} */
-[qryLithMatDen.JAS > 0.65011] [qryLithMatDen.JAS <= 1.15368] {
+[qrylithmatden.jas > 0.65011] [qrylithmatden.jas <= 1.15368] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '2.0905', 'lower': '1.15368', 'equality': 'upper', 'label': '1.15369 - 2.09050'} */
-[qryLithMatDen.JAS > 1.15368] [qryLithMatDen.JAS <= 2.0905] {
+[qrylithmatden.jas > 1.15368] [qrylithmatden.jas <= 2.0905] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '4.35017', 'lower': '2.0905', 'equality': 'upper', 'label': '2.09051 - 4.35017'} */
-[qryLithMatDen.JAS > 2.0905] [qryLithMatDen.JAS <= 4.35017] {
+[qrylithmatden.jas > 2.0905] [qrylithmatden.jas <= 4.35017] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '8.51022', 'lower': '4.35017', 'equality': 'upper', 'label': '4.35018 - 8.51022'} */
-[qryLithMatDen.JAS > 4.35017] [qryLithMatDen.JAS <= 8.51022] {
+[qrylithmatden.jas > 4.35017] [qrylithmatden.jas <= 8.51022] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

@@ -1,10 +1,10 @@
 /* LAYER NAME level255_deimma */
 /* CLASSIFIER INFO {'value': 'DE', 'label': 'DE'} */
-[TYPE = "DE"] {
+[type = "DE"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "DE"] :mark {
+[type = "DE"] :mark {
   fill: #0000ff;
 }
 

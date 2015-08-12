@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.MORPHAGE</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.morphage</ogc:PropertyName>
               <ogc:Literal>H</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.MORPHAGE</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.morphage</ogc:PropertyName>
               <ogc:Literal>M</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,7 +41,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.MORPHAGE</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.morphage</ogc:PropertyName>
               <ogc:Literal>P</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -58,7 +58,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.MORPHAGE</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.morphage</ogc:PropertyName>
               <ogc:Literal>Q</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
               <ogc:Literal>2.54079932527831E-05</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>2.54079932527831E-05</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>9.81880201229023E-05</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -63,11 +63,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>9.81880201229023E-05</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>5.31838894037689E-04</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -88,11 +88,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>5.31838894037689E-04</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.BAS</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.bas</ogc:PropertyName>
                 <ogc:Literal>9.30878055341575E-04</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

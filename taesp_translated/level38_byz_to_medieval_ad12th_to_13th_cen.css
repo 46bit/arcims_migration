@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.12119', 'label': '0.12119'} */
-[qryPottPerDen.MEDB = "0.12119"] {
+[qrypottperden.medb = "0.12119"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottPerDen.MEDB = "0.12119"] :mark {
+[qrypottperden.medb = "0.12119"] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.3973', 'lower': '0.12119', 'equality': 'upper', 'label': '0.12120 - 0.39730'} */
-[qryPottPerDen.MEDB > 0.12119] [qryPottPerDen.MEDB <= 0.3973] {
+[qrypottperden.medb > 0.12119] [qrypottperden.medb <= 0.3973] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottPerDen.MEDB > 0.12119] [qryPottPerDen.MEDB <= 0.3973] :mark {
+[qrypottperden.medb > 0.12119] [qrypottperden.medb <= 0.3973] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.58358', 'lower': '0.3973', 'equality': 'upper', 'label': '0.39731 - 0.58358'} */
-[qryPottPerDen.MEDB > 0.3973] [qryPottPerDen.MEDB <= 0.58358] {
+[qrypottperden.medb > 0.3973] [qrypottperden.medb <= 0.58358] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottPerDen.MEDB > 0.3973] [qryPottPerDen.MEDB <= 0.58358] :mark {
+[qrypottperden.medb > 0.3973] [qrypottperden.medb <= 0.58358] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.93438', 'lower': '0.58358', 'equality': 'upper', 'label': '0.58359 - 0.93438'} */
-[qryPottPerDen.MEDB > 0.58358] [qryPottPerDen.MEDB <= 0.93438] {
+[qrypottperden.medb > 0.58358] [qrypottperden.medb <= 0.93438] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottPerDen.MEDB > 0.58358] [qryPottPerDen.MEDB <= 0.93438] :mark {
+[qrypottperden.medb > 0.58358] [qrypottperden.medb <= 0.93438] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.22832', 'lower': '0.93438', 'equality': 'upper', 'label': '0.93439 - 1.22832'} */
-[qryPottPerDen.MEDB > 0.93438] [qryPottPerDen.MEDB <= 1.22832] {
+[qrypottperden.medb > 0.93438] [qrypottperden.medb <= 1.22832] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottPerDen.MEDB > 0.93438] [qryPottPerDen.MEDB <= 1.22832] :mark {
+[qrypottperden.medb > 0.93438] [qrypottperden.medb <= 1.22832] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '2.5999', 'lower': '1.22832', 'equality': 'upper', 'label': '1.22833 - 2.59990'} */
-[qryPottPerDen.MEDB > 1.22832] [qryPottPerDen.MEDB <= 2.5999] {
+[qrypottperden.medb > 1.22832] [qrypottperden.medb <= 2.5999] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottPerDen.MEDB > 1.22832] [qryPottPerDen.MEDB <= 2.5999] :mark {
+[qrypottperden.medb > 1.22832] [qrypottperden.medb <= 2.5999] :mark {
   fill: #993266;
 }
 

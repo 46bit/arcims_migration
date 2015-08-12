@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+              <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -63,11 +63,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>4</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -88,11 +88,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>4</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -113,11 +113,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>10</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -138,11 +138,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>10</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipDhoCounts.NOTDHO</ogc:PropertyName>
+                <ogc:PropertyName>qrychipdhocounts.notdho</ogc:PropertyName>
                 <ogc:Literal>14</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

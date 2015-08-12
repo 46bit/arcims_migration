@@ -1,41 +1,41 @@
 /* LAYER NAME level221_surface_stability */
 /* CLASSIFIER INFO {'value': 'Stable', 'label': 'Stable'} */
-[tblGUF.SurfStab = "Stable"] {
+[tblguf.surfstab = "Stable"] {
   fill: #006600;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'NON', 'label': 'NON'} */
-[tblGUF.SurfStab = "NON"] {
+[tblguf.surfstab = "NON"] {
   fill: #cccc99;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Strip', 'label': 'Strip'} */
-[tblGUF.SurfStab = "Strip"] {
+[tblguf.surfstab = "Strip"] {
   fill: #cccc66;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Erode', 'label': 'Erode'} */
-[tblGUF.SurfStab = "Erode"] {
+[tblguf.surfstab = "Erode"] {
   fill: #999967;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Unstab', 'label': 'Unstab'} */
-[tblGUF.SurfStab = "Unstab"] {
+[tblguf.surfstab = "Unstab"] {
   fill: #669932;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Stable', 'label': 'Stable'} */
-[tblGUF.SurfStab = "Stable"] {
+[tblguf.surfstab = "Stable"] {
   stroke: #d4d0c8;
   stroke-width: 1px;
   stroke-linecap: round;

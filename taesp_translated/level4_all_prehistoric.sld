@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>0.04989</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>0.75525</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>0.75525</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>2.13631</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>2.13631</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>4.73104</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>4.73104</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>9.73834</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>9.73834</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>18.13072</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>18.13072</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.PREHISTORI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.prehistori</ogc:PropertyName>
                 <ogc:Literal>44.3763</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '2.14776', 'lower': '0.02232', 'equality': 'upper', 'label': '0.02232 - 2.14776'} */
-[qryPottPerDen.HR > 0.02232] [qryPottPerDen.HR <= 2.14776] {
+[qrypottperden.hr > 0.02232] [qrypottperden.hr <= 2.14776] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottPerDen.HR > 0.02232] [qryPottPerDen.HR <= 2.14776] :mark {
+[qrypottperden.hr > 0.02232] [qrypottperden.hr <= 2.14776] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '7.94518', 'lower': '2.14776', 'equality': 'upper', 'label': '2.14777 - 7.94518'} */
-[qryPottPerDen.HR > 2.14776] [qryPottPerDen.HR <= 7.94518] {
+[qrypottperden.hr > 2.14776] [qrypottperden.hr <= 7.94518] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottPerDen.HR > 2.14776] [qryPottPerDen.HR <= 7.94518] :mark {
+[qrypottperden.hr > 2.14776] [qrypottperden.hr <= 7.94518] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '20.526', 'lower': '7.94518', 'equality': 'upper', 'label': '7.94519 - 20.52600'} */
-[qryPottPerDen.HR > 7.94518] [qryPottPerDen.HR <= 20.526] {
+[qrypottperden.hr > 7.94518] [qrypottperden.hr <= 20.526] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottPerDen.HR > 7.94518] [qryPottPerDen.HR <= 20.526] :mark {
+[qrypottperden.hr > 7.94518] [qrypottperden.hr <= 20.526] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '38.29527', 'lower': '20.526', 'equality': 'upper', 'label': '20.52601 - 38.29527'} */
-[qryPottPerDen.HR > 20.526] [qryPottPerDen.HR <= 38.29527] {
+[qrypottperden.hr > 20.526] [qrypottperden.hr <= 38.29527] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottPerDen.HR > 20.526] [qryPottPerDen.HR <= 38.29527] :mark {
+[qrypottperden.hr > 20.526] [qrypottperden.hr <= 38.29527] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '89.99833', 'lower': '38.29527', 'equality': 'upper', 'label': '38.29528 - 89.99833'} */
-[qryPottPerDen.HR > 38.29527] [qryPottPerDen.HR <= 89.99833] {
+[qrypottperden.hr > 38.29527] [qrypottperden.hr <= 89.99833] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottPerDen.HR > 38.29527] [qryPottPerDen.HR <= 89.99833] :mark {
+[qrypottperden.hr > 38.29527] [qrypottperden.hr <= 89.99833] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '186.94379', 'lower': '89.99833', 'equality': 'upper', 'label': '89.99834 - 186.94379'} */
-[qryPottPerDen.HR > 89.99833] [qryPottPerDen.HR <= 186.94379] {
+[qrypottperden.hr > 89.99833] [qrypottperden.hr <= 186.94379] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottPerDen.HR > 89.99833] [qryPottPerDen.HR <= 186.94379] :mark {
+[qrypottperden.hr > 89.99833] [qrypottperden.hr <= 186.94379] :mark {
   fill: #993266;
 }
 

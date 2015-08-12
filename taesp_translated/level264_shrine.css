@@ -1,10 +1,10 @@
 /* LAYER NAME level264_shrine */
 /* CLASSIFIER INFO {'value': 'SX', 'label': 'SX'} */
-[TYPE = "SX"] {
+[type = "SX"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "SX"] :mark {
+[type = "SX"] :mark {
   fill: #0000ff;
 }
 

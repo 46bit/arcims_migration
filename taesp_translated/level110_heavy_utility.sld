@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>7.87107193250049E-02</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>2.19742727697674</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>2.19742727697674</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>6.9968988567336</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>6.9968988567336</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>14.2274050365629</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>14.2274050365629</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>31.0774530617161</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>31.0774530617161</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>58.1603007301381</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>58.1603007301381</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>QRYHELROMFunc.HEAVY_UTIL</ogc:PropertyName>
+                <ogc:PropertyName>qryhelromfunc.heavy_util</ogc:PropertyName>
                 <ogc:Literal>133.677410269539</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

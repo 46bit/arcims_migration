@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>0.03575</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>2.01037</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>2.01037</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>5.86306</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>5.86306</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>14.17489</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>14.17489</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>30.26656</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>30.26656</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.ROM</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.rom</ogc:PropertyName>
                 <ogc:Literal>132.93781</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

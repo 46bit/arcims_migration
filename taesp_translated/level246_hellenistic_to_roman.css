@@ -1,10 +1,10 @@
 /* LAYER NAME level246_hellenistic_to_roman */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.HRCHK = "1"] {
+[tblposirec.hrchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.HRCHK = "1"] :mark {
+[tblposirec.hrchk = "1"] :mark {
   fill: #ff0000;
 }
 

@@ -5,20 +5,20 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '1', 'label': '1.00000'} */
-[qryChipToolCounts.UTI = "1"] {
+[qrychiptoolcounts.uti = "1"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryChipToolCounts.UTI = "1"] :mark {
+[qrychiptoolcounts.uti = "1"] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '2', 'lower': '1', 'equality': 'upper', 'label': '1.00001 - 2.00000'} */
-[qryChipToolCounts.UTI > 1] [qryChipToolCounts.UTI <= 2] {
+[qrychiptoolcounts.uti > 1] [qrychiptoolcounts.uti <= 2] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryChipToolCounts.UTI > 1] [qryChipToolCounts.UTI <= 2] :mark {
+[qrychiptoolcounts.uti > 1] [qrychiptoolcounts.uti <= 2] :mark {
   fill: #336699;
 }
 

@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.SAN</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.san</ogc:PropertyName>
               <ogc:Literal>0.09788</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.SAN</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.san</ogc:PropertyName>
                 <ogc:Literal>0.09788</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.SAN</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.san</ogc:PropertyName>
                 <ogc:Literal>0.30452</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -63,11 +63,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.SAN</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.san</ogc:PropertyName>
                 <ogc:Literal>0.30452</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.SAN</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.san</ogc:PropertyName>
                 <ogc:Literal>0.75219</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

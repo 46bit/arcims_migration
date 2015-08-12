@@ -1,10 +1,10 @@
 /* LAYER NAME level261_other_structure */
 /* CLASSIFIER INFO {'value': 'OT', 'label': 'OT'} */
-[TYPE = "OT"] {
+[type = "OT"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "OT"] :mark {
+[type = "OT"] :mark {
   fill: #0000ff;
 }
 

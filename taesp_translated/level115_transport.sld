@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryPotFctMedModDen.TR</ogc:PropertyName>
+              <ogc:PropertyName>qrypotfctmedmodden.tr</ogc:PropertyName>
               <ogc:Literal>0.11529</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

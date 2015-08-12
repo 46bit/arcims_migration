@@ -4,7 +4,7 @@ import utils
 class ValueMapRenderer:
   def __init__(self, node):
     self.node = node
-    self.lookupfield = self.node.attrib["lookupfield"]
+    self.lookupfield = self.node.attrib["lookupfield"].lower()
 
     self.classifiers = [c for c in node]
     self.symbols = [s for s in c for c in self.classifiers]

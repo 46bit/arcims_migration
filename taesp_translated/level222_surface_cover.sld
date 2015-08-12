@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>Sab</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -36,7 +36,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>Sot</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -53,7 +53,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>Shg</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -70,7 +70,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>Smi</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -87,7 +87,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>Sab</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -101,7 +101,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SoilCov</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.soilcov</ogc:PropertyName>
               <ogc:Literal>&lt;Null&gt;</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '0.42418', 'lower': '0.06212', 'equality': 'upper', 'label': '0.06212 - 0.42418'} */
-[qryPottFctHelRomDen.LU > 0.06212] [qryPottFctHelRomDen.LU <= 0.42418] {
+[qrypottfcthelromden.lu > 0.06212] [qrypottfcthelromden.lu <= 0.42418] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottFctHelRomDen.LU > 0.06212] [qryPottFctHelRomDen.LU <= 0.42418] :mark {
+[qrypottfcthelromden.lu > 0.06212] [qrypottfcthelromden.lu <= 0.42418] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.09734', 'lower': '0.42418', 'equality': 'upper', 'label': '0.42419 - 1.09734'} */
-[qryPottFctHelRomDen.LU > 0.42418] [qryPottFctHelRomDen.LU <= 1.09734] {
+[qrypottfcthelromden.lu > 0.42418] [qrypottfcthelromden.lu <= 1.09734] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottFctHelRomDen.LU > 0.42418] [qryPottFctHelRomDen.LU <= 1.09734] :mark {
+[qrypottfcthelromden.lu > 0.42418] [qrypottfcthelromden.lu <= 1.09734] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '2.77074', 'lower': '1.09734', 'equality': 'upper', 'label': '1.09735 - 2.77074'} */
-[qryPottFctHelRomDen.LU > 1.09734] [qryPottFctHelRomDen.LU <= 2.77074] {
+[qrypottfcthelromden.lu > 1.09734] [qrypottfcthelromden.lu <= 2.77074] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottFctHelRomDen.LU > 1.09734] [qryPottFctHelRomDen.LU <= 2.77074] :mark {
+[qrypottfcthelromden.lu > 1.09734] [qrypottfcthelromden.lu <= 2.77074] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '5.82702', 'lower': '2.77074', 'equality': 'upper', 'label': '2.77075 - 5.82702'} */
-[qryPottFctHelRomDen.LU > 2.77074] [qryPottFctHelRomDen.LU <= 5.82702] {
+[qrypottfcthelromden.lu > 2.77074] [qrypottfcthelromden.lu <= 5.82702] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottFctHelRomDen.LU > 2.77074] [qryPottFctHelRomDen.LU <= 5.82702] :mark {
+[qrypottfcthelromden.lu > 2.77074] [qrypottfcthelromden.lu <= 5.82702] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '16.61723', 'lower': '5.82702', 'equality': 'upper', 'label': '5.82703 - 16.61723'} */
-[qryPottFctHelRomDen.LU > 5.82702] [qryPottFctHelRomDen.LU <= 16.61723] {
+[qrypottfcthelromden.lu > 5.82702] [qrypottfcthelromden.lu <= 16.61723] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottFctHelRomDen.LU > 5.82702] [qryPottFctHelRomDen.LU <= 16.61723] :mark {
+[qrypottfcthelromden.lu > 5.82702] [qrypottfcthelromden.lu <= 16.61723] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '45.39985', 'lower': '16.61723', 'equality': 'upper', 'label': '16.61724 - 45.39985'} */
-[qryPottFctHelRomDen.LU > 16.61723] [qryPottFctHelRomDen.LU <= 45.39985] {
+[qrypottfcthelromden.lu > 16.61723] [qrypottfcthelromden.lu <= 45.39985] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottFctHelRomDen.LU > 16.61723] [qryPottFctHelRomDen.LU <= 45.39985] :mark {
+[qrypottfcthelromden.lu > 16.61723] [qrypottfcthelromden.lu <= 45.39985] :mark {
   fill: #993266;
 }
 

@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>0.07658</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>0.35078</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>0.35078</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>0.7297</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>0.7297</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>1.1678</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>1.1678</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>2.20464</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>2.20464</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>4.0747</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>4.0747</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.BA</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ba</ogc:PropertyName>
                 <ogc:Literal>10.57364</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

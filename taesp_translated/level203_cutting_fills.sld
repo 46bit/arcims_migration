@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+              <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
               <ogc:Literal>1.01327155053011E-04</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,11 +25,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
                 <ogc:Literal>1.01327155053011E-04</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
                 <ogc:Literal>2.12618251340228E-04</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -47,7 +47,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+              <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
               <ogc:Literal>1.01327155053011E-04</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -62,11 +62,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
                 <ogc:Literal>1.01327155053011E-04</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.CUT</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.cut</ogc:PropertyName>
                 <ogc:Literal>2.12618251340228E-04</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

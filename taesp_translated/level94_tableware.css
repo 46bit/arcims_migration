@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '0.35517', 'lower': '0.03375', 'equality': 'upper', 'label': '0.03375 - 0.35517'} */
-[qryPottFctPreHisDen.TW > 0.03375] [qryPottFctPreHisDen.TW <= 0.35517] {
+[qrypottfctprehisden.tw > 0.03375] [qrypottfctprehisden.tw <= 0.35517] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottFctPreHisDen.TW > 0.03375] [qryPottFctPreHisDen.TW <= 0.35517] :mark {
+[qrypottfctprehisden.tw > 0.03375] [qrypottfctprehisden.tw <= 0.35517] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.71837', 'lower': '0.35517', 'equality': 'upper', 'label': '0.35518 - 0.71837'} */
-[qryPottFctPreHisDen.TW > 0.35517] [qryPottFctPreHisDen.TW <= 0.71837] {
+[qrypottfctprehisden.tw > 0.35517] [qrypottfctprehisden.tw <= 0.71837] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottFctPreHisDen.TW > 0.35517] [qryPottFctPreHisDen.TW <= 0.71837] :mark {
+[qrypottfctprehisden.tw > 0.35517] [qrypottfctprehisden.tw <= 0.71837] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.06233', 'lower': '0.71837', 'equality': 'upper', 'label': '0.71838 - 1.06233'} */
-[qryPottFctPreHisDen.TW > 0.71837] [qryPottFctPreHisDen.TW <= 1.06233] {
+[qrypottfctprehisden.tw > 0.71837] [qrypottfctprehisden.tw <= 1.06233] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottFctPreHisDen.TW > 0.71837] [qryPottFctPreHisDen.TW <= 1.06233] :mark {
+[qrypottfctprehisden.tw > 0.71837] [qrypottfctprehisden.tw <= 1.06233] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '2.03915', 'lower': '1.06233', 'equality': 'upper', 'label': '1.06234 - 2.03915'} */
-[qryPottFctPreHisDen.TW > 1.06233] [qryPottFctPreHisDen.TW <= 2.03915] {
+[qrypottfctprehisden.tw > 1.06233] [qrypottfctprehisden.tw <= 2.03915] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottFctPreHisDen.TW > 1.06233] [qryPottFctPreHisDen.TW <= 2.03915] :mark {
+[qrypottfctprehisden.tw > 1.06233] [qrypottfctprehisden.tw <= 2.03915] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '3.9107', 'lower': '2.03915', 'equality': 'upper', 'label': '2.03916 - 3.91070'} */
-[qryPottFctPreHisDen.TW > 2.03915] [qryPottFctPreHisDen.TW <= 3.9107] {
+[qrypottfctprehisden.tw > 2.03915] [qrypottfctprehisden.tw <= 3.9107] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottFctPreHisDen.TW > 2.03915] [qryPottFctPreHisDen.TW <= 3.9107] :mark {
+[qrypottfctprehisden.tw > 2.03915] [qrypottfctprehisden.tw <= 3.9107] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '12.84577', 'lower': '3.9107', 'equality': 'upper', 'label': '3.91071 - 12.84577'} */
-[qryPottFctPreHisDen.TW > 3.9107] [qryPottFctPreHisDen.TW <= 12.84577] {
+[qrypottfctprehisden.tw > 3.9107] [qrypottfctprehisden.tw <= 12.84577] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottFctPreHisDen.TW > 3.9107] [qryPottFctPreHisDen.TW <= 12.84577] :mark {
+[qrypottfctprehisden.tw > 3.9107] [qrypottfctprehisden.tw <= 12.84577] :mark {
   fill: #993266;
 }
 

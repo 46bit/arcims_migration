@@ -5,38 +5,38 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.05234', 'label': '0.05234'} */
-[qryPottFctPreHisDen.CW = "0.05234"] {
+[qrypottfctprehisden.cw = "0.05234"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottFctPreHisDen.CW = "0.05234"] :mark {
+[qrypottfctprehisden.cw = "0.05234"] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.11999', 'lower': '0.05234', 'equality': 'upper', 'label': '0.05235 - 0.11999'} */
-[qryPottFctPreHisDen.CW > 0.05234] [qryPottFctPreHisDen.CW <= 0.11999] {
+[qrypottfctprehisden.cw > 0.05234] [qrypottfctprehisden.cw <= 0.11999] {
   mark: symbol(circle);
   mark-size: 10px;
 }
-[qryPottFctPreHisDen.CW > 0.05234] [qryPottFctPreHisDen.CW <= 0.11999] :mark {
+[qrypottfctprehisden.cw > 0.05234] [qrypottfctprehisden.cw <= 0.11999] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '1.1678', 'lower': '0.11999', 'equality': 'upper', 'label': '0.12000 - 1.16780'} */
-[qryPottFctPreHisDen.CW > 0.11999] [qryPottFctPreHisDen.CW <= 1.1678] {
+[qrypottfctprehisden.cw > 0.11999] [qrypottfctprehisden.cw <= 1.1678] {
   mark: symbol(circle);
   mark-size: 14px;
 }
-[qryPottFctPreHisDen.CW > 0.11999] [qryPottFctPreHisDen.CW <= 1.1678] :mark {
+[qrypottfctprehisden.cw > 0.11999] [qrypottfctprehisden.cw <= 1.1678] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '5.76744', 'lower': '1.1678', 'equality': 'upper', 'label': '1.16781 - 5.76744'} */
-[qryPottFctPreHisDen.CW > 1.1678] [qryPottFctPreHisDen.CW <= 5.76744] {
+[qrypottfctprehisden.cw > 1.1678] [qrypottfctprehisden.cw <= 5.76744] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottFctPreHisDen.CW > 1.1678] [qryPottFctPreHisDen.CW <= 5.76744] :mark {
+[qrypottfctprehisden.cw > 1.1678] [qrypottfctprehisden.cw <= 5.76744] :mark {
   fill: #993266;
 }
 

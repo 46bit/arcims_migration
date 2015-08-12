@@ -1,6 +1,6 @@
 /* LAYER NAME level223_land_use */
 /* CLASSIFIER INFO {'value': 'Gr', 'label': 'Gr'} */
-[tblGUF.LandUse = "Gr"] {
+[tblguf.landuse = "Gr"] {
   fill: #006600;
   stroke: #d4d0c8;
   stroke-width: 1px;
@@ -14,35 +14,35 @@
 }
 
 /* CLASSIFIER INFO {'value': 'Fa', 'label': 'Fa'} */
-[tblGUF.LandUse = "Fa"] {
+[tblguf.landuse = "Fa"] {
   fill: #cccc66;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Cu', 'label': 'Cu'} */
-[tblGUF.LandUse = "Cu"] {
+[tblguf.landuse = "Cu"] {
   fill: #999967;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Fo', 'label': 'Fo'} */
-[tblGUF.LandUse = "Fo"] {
+[tblguf.landuse = "Fo"] {
   fill: #669932;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Gr', 'label': 'Gr'} */
-[tblGUF.LandUse = "Gr"] {
+[tblguf.landuse = "Gr"] {
   stroke: #d4d0c8;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'value': 'Og', 'label': 'Og'} */
-[tblGUF.LandUse = "Og"] {
+[tblguf.landuse = "Og"] {
   fill: #003300;
   stroke: #d4d0c8;
   stroke-width: 1px;

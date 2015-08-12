@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Sheet</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Non</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,7 +41,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Cons</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -58,7 +58,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Push</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -75,7 +75,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Mix</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -92,7 +92,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Incise</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -109,7 +109,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Sheet</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -123,7 +123,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Till</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -140,7 +140,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Eros</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.eros</ogc:PropertyName>
               <ogc:Literal>Non</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

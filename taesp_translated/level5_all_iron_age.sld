@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>0.03179</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>0.33856</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>0.33856</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>0.71837</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>0.71837</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>1.32873</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>1.32873</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>2.36692</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>2.36692</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>3.95447</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>3.95447</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.IRON_AGE</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.iron_age</ogc:PropertyName>
                 <ogc:Literal>6.99674</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '1.48905', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03121 - 1.48905'} */
-[qryPotFctMedModDen.LU > 0.03121] [qryPotFctMedModDen.LU <= 1.48905] {
+[qrypotfctmedmodden.lu > 0.03121] [qrypotfctmedmodden.lu <= 1.48905] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPotFctMedModDen.LU > 0.03121] [qryPotFctMedModDen.LU <= 1.48905] :mark {
+[qrypotfctmedmodden.lu > 0.03121] [qrypotfctmedmodden.lu <= 1.48905] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '3.8263', 'lower': '1.48905', 'equality': 'upper', 'label': '1.48906 - 3.82630'} */
-[qryPotFctMedModDen.LU > 1.48905] [qryPotFctMedModDen.LU <= 3.8263] {
+[qrypotfctmedmodden.lu > 1.48905] [qrypotfctmedmodden.lu <= 3.8263] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPotFctMedModDen.LU > 1.48905] [qryPotFctMedModDen.LU <= 3.8263] :mark {
+[qrypotfctmedmodden.lu > 1.48905] [qrypotfctmedmodden.lu <= 3.8263] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '8.03667', 'lower': '3.8263', 'equality': 'upper', 'label': '3.82631 - 8.03667'} */
-[qryPotFctMedModDen.LU > 3.8263] [qryPotFctMedModDen.LU <= 8.03667] {
+[qrypotfctmedmodden.lu > 3.8263] [qrypotfctmedmodden.lu <= 8.03667] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPotFctMedModDen.LU > 3.8263] [qryPotFctMedModDen.LU <= 8.03667] :mark {
+[qrypotfctmedmodden.lu > 3.8263] [qrypotfctmedmodden.lu <= 8.03667] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '15.34732', 'lower': '8.03667', 'equality': 'upper', 'label': '8.03668 - 15.34732'} */
-[qryPotFctMedModDen.LU > 8.03667] [qryPotFctMedModDen.LU <= 15.34732] {
+[qrypotfctmedmodden.lu > 8.03667] [qrypotfctmedmodden.lu <= 15.34732] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPotFctMedModDen.LU > 8.03667] [qryPotFctMedModDen.LU <= 15.34732] :mark {
+[qrypotfctmedmodden.lu > 8.03667] [qrypotfctmedmodden.lu <= 15.34732] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '28.31233', 'lower': '15.34732', 'equality': 'upper', 'label': '15.34733 - 28.31233'} */
-[qryPotFctMedModDen.LU > 15.34732] [qryPotFctMedModDen.LU <= 28.31233] {
+[qrypotfctmedmodden.lu > 15.34732] [qrypotfctmedmodden.lu <= 28.31233] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPotFctMedModDen.LU > 15.34732] [qryPotFctMedModDen.LU <= 28.31233] :mark {
+[qrypotfctmedmodden.lu > 15.34732] [qrypotfctmedmodden.lu <= 28.31233] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '68.38884', 'lower': '28.31233', 'equality': 'upper', 'label': '28.31234 - 68.38884'} */
-[qryPotFctMedModDen.LU > 28.31233] [qryPotFctMedModDen.LU <= 68.38884] {
+[qrypotfctmedmodden.lu > 28.31233] [qrypotfctmedmodden.lu <= 68.38884] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPotFctMedModDen.LU > 28.31233] [qryPotFctMedModDen.LU <= 68.38884] :mark {
+[qrypotfctmedmodden.lu > 28.31233] [qrypotfctmedmodden.lu <= 68.38884] :mark {
   fill: #993266;
 }
 

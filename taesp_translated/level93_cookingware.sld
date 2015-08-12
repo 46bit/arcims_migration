@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHellDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthellden.cw</ogc:PropertyName>
                 <ogc:Literal>0.28128</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHellDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthellden.cw</ogc:PropertyName>
                 <ogc:Literal>1.57068</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHellDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthellden.cw</ogc:PropertyName>
                 <ogc:Literal>1.57068</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHellDen.CW</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthellden.cw</ogc:PropertyName>
                 <ogc:Literal>4.73792</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

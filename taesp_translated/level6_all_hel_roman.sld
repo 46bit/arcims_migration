@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>0.02232</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>7.24044</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>7.24044</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>26.7748</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>26.7748</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>71.11978</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>71.11978</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>159.22782</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>159.22782</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>293.86312</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>293.86312</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerGroupDen.HELLENISTI</ogc:PropertyName>
+                <ogc:PropertyName>qrypottpergroupden.hellenisti</ogc:PropertyName>
                 <ogc:Literal>490.20817</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

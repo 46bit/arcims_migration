@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryGrdClassCounts.CUT</ogc:PropertyName>
+              <ogc:PropertyName>qrygrdclasscounts.cut</ogc:PropertyName>
               <ogc:Literal>1.00000</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

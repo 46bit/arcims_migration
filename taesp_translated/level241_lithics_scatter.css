@@ -1,10 +1,10 @@
 /* LAYER NAME level241_lithics_scatter */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.LITHCHK = "1"] {
+[tblposirec.lithchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.LITHCHK = "1"] :mark {
+[tblposirec.lithchk = "1"] :mark {
   fill: #ff0000;
 }
 

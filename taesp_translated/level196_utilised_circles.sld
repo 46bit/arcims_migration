@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.02232</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.08615</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.08615</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.16645</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.16645</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.28357</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.28357</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.43334</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.43334</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.63972</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.63972</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipToolDen.UTI</ogc:PropertyName>
+                <ogc:PropertyName>qrychiptoolden.uti</ogc:PropertyName>
                 <ogc:Literal>0.98188</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

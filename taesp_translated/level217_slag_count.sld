@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>57</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>57</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>175</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>175</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>401</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>401</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>1670</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>1670</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>3720</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>3720</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qrySlagCounts.SLAG</ogc:PropertyName>
+                <ogc:PropertyName>qryslagcounts.slag</ogc:PropertyName>
                 <ogc:Literal>9999</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -1,10 +1,10 @@
 /* LAYER NAME level239_road_path */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.ROADCHK = "1"] {
+[tblposirec.roadchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.ROADCHK = "1"] :mark {
+[tblposirec.roadchk = "1"] :mark {
   fill: #ff0000;
 }
 

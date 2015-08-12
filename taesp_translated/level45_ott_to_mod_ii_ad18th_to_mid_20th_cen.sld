@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>0.02887</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>1.34197</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>1.34197</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>2.96185</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>2.96185</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>4.92548</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>4.92548</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>7.5817</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>7.5817</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>12.34165</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>12.34165</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottPerDen.OTTMODII</ogc:PropertyName>
+                <ogc:PropertyName>qrypottperden.ottmodii</ogc:PropertyName>
                 <ogc:Literal>19.75006</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

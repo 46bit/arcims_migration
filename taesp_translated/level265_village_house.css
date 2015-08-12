@@ -1,10 +1,10 @@
 /* LAYER NAME level265_village_house */
 /* CLASSIFIER INFO {'value': 'VH', 'label': 'VH'} */
-[TYPE = "VH"] {
+[type = "VH"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "VH"] :mark {
+[type = "VH"] :mark {
   fill: #0000ff;
 }
 

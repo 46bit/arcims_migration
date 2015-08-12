@@ -5,20 +5,20 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.13959', 'label': '0.13959'} */
-[qryPottFctIADen.CW = "0.13959"] {
+[qrypottfctiaden.cw = "0.13959"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottFctIADen.CW = "0.13959"] :mark {
+[qrypottfctiaden.cw = "0.13959"] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '0.19928', 'lower': '0.13959', 'equality': 'upper', 'label': '0.13960 - 0.19928'} */
-[qryPottFctIADen.CW > 0.13959] [qryPottFctIADen.CW <= 0.19928] {
+[qrypottfctiaden.cw > 0.13959] [qrypottfctiaden.cw <= 0.19928] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottFctIADen.CW > 0.13959] [qryPottFctIADen.CW <= 0.19928] :mark {
+[qrypottfctiaden.cw > 0.13959] [qrypottfctiaden.cw <= 0.19928] :mark {
   fill: #993266;
 }
 

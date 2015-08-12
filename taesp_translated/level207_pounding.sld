@@ -18,7 +18,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryGrdClassCounts.POU</ogc:PropertyName>
+              <ogc:PropertyName>qrygrdclasscounts.pou</ogc:PropertyName>
               <ogc:Literal>1.00000</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -38,11 +38,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassCounts.POU</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclasscounts.pou</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassCounts.POU</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclasscounts.pou</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -63,11 +63,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassCounts.POU</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclasscounts.pou</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassCounts.POU</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclasscounts.pou</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -7,7 +7,7 @@
 }
 
 /* CLASSIFIER INFO {'value': 'ap', 'label': 'ap'} */
-[tblGUF.Subst = "ap"] {
+[tblguf.subst = "ap"] {
   fill: #006600;
   stroke: #d4d0c8;
   stroke-width: 1px;
@@ -21,42 +21,42 @@
 }
 
 /* CLASSIFIER INFO {'value': 'Bo', 'label': 'Bo'} */
-[tblGUF.Subst = "Bo"] {
+[tblguf.subst = "Bo"] {
   fill: #cccc99;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Bob ', 'label': 'Bob '} */
-[tblGUF.Subst = "Bob "] {
+[tblguf.subst = "Bob "] {
   fill: #cccc66;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'Bop', 'label': 'Bop'} */
-[tblGUF.Subst = "Bop"] {
+[tblguf.subst = "Bop"] {
   fill: #999967;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'al', 'label': 'al'} */
-[tblGUF.Subst = "al"] {
+[tblguf.subst = "al"] {
   fill: #669932;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'ap', 'label': 'ap'} */
-[tblGUF.Subst = "ap"] {
+[tblguf.subst = "ap"] {
   stroke: #d4d0c8;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'value': 'at', 'label': 'at'} */
-[tblGUF.Subst = "at"] {
+[tblguf.subst = "at"] {
   fill: #003300;
   stroke: #d4d0c8;
   stroke-width: 1px;

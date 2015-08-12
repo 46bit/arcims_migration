@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>Stable</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>NON</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,7 +41,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>Strip</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -58,7 +58,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>Erode</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -75,7 +75,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>Unstab</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -92,7 +92,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.SurfStab</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.surfstab</ogc:PropertyName>
               <ogc:Literal>Stable</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

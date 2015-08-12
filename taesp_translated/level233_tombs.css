@@ -1,10 +1,10 @@
 /* LAYER NAME level233_tombs */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.TOMBCHK = "1"] {
+[tblposirec.tombchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.TOMBCHK = "1"] :mark {
+[tblposirec.tombchk = "1"] :mark {
   fill: #ff0000;
 }
 

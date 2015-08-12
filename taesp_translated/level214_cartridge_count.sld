@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>35</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>35</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>74</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>74</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>133</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>133</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryCaCounts.CARTRIDGE</ogc:PropertyName>
+                <ogc:PropertyName>qrycacounts.cartridge</ogc:PropertyName>
                 <ogc:Literal>414</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

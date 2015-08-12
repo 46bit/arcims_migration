@@ -1,10 +1,10 @@
 /* LAYER NAME level242_view */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.VIEWCHK = "1"] {
+[tblposirec.viewchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.VIEWCHK = "1"] :mark {
+[tblposirec.viewchk = "1"] :mark {
   fill: #ff0000;
 }
 

@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '2.01037', 'lower': '0.03575', 'equality': 'upper', 'label': '0.03575 - 2.01037'} */
-[qryPottPerDen.ROM > 0.03575] [qryPottPerDen.ROM <= 2.01037] {
+[qrypottperden.rom > 0.03575] [qrypottperden.rom <= 2.01037] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPottPerDen.ROM > 0.03575] [qryPottPerDen.ROM <= 2.01037] :mark {
+[qrypottperden.rom > 0.03575] [qrypottperden.rom <= 2.01037] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '5.86306', 'lower': '2.01037', 'equality': 'upper', 'label': '2.01038 - 5.86306'} */
-[qryPottPerDen.ROM > 2.01037] [qryPottPerDen.ROM <= 5.86306] {
+[qrypottperden.rom > 2.01037] [qrypottperden.rom <= 5.86306] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPottPerDen.ROM > 2.01037] [qryPottPerDen.ROM <= 5.86306] :mark {
+[qrypottperden.rom > 2.01037] [qrypottperden.rom <= 5.86306] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '14.17489', 'lower': '5.86306', 'equality': 'upper', 'label': '5.86307 - 14.17489'} */
-[qryPottPerDen.ROM > 5.86306] [qryPottPerDen.ROM <= 14.17489] {
+[qrypottperden.rom > 5.86306] [qrypottperden.rom <= 14.17489] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPottPerDen.ROM > 5.86306] [qryPottPerDen.ROM <= 14.17489] :mark {
+[qrypottperden.rom > 5.86306] [qrypottperden.rom <= 14.17489] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '30.26656', 'lower': '14.17489', 'equality': 'upper', 'label': '14.17490 - 30.26656'} */
-[qryPottPerDen.ROM > 14.17489] [qryPottPerDen.ROM <= 30.26656] {
+[qrypottperden.rom > 14.17489] [qrypottperden.rom <= 30.26656] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPottPerDen.ROM > 14.17489] [qryPottPerDen.ROM <= 30.26656] :mark {
+[qrypottperden.rom > 14.17489] [qrypottperden.rom <= 30.26656] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '48.46064', 'lower': '30.26656', 'equality': 'upper', 'label': '30.26657 - 48.46064'} */
-[qryPottPerDen.ROM > 30.26656] [qryPottPerDen.ROM <= 48.46064] {
+[qrypottperden.rom > 30.26656] [qrypottperden.rom <= 48.46064] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPottPerDen.ROM > 30.26656] [qryPottPerDen.ROM <= 48.46064] :mark {
+[qrypottperden.rom > 30.26656] [qrypottperden.rom <= 48.46064] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '132.93781', 'lower': '48.46064', 'equality': 'upper', 'label': '48.46065 - 132.93781'} */
-[qryPottPerDen.ROM > 48.46064] [qryPottPerDen.ROM <= 132.93781] {
+[qrypottperden.rom > 48.46064] [qrypottperden.rom <= 132.93781] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPottPerDen.ROM > 48.46064] [qryPottPerDen.ROM <= 132.93781] :mark {
+[qrypottperden.rom > 48.46064] [qrypottperden.rom <= 132.93781] :mark {
   fill: #993266;
 }
 

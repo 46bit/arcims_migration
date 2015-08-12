@@ -1,83 +1,83 @@
 /* LAYER NAME level204_grinding_fills */
 /* CLASSIFIER INFO {'upper': '0.06501', 'lower': '0.03949', 'equality': 'upper', 'label': '0.03949 - 0.06501'} */
-[qryGrdClassDen.GRI > 0.03949] [qryGrdClassDen.GRI <= 0.06501] {
+[qrygrdclassden.gri > 0.03949] [qrygrdclassden.gri <= 0.06501] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13197', 'lower': '0.06501', 'equality': 'upper', 'label': '0.06502 - 0.13197'} */
-[qryGrdClassDen.GRI > 0.06501] [qryGrdClassDen.GRI <= 0.13197] {
+[qrygrdclassden.gri > 0.06501] [qrygrdclassden.gri <= 0.13197] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.13197', 'equality': 'upper', 'label': '0.13198 - 0.19453'} */
-[qryGrdClassDen.GRI > 0.13197] [qryGrdClassDen.GRI <= 0.19453] {
+[qrygrdclassden.gri > 0.13197] [qrygrdclassden.gri <= 0.19453] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.29501', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.29501'} */
-[qryGrdClassDen.GRI > 0.19453] [qryGrdClassDen.GRI <= 0.29501] {
+[qrygrdclassden.gri > 0.19453] [qrygrdclassden.gri <= 0.29501] {
   fill: #336699;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.42967', 'lower': '0.29501', 'equality': 'upper', 'label': '0.29502 - 0.42967'} */
-[qryGrdClassDen.GRI > 0.29501] [qryGrdClassDen.GRI <= 0.42967] {
+[qrygrdclassden.gri > 0.29501] [qrygrdclassden.gri <= 0.42967] {
   fill: #000066;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.83432', 'lower': '0.42967', 'equality': 'upper', 'label': '0.42968 - 0.83432'} */
-[qryGrdClassDen.GRI > 0.42967] [qryGrdClassDen.GRI <= 0.83432] {
+[qrygrdclassden.gri > 0.42967] [qrygrdclassden.gri <= 0.83432] {
   fill: #000033;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.06501', 'lower': '0.03949', 'equality': 'upper', 'label': '0.03949 - 0.06501'} */
-[qryGrdClassDen.GRI > 0.03949] [qryGrdClassDen.GRI <= 0.06501] {
+[qrygrdclassden.gri > 0.03949] [qrygrdclassden.gri <= 0.06501] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13197', 'lower': '0.06501', 'equality': 'upper', 'label': '0.06502 - 0.13197'} */
-[qryGrdClassDen.GRI > 0.06501] [qryGrdClassDen.GRI <= 0.13197] {
+[qrygrdclassden.gri > 0.06501] [qrygrdclassden.gri <= 0.13197] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.13197', 'equality': 'upper', 'label': '0.13198 - 0.19453'} */
-[qryGrdClassDen.GRI > 0.13197] [qryGrdClassDen.GRI <= 0.19453] {
+[qrygrdclassden.gri > 0.13197] [qrygrdclassden.gri <= 0.19453] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.29501', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.29501'} */
-[qryGrdClassDen.GRI > 0.19453] [qryGrdClassDen.GRI <= 0.29501] {
+[qrygrdclassden.gri > 0.19453] [qrygrdclassden.gri <= 0.29501] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.42967', 'lower': '0.29501', 'equality': 'upper', 'label': '0.29502 - 0.42967'} */
-[qryGrdClassDen.GRI > 0.29501] [qryGrdClassDen.GRI <= 0.42967] {
+[qrygrdclassden.gri > 0.29501] [qrygrdclassden.gri <= 0.42967] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.83432', 'lower': '0.42967', 'equality': 'upper', 'label': '0.42968 - 0.83432'} */
-[qryGrdClassDen.GRI > 0.42967] [qryGrdClassDen.GRI <= 0.83432] {
+[qrygrdclassden.gri > 0.42967] [qrygrdclassden.gri <= 0.83432] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

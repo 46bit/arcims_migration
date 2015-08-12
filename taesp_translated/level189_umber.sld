@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
               <ogc:Literal>0.15488</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -25,11 +25,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.15488</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.23777</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -48,11 +48,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.23777</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.35942</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -71,11 +71,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.35942</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.66852</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -117,11 +117,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.66852</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.84228</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -139,7 +139,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+              <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
               <ogc:Literal>0.15488</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -154,11 +154,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.15488</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.23777</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -174,11 +174,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.23777</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.35942</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -194,11 +194,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.35942</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -214,11 +214,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.66852</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -234,11 +234,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.66852</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.UMB</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.umb</ogc:PropertyName>
                 <ogc:Literal>0.84228</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

@@ -1,10 +1,10 @@
 /* LAYER NAME level248_modern */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.MODCHK = "1"] {
+[tblposirec.modchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.MODCHK = "1"] :mark {
+[tblposirec.modchk = "1"] :mark {
   fill: #ff0000;
 }
 

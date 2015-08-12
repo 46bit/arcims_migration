@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.03949</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.06501</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.06501</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.13197</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.13197</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.19453</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.19453</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.29501</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.29501</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.42967</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.42967</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.83432</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.03949</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.06501</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.06501</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.13197</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.13197</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.19453</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.19453</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.29501</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.29501</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.42967</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.42967</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryGrdClassDen.GRI</ogc:PropertyName>
+                <ogc:PropertyName>qrygrdclassden.gri</ogc:PropertyName>
                 <ogc:Literal>0.83432</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

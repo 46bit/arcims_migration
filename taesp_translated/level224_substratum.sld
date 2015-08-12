@@ -19,7 +19,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>ap</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -45,7 +45,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>Bo</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -62,7 +62,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>Bob </ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -79,7 +79,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>Bop</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -96,7 +96,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>al</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -113,7 +113,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>ap</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -127,7 +127,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tblGUF.Subst</ogc:PropertyName>
+              <ogc:PropertyName>tblguf.subst</ogc:PropertyName>
               <ogc:Literal>at</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

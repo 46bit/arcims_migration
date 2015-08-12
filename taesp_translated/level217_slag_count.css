@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '57', 'lower': '1', 'equality': 'upper', 'label': '1.00000 - 57.00000'} */
-[qrySlagCounts.SLAG > 1] [qrySlagCounts.SLAG <= 57] {
+[qryslagcounts.slag > 1] [qryslagcounts.slag <= 57] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qrySlagCounts.SLAG > 1] [qrySlagCounts.SLAG <= 57] :mark {
+[qryslagcounts.slag > 1] [qryslagcounts.slag <= 57] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '175', 'lower': '57', 'equality': 'upper', 'label': '57.00001 - 175.00000'} */
-[qrySlagCounts.SLAG > 57] [qrySlagCounts.SLAG <= 175] {
+[qryslagcounts.slag > 57] [qryslagcounts.slag <= 175] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qrySlagCounts.SLAG > 57] [qrySlagCounts.SLAG <= 175] :mark {
+[qryslagcounts.slag > 57] [qryslagcounts.slag <= 175] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '401', 'lower': '175', 'equality': 'upper', 'label': '175.00001 - 401.00000'} */
-[qrySlagCounts.SLAG > 175] [qrySlagCounts.SLAG <= 401] {
+[qryslagcounts.slag > 175] [qryslagcounts.slag <= 401] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qrySlagCounts.SLAG > 175] [qrySlagCounts.SLAG <= 401] :mark {
+[qryslagcounts.slag > 175] [qryslagcounts.slag <= 401] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '1670', 'lower': '401', 'equality': 'upper', 'label': '401.00001 - 1670.00000'} */
-[qrySlagCounts.SLAG > 401] [qrySlagCounts.SLAG <= 1670] {
+[qryslagcounts.slag > 401] [qryslagcounts.slag <= 1670] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qrySlagCounts.SLAG > 401] [qrySlagCounts.SLAG <= 1670] :mark {
+[qryslagcounts.slag > 401] [qryslagcounts.slag <= 1670] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '3720', 'lower': '1670', 'equality': 'upper', 'label': '1670.00001 - 3720.00000'} */
-[qrySlagCounts.SLAG > 1670] [qrySlagCounts.SLAG <= 3720] {
+[qryslagcounts.slag > 1670] [qryslagcounts.slag <= 3720] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qrySlagCounts.SLAG > 1670] [qrySlagCounts.SLAG <= 3720] :mark {
+[qryslagcounts.slag > 1670] [qryslagcounts.slag <= 3720] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '9999', 'lower': '3720', 'equality': 'upper', 'label': '3720.00001 - 9999.00000'} */
-[qrySlagCounts.SLAG > 3720] [qrySlagCounts.SLAG <= 9999] {
+[qryslagcounts.slag > 3720] [qryslagcounts.slag <= 9999] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qrySlagCounts.SLAG > 3720] [qrySlagCounts.SLAG <= 9999] :mark {
+[qryslagcounts.slag > 3720] [qryslagcounts.slag <= 9999] :mark {
   fill: #336699;
 }
 

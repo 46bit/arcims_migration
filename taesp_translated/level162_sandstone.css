@@ -5,29 +5,29 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '0.09788', 'label': '0.09788'} */
-[qryLithMatDen.SAN = "0.09788"] {
+[qrylithmatden.san = "0.09788"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryLithMatDen.SAN = "0.09788"] :mark {
+[qrylithmatden.san = "0.09788"] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.30452', 'lower': '0.09788', 'equality': 'upper', 'label': '0.09789 - 0.30452'} */
-[qryLithMatDen.SAN > 0.09788] [qryLithMatDen.SAN <= 0.30452] {
+[qrylithmatden.san > 0.09788] [qrylithmatden.san <= 0.30452] {
   mark: symbol(circle);
   mark-size: 12px;
 }
-[qryLithMatDen.SAN > 0.09788] [qryLithMatDen.SAN <= 0.30452] :mark {
+[qrylithmatden.san > 0.09788] [qrylithmatden.san <= 0.30452] :mark {
   fill: #336699;
 }
 
 /* CLASSIFIER INFO {'upper': '0.75219', 'lower': '0.30452', 'equality': 'upper', 'label': '0.30453 - 0.75219'} */
-[qryLithMatDen.SAN > 0.30452] [qryLithMatDen.SAN <= 0.75219] {
+[qrylithmatden.san > 0.30452] [qrylithmatden.san <= 0.75219] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryLithMatDen.SAN > 0.30452] [qryLithMatDen.SAN <= 0.75219] :mark {
+[qrylithmatden.san > 0.30452] [qrylithmatden.san <= 0.75219] :mark {
   fill: #336699;
 }
 

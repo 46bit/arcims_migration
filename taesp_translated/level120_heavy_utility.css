@@ -5,56 +5,56 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'upper': '3.86413', 'lower': '0.02441', 'equality': 'upper', 'label': '0.02441 - 3.86413'} */
-[qryPotFctDen.HU > 0.02441] [qryPotFctDen.HU <= 3.86413] {
+[qrypotfctden.hu > 0.02441] [qrypotfctden.hu <= 3.86413] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryPotFctDen.HU > 0.02441] [qryPotFctDen.HU <= 3.86413] :mark {
+[qrypotfctden.hu > 0.02441] [qrypotfctden.hu <= 3.86413] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '11.13427', 'lower': '3.86413', 'equality': 'upper', 'label': '3.86414 - 11.13427'} */
-[qryPotFctDen.HU > 3.86413] [qryPotFctDen.HU <= 11.13427] {
+[qrypotfctden.hu > 3.86413] [qrypotfctden.hu <= 11.13427] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[qryPotFctDen.HU > 3.86413] [qryPotFctDen.HU <= 11.13427] :mark {
+[qrypotfctden.hu > 3.86413] [qrypotfctden.hu <= 11.13427] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '25.91805', 'lower': '11.13427', 'equality': 'upper', 'label': '11.13428 - 25.91805'} */
-[qryPotFctDen.HU > 11.13427] [qryPotFctDen.HU <= 25.91805] {
+[qrypotfctden.hu > 11.13427] [qrypotfctden.hu <= 25.91805] {
   mark: symbol(circle);
   mark-size: 11px;
 }
-[qryPotFctDen.HU > 11.13427] [qryPotFctDen.HU <= 25.91805] :mark {
+[qrypotfctden.hu > 11.13427] [qrypotfctden.hu <= 25.91805] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '50.24813', 'lower': '25.91805', 'equality': 'upper', 'label': '25.91806 - 50.24813'} */
-[qryPotFctDen.HU > 25.91805] [qryPotFctDen.HU <= 50.24813] {
+[qrypotfctden.hu > 25.91805] [qrypotfctden.hu <= 50.24813] {
   mark: symbol(circle);
   mark-size: 13px;
 }
-[qryPotFctDen.HU > 25.91805] [qryPotFctDen.HU <= 50.24813] :mark {
+[qrypotfctden.hu > 25.91805] [qrypotfctden.hu <= 50.24813] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '99.49353', 'lower': '50.24813', 'equality': 'upper', 'label': '50.24814 - 99.49353'} */
-[qryPotFctDen.HU > 50.24813] [qryPotFctDen.HU <= 99.49353] {
+[qrypotfctden.hu > 50.24813] [qrypotfctden.hu <= 99.49353] {
   mark: symbol(circle);
   mark-size: 16px;
 }
-[qryPotFctDen.HU > 50.24813] [qryPotFctDen.HU <= 99.49353] :mark {
+[qrypotfctden.hu > 50.24813] [qrypotfctden.hu <= 99.49353] :mark {
   fill: #993266;
 }
 
 /* CLASSIFIER INFO {'upper': '211.86963', 'lower': '99.49353', 'equality': 'upper', 'label': '99.49354 - 211.86963'} */
-[qryPotFctDen.HU > 99.49353] [qryPotFctDen.HU <= 211.86963] {
+[qrypotfctden.hu > 99.49353] [qrypotfctden.hu <= 211.86963] {
   mark: symbol(circle);
   mark-size: 18px;
 }
-[qryPotFctDen.HU > 99.49353] [qryPotFctDen.HU <= 211.86963] :mark {
+[qrypotfctden.hu > 99.49353] [qrypotfctden.hu <= 211.86963] :mark {
   fill: #993266;
 }
 

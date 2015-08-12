@@ -1,69 +1,69 @@
 /* LAYER NAME level171_gabbro */
 /* CLASSIFIER INFO {'value': '0.10955', 'label': '0.10955'} */
-[qryLithMatDen.GAB = "0.10955"] {
+[qrylithmatden.gab = "0.10955"] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13721', 'lower': '0.10955', 'equality': 'upper', 'label': '0.10956 - 0.13721'} */
-[qryLithMatDen.GAB > 0.10955] [qryLithMatDen.GAB <= 0.13721] {
+[qrylithmatden.gab > 0.10955] [qrylithmatden.gab <= 0.13721] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13863', 'lower': '0.13721', 'equality': 'upper', 'label': '0.13722 - 0.13863'} */
-[qryLithMatDen.GAB > 0.13721] [qryLithMatDen.GAB <= 0.13863] {
+[qrylithmatden.gab > 0.13721] [qrylithmatden.gab <= 0.13863] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.13863', 'equality': 'upper', 'label': '0.13864 - 0.19453'} */
-[qryLithMatDen.GAB > 0.13863] [qryLithMatDen.GAB <= 0.19453] {
+[qrylithmatden.gab > 0.13863] [qrylithmatden.gab <= 0.19453] {
   fill: #336699;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.3323', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.33230'} */
-[qryLithMatDen.GAB > 0.19453] [qryLithMatDen.GAB <= 0.3323] {
+[qrylithmatden.gab > 0.19453] [qrylithmatden.gab <= 0.3323] {
   fill: #000066;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': '0.10955', 'label': '0.10955'} */
-[qryLithMatDen.GAB = "0.10955"] {
+[qrylithmatden.gab = "0.10955"] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13721', 'lower': '0.10955', 'equality': 'upper', 'label': '0.10956 - 0.13721'} */
-[qryLithMatDen.GAB > 0.10955] [qryLithMatDen.GAB <= 0.13721] {
+[qrylithmatden.gab > 0.10955] [qrylithmatden.gab <= 0.13721] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.13863', 'lower': '0.13721', 'equality': 'upper', 'label': '0.13722 - 0.13863'} */
-[qryLithMatDen.GAB > 0.13721] [qryLithMatDen.GAB <= 0.13863] {
+[qrylithmatden.gab > 0.13721] [qrylithmatden.gab <= 0.13863] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.19453', 'lower': '0.13863', 'equality': 'upper', 'label': '0.13864 - 0.19453'} */
-[qryLithMatDen.GAB > 0.13863] [qryLithMatDen.GAB <= 0.19453] {
+[qrylithmatden.gab > 0.13863] [qrylithmatden.gab <= 0.19453] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.3323', 'lower': '0.19453', 'equality': 'upper', 'label': '0.19454 - 0.33230'} */
-[qryLithMatDen.GAB > 0.19453] [qryLithMatDen.GAB <= 0.3323] {
+[qrylithmatden.gab > 0.19453] [qrylithmatden.gab <= 0.3323] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

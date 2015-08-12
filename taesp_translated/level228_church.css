@@ -1,10 +1,10 @@
 /* LAYER NAME level228_church */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.CHCHCHK = "1"] {
+[tblposirec.chchchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.CHCHCHK = "1"] :mark {
+[tblposirec.chchchk = "1"] :mark {
   fill: #ff0000;
 }
 

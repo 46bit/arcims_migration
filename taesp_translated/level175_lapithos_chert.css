@@ -1,55 +1,55 @@
 /* LAYER NAME level175_lapithos_chert */
 /* CLASSIFIER INFO {'value': '0.03121', 'label': '0.03121'} */
-[qryLithMatDen.LAP = "0.03121"] {
+[qrylithmatden.lap = "0.03121"] {
   fill: #99cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.08821', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03122 - 0.08821'} */
-[qryLithMatDen.LAP > 0.03121] [qryLithMatDen.LAP <= 0.08821] {
+[qrylithmatden.lap > 0.03121] [qrylithmatden.lap <= 0.08821] {
   fill: #66cccc;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.14551', 'lower': '0.08821', 'equality': 'upper', 'label': '0.08822 - 0.14551'} */
-[qryLithMatDen.LAP > 0.08821] [qryLithMatDen.LAP <= 0.14551] {
+[qrylithmatden.lap > 0.08821] [qrylithmatden.lap <= 0.14551] {
   fill: #669999;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'upper': '0.18849', 'lower': '0.14551', 'equality': 'upper', 'label': '0.14552 - 0.18849'} */
-[qryLithMatDen.LAP > 0.14551] [qryLithMatDen.LAP <= 0.18849] {
+[qrylithmatden.lap > 0.14551] [qrylithmatden.lap <= 0.18849] {
   fill: #336699;
   stroke: #000000;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': '0.03121', 'label': '0.03121'} */
-[qryLithMatDen.LAP = "0.03121"] {
+[qrylithmatden.lap = "0.03121"] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.08821', 'lower': '0.03121', 'equality': 'upper', 'label': '0.03122 - 0.08821'} */
-[qryLithMatDen.LAP > 0.03121] [qryLithMatDen.LAP <= 0.08821] {
+[qrylithmatden.lap > 0.03121] [qrylithmatden.lap <= 0.08821] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.14551', 'lower': '0.08821', 'equality': 'upper', 'label': '0.08822 - 0.14551'} */
-[qryLithMatDen.LAP > 0.08821] [qryLithMatDen.LAP <= 0.14551] {
+[qrylithmatden.lap > 0.08821] [qrylithmatden.lap <= 0.14551] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;
 }
 
 /* CLASSIFIER INFO {'upper': '0.18849', 'lower': '0.14551', 'equality': 'upper', 'label': '0.14552 - 0.18849'} */
-[qryLithMatDen.LAP > 0.14551] [qryLithMatDen.LAP <= 0.18849] {
+[qrylithmatden.lap > 0.14551] [qrylithmatden.lap <= 0.18849] {
   stroke: #d4cfc7;
   stroke-width: 1px;
   stroke-linecap: round;

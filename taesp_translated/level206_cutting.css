@@ -5,11 +5,11 @@
   stroke-width: 1px;
 }
 /* CLASSIFIER INFO {'value': '1.00000', 'label': '1.00000'} */
-[qryGrdClassCounts.CUT = "1.00000"] {
+[qrygrdclasscounts.cut = "1.00000"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[qryGrdClassCounts.CUT = "1.00000"] :mark {
+[qrygrdclasscounts.cut = "1.00000"] :mark {
   fill: #336699;
 }
 

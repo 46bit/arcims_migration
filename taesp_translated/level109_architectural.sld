@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>0.05038</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>2.33582</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>2.33582</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>6.71814</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>6.71814</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>12.91151</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>20.26394</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>20.26394</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>48.46064</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottFctHelRomDen.AR</ogc:PropertyName>
+                <ogc:PropertyName>qrypottfcthelromden.ar</ogc:PropertyName>
                 <ogc:Literal>91.39474</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

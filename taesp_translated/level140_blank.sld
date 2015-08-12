@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.03262</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.13586</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.13586</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.29341</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.29341</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.5091</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.85935</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>0.85935</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>1.42362</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>1.42362</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryChipCoBlDeDen.BL</ogc:PropertyName>
+                <ogc:PropertyName>qrychipcobldeden.bl</ogc:PropertyName>
                 <ogc:Literal>3.50544</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

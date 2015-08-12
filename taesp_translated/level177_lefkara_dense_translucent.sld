@@ -8,11 +8,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.092</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.10818</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -31,11 +31,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.10818</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.18309</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -54,11 +54,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.18309</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.21319</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -77,11 +77,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.21319</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.31986</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.31986</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.37158</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -123,11 +123,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.37158</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.74774</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -146,11 +146,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.092</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.10818</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -166,11 +166,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.10818</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.18309</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -186,11 +186,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.18309</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.21319</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -206,11 +206,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.21319</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.31986</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -226,11 +226,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.31986</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.37158</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -246,11 +246,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.37158</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryLithMatDen.LTD</ogc:PropertyName>
+                <ogc:PropertyName>qrylithmatden.ltd</ogc:PropertyName>
                 <ogc:Literal>0.74774</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>

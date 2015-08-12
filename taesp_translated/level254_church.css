@@ -1,10 +1,10 @@
 /* LAYER NAME level254_church */
 /* CLASSIFIER INFO {'value': 'CX', 'label': 'CX'} */
-[TYPE = "CX"] {
+[type = "CX"] {
   mark: symbol(circle);
   mark-size: 6px;
 }
-[TYPE = "CX"] :mark {
+[type = "CX"] :mark {
   fill: #0000ff;
 }
 

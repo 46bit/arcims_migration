@@ -1,10 +1,10 @@
 /* LAYER NAME level250_shrine_sanctuary */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.SHRICHK = "1"] {
+[tblposirec.shrichk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.SHRICHK = "1"] :mark {
+[tblposirec.shrichk = "1"] :mark {
   fill: #ff0000;
 }
 

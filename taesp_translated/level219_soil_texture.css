@@ -1,41 +1,41 @@
 /* LAYER NAME level219_soil_texture */
 /* CLASSIFIER INFO {'value': 'C', 'label': 'C'} */
-[tblGUF.SOILTEXT = "C"] {
+[tblguf.soiltext = "C"] {
   fill: #cccc99;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'SCL', 'label': 'SCL'} */
-[tblGUF.SOILTEXT = "SCL"] {
+[tblguf.soiltext = "SCL"] {
   fill: #cccc66;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'CL', 'label': 'CL'} */
-[tblGUF.SOILTEXT = "CL"] {
+[tblguf.soiltext = "CL"] {
   fill: #999967;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'SiCL', 'label': 'SiCL'} */
-[tblGUF.SOILTEXT = "SiCL"] {
+[tblguf.soiltext = "SiCL"] {
   fill: #669932;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'SiL', 'label': 'SiL'} */
-[tblGUF.SOILTEXT = "SiL"] {
+[tblguf.soiltext = "SiL"] {
   fill: #006600;
   stroke: #d4d0c8;
   stroke-width: 1px;
 }
 
 /* CLASSIFIER INFO {'value': 'SL', 'label': 'SL'} */
-[tblGUF.SOILTEXT = "SL"] {
+[tblguf.soiltext = "SL"] {
   fill: #003300;
   stroke: #d4d0c8;
   stroke-width: 1px;

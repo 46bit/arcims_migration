@@ -7,7 +7,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ORDER_</ogc:PropertyName>
+              <ogc:PropertyName>order_</ogc:PropertyName>
               <ogc:Literal>4</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -21,7 +21,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ORDER_</ogc:PropertyName>
+              <ogc:PropertyName>order_</ogc:PropertyName>
               <ogc:Literal>5</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -35,7 +35,7 @@
         <Rule>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>ORDER_</ogc:PropertyName>
+              <ogc:PropertyName>order_</ogc:PropertyName>
               <ogc:Literal>6</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>

@@ -1,10 +1,10 @@
 /* LAYER NAME level251_resource_extraction */
 /* CLASSIFIER INFO {'value': '1', 'label': '1'} */
-[tblPOSIRec.EXTCHK = "1"] {
+[tblposirec.extchk = "1"] {
   mark: symbol(circle);
   mark-size: 8px;
 }
-[tblPOSIRec.EXTCHK = "1"] :mark {
+[tblposirec.extchk = "1"] :mark {
   fill: #ff0000;
 }
 

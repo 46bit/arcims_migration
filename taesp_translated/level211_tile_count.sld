@@ -19,11 +19,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -44,11 +44,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -69,11 +69,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -94,11 +94,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>18</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -119,11 +119,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>18</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>27</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
@@ -144,11 +144,11 @@
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>27</ogc:Literal>
               </ogc:PropertyIsGreaterThan>
               <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>qryPottTileCounts.TILE</ogc:PropertyName>
+                <ogc:PropertyName>qrypotttilecounts.tile</ogc:PropertyName>
                 <ogc:Literal>37</ogc:Literal>
               </ogc:PropertyIsLessThanOrEqualTo>
             </ogc:And>
