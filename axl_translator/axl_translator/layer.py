@@ -8,7 +8,7 @@ class Layer:
   def __init__(self, layer_node):
     self.layer_node = layer_node
     self.type = self.layer_node.attrib["type"]
-    self.layer_name = "level" + self.layer_node.attrib["id"] + "_" + self.layer_node.attrib["name"].replace(" ", "_").lower()
+    self.layer_name = "level" + self.layer_node.attrib["id"] #+ "_" + self.layer_node.attrib["name"].replace(" ", "_").lower()
 
     d = self.layer_node.find("DATASET")
     if d is not None:
