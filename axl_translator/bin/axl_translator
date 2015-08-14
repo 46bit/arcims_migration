@@ -41,6 +41,7 @@ if __name__ == "__main__":
       #print layer_css
       #print layer_sld
       layer_exporter = axl_translator.LayerExport(Args.output_dir, layer)
+      sys.stderr.write("Wrote SQL to {0}\n".format(layer_exporter.export_axl()))
       sys.stderr.write("Wrote SQL to {0}\n".format(layer_exporter.export_sql()))
       sys.stderr.write("Wrote CSS to {0}\n".format(layer_exporter.export_css()))
       sys.stderr.write("Wrote SLD to {0}\n".format(layer_exporter.export_sld()))

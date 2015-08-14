@@ -73,3 +73,6 @@ class Layer:
       feature_type_style.extend(list(renderer.to_sld()))
 
     return pretty_xml(sld)
+
+  def to_axl(self):
+    return pretty_xml(self.layer_node)

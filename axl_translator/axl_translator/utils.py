@@ -27,4 +27,5 @@ def symbolclass_from_symbolnode(symbolnode):
 
 def pretty_xml(x):
   sld_string = ET.tostring(x, encoding="utf8", method="xml")
-  return etree.tostring(etree.fromstring(sld_string), pretty_print = True)
+  parser = etree.XMLParser(remove_blank_text=True)
+  return etree.tostring(etree.fromstring(sld_string, parser), pretty_print = True)
