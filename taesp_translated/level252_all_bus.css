@@ -1,8 +1,0 @@
-/* LAYER NAME level252_all_bus */
-* {
-  mark: symbol(circle);
-  mark-size: 6px;
-}
-* :mark {
-  fill: #0000ff;
-}
