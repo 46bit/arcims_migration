@@ -10,7 +10,10 @@ class Query:
     return " AND ".join(clauses)
 
   def tables(self):
-    return self.query_node.attrib["jointables"].lower() if "jointables" in self.query_node.attrib else ""
+    tables = self.query_node.attrib["jointables"].lower() if "jointables" in self.query_node.attrib else ""
+    tables = "_".join(tables.split(" "))
+    tables = "_".join(tables.split("-"))
+    return tables
 
   def join(self):
     # joinexpression="To=[tp_POSI.POSI_NO],From=[tblPOSIRec.POSINO],Type=[exact]"
