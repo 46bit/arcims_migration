@@ -29,3 +29,6 @@ def pretty_xml(x):
   sld_string = ET.tostring(x, encoding="utf8", method="xml")
   parser = etree.XMLParser(remove_blank_text=True)
   return etree.tostring(etree.fromstring(sld_string, parser), pretty_print = True)
+
+def columnref_to_columnname(cr):
+  return cr.split(".")[-1]
