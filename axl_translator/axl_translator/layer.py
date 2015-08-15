@@ -8,7 +8,8 @@ class Layer:
   def __init__(self, layer_node):
     self.layer_node = layer_node
     self.type = self.layer_node.attrib["type"]
-    self.layer_name = "level" + self.layer_node.attrib["id"] #+ "_" + self.layer_node.attrib["name"].replace(" ", "_").lower()
+    self.id = int(self.layer_node.attrib["id"])
+    self.layer_name = "level" + ("%03d" % (self.id,))
 
     d = self.layer_node.find("DATASET")
     if d is not None:
@@ -60,12 +61,9 @@ class Layer:
     sld.attrib["xmlns:xlink"] = "http://www.w3.org/1999/xlink"
     sld.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
 
-    info = ET.Comment(" LAYER NAME {0} ".format(self.layer_name))
-    sld.append(info)
-
     named_layer = ET.SubElement(sld, "NamedLayer")
     name = ET.SubElement(named_layer, "Name")
-    name.text = "NAME GOES HERE" # @TODO: Name decently.
+    name.text = self.layer_name
     user_style = ET.SubElement(named_layer, "UserStyle")
 
     feature_type_style = ET.SubElement(user_style, "FeatureTypeStyle")
