@@ -40,7 +40,7 @@ class GeoserverApi:
         "enabled": True
       }
     }
-    endpoint = "/rest/workspaces/{0}/datastores/{1}/featuretypes.json"
+    endpoint = "/rest/workspaces/{0}/datastores/{1}/featuretypes.json?recalculate=nativebbox,latlonbbox"
     print self.post(endpoint.format(workspace, datastore), json.dumps(featuretype)) # @TODO: Handle errors!
 
   def create_style(self, workspace, name, sld):
