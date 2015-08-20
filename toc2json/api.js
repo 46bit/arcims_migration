@@ -17,17 +17,6 @@ var TOC = (function () {
     this.layersAndGroups.push(group)
     return group
   }
-  TOC.prototype.asOpenLayers = function asOpenLayers(source_constructor) {
-    var mapped = []
-    for (var i in this.layersAndGroups) {
-      var layerOrGroup = this.layersAndGroups[i]
-      if (typeof layerOrGroup !== "LAYER" || layerOrGroup.codeIsNumeric()) {
-        var olLayerOrGroup = layerOrGroup.asOpenLayers(source_constructor)
-        mapped.push(olLayerOrGroup)
-      }
-    }
-    return mapped
-  }
   return TOC
 })()
 exports.TOC = TOC
@@ -47,21 +36,6 @@ var GROUP = (function () {
     this.layersAndGroups.push(group)
     return group
   }
-  GROUP.prototype.asOpenLayers = function asOpenLayers(source_constructor) {
-    var mapped = []
-    for (var i in this.layersAndGroups) {
-      var layerOrGroup = this.layersAndGroups[i]
-      if (typeof layerOrGroup !== "LAYER" || layerOrGroup.codeIsNumeric()) {
-        var olLayerOrGroup = layerOrGroup.asOpenLayers(source_constructor)
-        mapped.push(olLayerOrGroup)
-      }
-    }
-    var olGroup = new ol.layer.Group({
-      title: this.name,
-      layers: mapped
-    })
-    return olGroup
-  }
   return GROUP
 })()
 exports.GROUP = GROUP
@@ -79,15 +53,6 @@ var LAYER = (function () {
   }
   LAYER.prototype.codeIsNumeric = function codeIsNumeric() {
     return String(parseInt(this.code, 10)) == this.code
-  }
-  LAYER.prototype.asOpenLayers = function asOpenLayers(source_constructor) {
-    var olSource = source_constructor(this.code)
-    var olLayer = new ol.layer.Image({
-      title: this.name,
-      visible: !!this.visible,
-      source: olSource
-    })
-    return olLayer
   }
   return LAYER
 })()
