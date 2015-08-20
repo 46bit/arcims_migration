@@ -1,10 +1,12 @@
+#!/usr/bin/env node
+
 // node toc2json.js ../taesp_ahrc_2007/taesp_100.toc
 
 var fs = require("fs")
 var path = require("path")
 var assert = require("assert")
 
-var api = require('../toc_js_env/api-compiled.js')
+var api = require('./api.js')
 TOC = api.TOC
 GROUP = api.GROUP
 LAYER = api.LAYER

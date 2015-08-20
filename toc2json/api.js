@@ -1,49 +1,52 @@
-// ECMASCRIPT 6
-// http://babeljs.io/docs/usage/cli/
-// COMPILE WITH
-//   babel api.js > api-compiled.js
+"use strict"
 
-class TOCElement {
-  constructor() {
+var TOC = (function () {
+  function TOC(a, name, b, gif) {
+    this.a = a
+    this.name = name
+    this.b = b
+    this.gif = gif
     this.layers = []
     this.groups = []
   }
-  addLayer(layer) {
+  TOC.prototype.addLayer = function addLayer(layer) {
     this.layers.push(layer)
     return layer
   }
-  addGroup(group) {
+  TOC.prototype.addGroup = function addGroup(group) {
     this.groups.push(group)
     return group
   }
-}
+  return TOC
+})()
+exports.TOC = TOC
 
-export class TOC extends TOCElement {
-  constructor(a, name, b, gif) {
-    super()
-    this.a = a
+var GROUP = (function () {
+  function GROUP(name, b) {
     this.name = name
     this.b = b
-    this.gif = gif
+    this.layers = []
+    this.groups = []
   }
-}
+  GROUP.prototype.addLayer = function addLayer(layer) {
+    this.layers.push(layer)
+    return layer
+  }
+  GROUP.prototype.addGroup = function addGroup(group) {
+    this.groups.push(group)
+    return group
+  }
+  return GROUP
+})()
+exports.GROUP = GROUP
 
-export class GROUP extends TOCElement {
-  constructor(name, b) {
-    super()
-    this.name = name
-    this.b = b
-  }
+var LAYER = function LAYER(code, name, gif, a, b, c, d) {
+  this.code = code
+  this.name = name
+  this.gif = gif
+  this.a = a
+  this.b = b
+  this.c = c
+  this.d = d
 }
-
-export class LAYER {
-  constructor(code, name, gif, a, b, c, d) {
-    this.code = code
-    this.name = name
-    this.gif = gif
-    this.a = a
-    this.b = b
-    this.c = c
-    this.d = d
-  }
-}
+exports.LAYER = LAYER
