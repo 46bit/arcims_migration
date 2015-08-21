@@ -31,6 +31,38 @@ class GeoserverApi:
   def delete(self, endpoint, payload="", headers={}):
     return self.request('DELETE', endpoint, payload, headers)
 
+  def delete_workspace(self, workspace, recurse=False):
+    endpoint = "/rest/workspaces/{0}.json".format(workspace)
+    endpoint += "?recurse={0}".format(recurse)
+    print self.delete(endpoint)
+
+  def create_workspace(self, workspace):
+    workspace = {
+      "workspace": {
+        "name": workspace
+      }
+    }
+    print self.post("/rest/workspaces.json", json.dumps(workspace))
+
+  def create_postgis_datastore(self, workspace, datastore, db_host, db_port, db_name, db_user, db_password, schema="public"):
+    datastore = {
+      "dataStore": {
+        "name": datastore,
+        "type": "PostGIS",
+        "connectionParameters": {
+          "schema": schema,
+          "host": db_host,
+          "port": db_port,
+          "database": db_name,
+          "user": db_user,
+          "passwd": db_password,
+          "dbtype": "postgis"
+        }
+      }
+    }
+    endpoint = "/rest/workspaces/{0}/datastores.json".format(workspace)
+    print self.post(endpoint, json.dumps(datastore))
+
   def create_postgis_featuretype(self, workspace, datastore, name, srs):
     featuretype = {
       "featureType": {
