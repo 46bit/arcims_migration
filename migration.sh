@@ -31,3 +31,9 @@ do
   layerfile=`basename "$layerpath"`
   PYTHONPATH=./layer_importer:$PYTHONPATH ./layer_importer/bin/layer_importer taesp_ahrc_2007 postgis_viewer_taesp "../arcims_data/taesp_translated/$layerfile" EPSG:4038
 done
+
+#for tiffpath in ../taesp_ahrc_2007/rasters/*.tif
+#do
+#  tifffile=`basename "$tiffpath"`
+#  PYTHONPATH=./layer_importer:$PYTHONPATH ./layer_importer/bin/geotiff_importer taesp_ahrc_2007 "${tifffile%.*}" "$tiffpath"
+#done

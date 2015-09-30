@@ -1,4 +1,5 @@
-import json, requests
+import json, requests, os
+from subprocess import call
 
 # curl -u admin:geoserver -XPOST -H 'Content-type: application/json' -d 'json data' http://localhost:8080/geoserver/rest/styles
 
@@ -11,11 +12,11 @@ class GeoserverApi:
   def full_url(self, endpoint):
     return self.api_url + endpoint
 
-  def request(self, method, endpoint, payload, headers={}):
+  def request(self, method, endpoint, payload, headers={}, files={}):
     endpoint_url = self.full_url(endpoint)
     defaults = {"content-type": "application/json"}
     defaults.update(headers)
-    r = requests.request(method, endpoint_url, auth=(self.api_username, self.api_password), headers=defaults, data=payload)
+    r = requests.request(method, endpoint_url, auth=(self.api_username, self.api_password), headers=defaults, data=payload, files=files)
     print "REQUEST(" + r.url + ", " + payload + ") =", r.status_code, r.text
     return r
 
@@ -25,8 +26,8 @@ class GeoserverApi:
   def post(self, endpoint, payload="", headers={}):
     return self.request('POST', endpoint, payload, headers)
 
-  def put(self, endpoint, payload="", headers={}):
-    return self.request('PUT', endpoint, payload, headers)
+  def put(self, endpoint, payload="", headers={}, files={}):
+    return self.request('PUT', endpoint, payload, headers, files)
 
   def delete(self, endpoint, payload="", headers={}):
     return self.request('DELETE', endpoint, payload, headers)
@@ -97,3 +98,22 @@ class GeoserverApi:
       "name": style
     }
     print self.put(url, json.dumps(layer)) # @TODO: Handle errors!
+
+  def create_geotiff_store_layer(self, workspace, name, geotiff_path):
+    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.geotiff?coverageName={1}"
+    with open(geotiff_path, "rb") as f:
+      print self.put(endpoint.format(workspace, name), "", {"Content-type": "image/tiff"}, {"file": f})
+
+  def create_worldfile_geotiff_store_layer(self, workspace, name, geotiff_path, worldfile_path, prj_path):
+    tmp_zip_path = "/tmp/{0}.zip".format(name)
+
+    print ">> Zipping ({0}, {1}, {2}) into temporary {3}".format(geotiff_path, worldfile_path, prj_path, tmp_zip_path)
+    call(["zip", "-rj", tmp_zip_path, geotiff_path, worldfile_path, prj_path])
+
+    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.worldimage?coverageName={1}"
+    print ">> Submitting to {0}".format(endpoint)
+    with open(tmp_zip_path, "rb") as f:
+      print self.put(endpoint.format(workspace, name), "", {"content-type": "application/zip"}, {"file": f})
+
+    #print ">> Erasing temporary {0}".format(tmp_zip_path)
+    #call(["rm", tmp_zip_path])
