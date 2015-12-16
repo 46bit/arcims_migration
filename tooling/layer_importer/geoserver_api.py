@@ -1,4 +1,4 @@
-import json, requests, os
+import json, requests, os, time
 from subprocess import call
 
 # curl -u admin:geoserver -XPOST -H 'Content-type: application/json' -d 'json data' http://localhost:8080/geoserver/rest/styles
@@ -17,7 +17,7 @@ class GeoserverApi:
     defaults = {"content-type": "application/json"}
     defaults.update(headers)
     r = requests.request(method, endpoint_url, auth=(self.api_username, self.api_password), headers=defaults, data=payload, files=files)
-    print "REQUEST(" + r.url + ", " + payload + ") =", r.status_code, r.text
+    print "REQUEST(" + r.url + ", " + payload + ", " + str(defaults) + ") =", r.status_code, r.text
     return r
 
   def get(self, endpoint, payload="", headers={}):
@@ -31,6 +31,10 @@ class GeoserverApi:
 
   def delete(self, endpoint, payload="", headers={}):
     return self.request('DELETE', endpoint, payload, headers)
+
+  def curl(self, endpoint, segments):
+    segments = ["curl", "-u", "{0}:{1}".format(self.api_username, self.api_password)] + segments + [self.full_url(endpoint)]
+    return call(segments)
 
   def delete_workspace(self, workspace, recurse=False):
     endpoint = "/rest/workspaces/{0}.json".format(workspace)
@@ -64,10 +68,11 @@ class GeoserverApi:
     endpoint = "/rest/workspaces/{0}/datastores.json".format(workspace)
     print self.post(endpoint, json.dumps(datastore))
 
-  def create_postgis_featuretype(self, workspace, datastore, name, srs):
+  def create_postgis_featuretype(self, workspace, datastore, name, native_name, srs):
     featuretype = {
       "featureType": {
         "name": name,
+        "nativeName": native_name,
         "title": name,
         "srs": srs,
         "enabled": True
@@ -100,20 +105,55 @@ class GeoserverApi:
     print self.put(url, json.dumps(layer)) # @TODO: Handle errors!
 
   def create_geotiff_store_layer(self, workspace, name, geotiff_path):
-    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.geotiff?coverageName={1}"
-    with open(geotiff_path, "rb") as f:
-      print self.put(endpoint.format(workspace, name), "", {"Content-type": "image/tiff"}, {"file": f})
+    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.geotiff".format(workspace, name)
+    print self.curl(endpoint, ["-X", "PUT", "-H", "Content-type:image/tiff", "--data-binary", "@{}".format(os.path.abspath(geotiff_path))])
 
-  def create_worldfile_geotiff_store_layer(self, workspace, name, geotiff_path, worldfile_path, prj_path):
-    tmp_zip_path = "/tmp/{0}.zip".format(name)
+  def create_worldfile_geotiff_store_layer(self, workspace, name, tiff_path, worldfile_path, prj_path, projection):
+    tmp_folder = os.path.dirname(tiff_path) + "/out"
+    print call(["mkdir", "-p", tmp_folder])
 
-    print ">> Zipping ({0}, {1}, {2}) into temporary {3}".format(geotiff_path, worldfile_path, prj_path, tmp_zip_path)
-    call(["zip", "-rj", tmp_zip_path, geotiff_path, worldfile_path, prj_path])
+    tmp_tiff_path = tmp_folder + "/{0}.tif".format(name)
+    tmp_worldfile_path = tmp_folder + "/{0}.tfw".format(name)
+    tmp_prj_path = tmp_folder + "/{0}.prj".format(name)
+    print call(["cp", tiff_path, tmp_tiff_path])
+    print call(["cp", worldfile_path, tmp_worldfile_path])
+    print call(["cp", prj_path, tmp_prj_path])
 
-    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.worldimage?coverageName={1}"
-    print ">> Submitting to {0}".format(endpoint)
-    with open(tmp_zip_path, "rb") as f:
-      print self.put(endpoint.format(workspace, name), "", {"content-type": "application/zip"}, {"file": f})
+    tmp_geotiff_path = tmp_folder + "/{0}-geotiff.tif".format(name)
+    print call(["gdal_translate", "-of", "GTiff", "-a_srs", projection, tmp_tiff_path, tmp_geotiff_path])
 
-    #print ">> Erasing temporary {0}".format(tmp_zip_path)
-    #call(["rm", tmp_zip_path])
+    print self.create_geotiff_store_layer(workspace, name, tmp_geotiff_path)
+
+    payload = '{"coverage": {"srs": "' + projection + '", "projectionPolicy": "FORCE_DECLARED", "enabled": true}}'
+    endpoint = "/rest/workspaces/{0}/coveragestores/{1}/coverages/{1}.json".format(workspace, name)
+    print self.put(endpoint, payload)
+
+    #print call(["rm", "-rf", tmp_folder])
+
+  def delete_coveragestore(self, workspace, coveragestore, recurse=False):
+    endpoint = "/rest/workspaces/{0}/coveragestores/{1}.json".format(workspace, coveragestore)
+    endpoint += "?recurse={0}".format(recurse)
+    print self.delete(endpoint)
+
+  def create_layergroup_from_layers(self, workspace, layergroup_name, layer_names):
+    layergroup = {
+      "layerGroup": {
+        "name": layergroup_name,
+        "workspace": {
+          "name": workspace
+        },
+        "mode": "SINGLE",
+        "publishables": {
+          "published": []
+        }
+      }
+    }
+
+    for layer_name in layer_names:
+      layergroup["layerGroup"]["publishables"]["published"].append({
+        "name": layer_name
+        #,
+        #"@type": "layer"
+      })
+
+    print self.post("/rest/workspaces/{0}/layergroups.json".format(workspace), json.dumps(layergroup)) # @TODO: Handle errors!

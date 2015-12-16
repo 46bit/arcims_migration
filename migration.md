@@ -1,5 +1,11 @@
 # ArcIMS Migration Tools
 
+``` sh
+pip install psycopg2
+pip install requests
+pip install --upgrade lxml
+```
+
 ## DBF to CSV and PostGIS
 Go to the directory with your DBFs in,
 

@@ -1,0 +1,79 @@
+#!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
+
+##### TOC2JSON USAGE
+# node
+#   ./geoserver-2.8.0/webapps/archds/deps/toc2json/toc2json.js
+#   ./node_toc.js
+#   ./geoserver-2.8.0/webapps/journal/issue19/5/archds-maps-toc/whittlewood_6.toc
+# > whittlewood_6.toc.json
+
+def build_layergroups_tree_loop(node, api, workspace):
+  # If not a GROUP, skip this node and loop on down.
+  if node["element_type"] != "GROUP" or len(node["layersAndGroups"]):
+    return build_layergroups_tree_loop_descend(node, api, workspace)
+  # Otherwise it's a GROUP!
+
+  # No point making a layergroup for an empty GROUP.
+  # However we `descend' anyway, to make things consistent.
+  if len(node["layersAndGroups"]) == 0:
+    return build_layergroups_tree_loop_descend(node, api, workspace)
+
+  # Check that:
+  # - GROUP is not expanded OR
+  # OR
+  # - Children are all LAYER (no GROUP children) AND
+  # - Child LAYERs are all not visible
+  # If any conditions failed, do nothing and return node.
+  if node["expanded"]:
+    for child in node["layersAndGroups"]:
+      if child["element_type"] != "LAYER" or child["visible"]:
+        return build_layergroups_tree_loop_descend(node, api, workspace)
+
+  # Make layergroup.
+  # N.B. we checked above that all the children are LAYER.
+  layer_names = [layer["code"] for layer in node["layersAndGroups"]]
+  api.create_layergroup_from_layers(Args.workspace, node["name"], layer_names)
+
+  # Add load_as_layergroup flag to node.
+  node["load_as_layergroup"] = True
+
+  return node
+
+def build_layergroups_tree_loop_descend(node, api, workspace):
+  if "layersAndGroups" in node:
+    for i in range(0, len(node["layersAndGroups"])):
+      node["layersAndGroups"][i] = build_layergroups_tree_loop(node["layersAndGroups"][i], api, workspace)
+  return node
+
+if __name__ == "__main__":
+  import os, sys, argparse, layer_importer, json
+
+  try:
+      from StringIO import StringIO
+  except ImportError:
+      from io import StringIO, BytesIO
+
+  ArgP = argparse.ArgumentParser(description="Converts undividable TOC GROUPs into GeoServer LayerGroups, and provides updated TOC JSON.")
+  ArgP.add_argument("-i", "--in_tocjson", nargs='?', type=argparse.FileType('r'), default='-', help="Path to input TOC JSON file.")
+  # argparse.FileType interprets r and "-" as Stdin.
+  ArgP.add_argument("-o", "--out_tocjson", nargs='?', type=argparse.FileType('w'), default='-', help="Path to output TOC JSON file.")
+  # argparse.FileType interprets w and "-" as Stdout.
+  ArgP.add_argument("workspace", help="The GeoServer workspace name.")
+  ArgP.add_argument("--api_url", default="http://localhost:8080/geoserver")
+  ArgP.add_argument("--api_user", default="admin")
+  ArgP.add_argument("--api_password", default="geoserver")
+  Args = ArgP.parse_args()
+
+  in_tocjson = Args.in_tocjson.read()
+  Args.in_tocjson.close()
+  tocjson = json.loads(in_tocjson)
+
+  api = layer_importer.GeoserverApi(Args.api_url, Args.api_user, Args.api_password)
+
+  # Iterate over tree.
+  tocjson["toc"] = build_layergroups_tree_loop(tocjson["toc"], api, Args.workspace)
+
+  # Save new TOCJSON.
+  out_tocjson = json.dumps(tocjson)
+  Args.out_tocjson.write(out_tocjson)

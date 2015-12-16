@@ -24,6 +24,7 @@ class SimplePolygonSymbol:
   def to_sld(self):
     poly = ET.Element("PolygonSymbolizer")
     fill = ET.SubElement(poly, "Fill")
+    boundary = ET.SubElement(poly, "Stroke")
 
     if "fillcolor" in self.node.attrib:
       fillcolor = ET.SubElement(fill, "CssParameter")
@@ -31,7 +32,6 @@ class SimplePolygonSymbol:
       fillcolor.text = utils.cs_rgb_to_hex(self.node.attrib["fillcolor"])
       # @TODO: Opacities!
     if "boundary" in self.node.attrib and self.node.attrib["boundary"] == "true":
-      boundary = ET.SubElement(poly, "CssParameter")
       if "boundarycolor" in self.node.attrib:
         boundarycolor = ET.SubElement(boundary, "CssParameter")
         boundarycolor.attrib["name"] = "stroke"

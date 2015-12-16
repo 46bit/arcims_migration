@@ -5,11 +5,11 @@ from query import Query
 from utils import pretty_xml
 
 class Layer:
-  def __init__(self, layer_node):
+  def __init__(self, layer_name_prefix, layer_node):
     self.layer_node = layer_node
     self.type = self.layer_node.attrib["type"]
     self.id = int(self.layer_node.attrib["id"])
-    self.layer_name = "level" + ("%03d" % (self.id,))
+    self.layer_name = layer_name_prefix + str(self.id)
 
     d = self.layer_node.find("DATASET")
     if d is not None:
@@ -28,7 +28,7 @@ class Layer:
     self.renderers += [ValueMapRenderer(node) for node in value_map_renderer_nodes]
 
   def to_sql(self):
-    q = "-- LAYER NAME {0}\nSELECT *".format(self.layer_name)
+    q = "-- LAYER NAME \"{0}\"\nSELECT *".format(self.layer_name)
 
     # FROM
     tables = []
@@ -38,7 +38,7 @@ class Layer:
       tables += [self.query.tables()]
     if len(tables) == 0:
       return False
-    q += " FROM " + ", ".join(tables)
+    q += " FROM " + ", ".join(["\"{}\"".format(t) for t in tables])
 
     # WHERE
     if hasattr(self, "query"):

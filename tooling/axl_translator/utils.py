@@ -4,6 +4,7 @@ import lxml.etree as etree
 from simple_polygon_symbol import SimplePolygonSymbol
 from simple_line_symbol import SimpleLineSymbol
 from simple_marker_symbol import SimpleMarkerSymbol
+from true_type_marker_symbol import TrueTypeMarkerSymbol
 
 def cs_rgb_to_hex(cs_rgb):
   rgb = tuple([int(c) for c in cs_rgb.split(",")])
@@ -21,6 +22,8 @@ def symbolclass_from_symbolnode(symbolnode):
     return SimpleLineSymbol(symbolnode)
   elif symbolnode.tag == "SIMPLEMARKERSYMBOL":
     return SimpleMarkerSymbol(symbolnode)
+  elif symbolnode.tag == "TRUETYPEMARKERSYMBOL":
+    return TrueTypeMarkerSymbol(symbolnode)
   else:
     sys.stderr.write("{0} is not supported!\n".format(symbolnode.tag))
     return False

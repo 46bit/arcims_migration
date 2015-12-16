@@ -82,7 +82,8 @@ class ValueMapRenderer:
     rule = ET.Element("Rule")
 
     fltr = self.classifier_conditions_to_sld(classifier)
-    rule.append(fltr)
+    if fltr:
+      rule.append(fltr)
 
     symbolclass = utils.symbolclass_from_symbolnode(classifier[0])
     #css = "/* CLASSIFIER INFO {0} */\n".format(str(classifier.attrib))
@@ -116,6 +117,7 @@ class ValueMapRenderer:
       propval.text = classifier.attrib["upper"]
     elif classifier.tag == "OTHER":
       sys.stderr.write("OTHER may not be properly supported!\n")
+      return False
     else:
       print classifier.tag
       assert False

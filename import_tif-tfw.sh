@@ -1,9 +1,33 @@
 prjpath="../arcims_data/taesp_ahrc_2007.prj"
-echo 'PROJCS["WGS_1984_UTM_Zone_36N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",33.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]' > "$prjpath"
+echo 'PROJCS["WGS 84 / UTM zone 36N",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]],
+    PROJECTION["Transverse_Mercator"],
+    PARAMETER["latitude_of_origin",0],
+    PARAMETER["central_meridian",33],
+    PARAMETER["scale_factor",0.9996],
+    PARAMETER["false_easting",500000],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["EPSG","32636"]]' > "$prjpath"
 
 for tifpath in ../arcims_data/tif-tfw/*.tif
 do
   tfwpath="${tifpath%.*}.tfw"
-  tifname=`basename "${tifpath%.*}"`
-  PYTHONPATH=./layer_importer:$PYTHONPATH ./layer_importer/bin/worldimage_importer taesp_ahrc_2007 "$tifname" "$tifpath" "$tfwpath" "$prjpath"
+  tiffilename=`basename "${tifpath}"`
+  tifname="${tiffilename%.*}"
+  layer_id=`PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/axl_layer_id_by_name ../arcims_data/arcims_mapping/axl/taesp_ahrc_2007_final.axl "$tiffilename"`
+  layer_name="level$(printf %03d $layer_id)"
+  PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/worldimage_importer taesp_ahrc_2007 "$layer_name" "$tifpath" "$tfwpath" "$prjpath"
 done

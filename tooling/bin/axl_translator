@@ -10,10 +10,11 @@ if __name__ == "__main__":
     except ImportError:
         from io import StringIO, BytesIO
 
-    ArgP = argparse.ArgumentParser(description="")
-    ArgP.add_argument('in_axl', nargs='?', type=argparse.FileType('rb'), default='-')
+    ArgP = argparse.ArgumentParser(description="Processes an AXL file into one AXL, SLD and SQL file per layer.")
+    ArgP.add_argument("-i", "--in_axl", nargs='?', type=argparse.FileType('rb'), default='-', help="Path to input AXL file.")
     # argparse.FileType interprets "-" as Stdin.
-    ArgP.add_argument("-o", "--output_dir", required=True)
+    ArgP.add_argument("-o", "--output_dir", required=True, help="Where to build the output directory structure.")
+    ArgP.add_argument("-p", "--layer_name_prefix", default="", help="Prefix for layer names.")
     Args = ArgP.parse_args()
 
     axl = Args.in_axl.read()
@@ -27,22 +28,18 @@ if __name__ == "__main__":
     root = tree
 
     for layer_node in root.find("CONFIG").find("MAP").findall("LAYER"):
+      sys.stderr.write("-----\n")
       if layer_node.attrib["type"] != "featureclass":
         sys.stderr.write("LAYER that isn't a featureclass encountered! Unsupported and ignoring.\n")
+        sys.stderr.write("-----\n")
         continue
 
-      sys.stderr.write("-----\n")
-      layer = axl_translator.Layer(layer_node)
-      #layer_sql = layer.to_sql()
-      #layer_css = layer.to_css()
-      #layer_sld = layer.to_sld()
+      layer = axl_translator.Layer(Args.layer_name_prefix, layer_node)
       sys.stderr.write("LAYER {0}\n".format(layer.layer_name))
-      #print layer_sql
-      #print layer_css
-      #print layer_sld
+
       layer_exporter = axl_translator.LayerExport(Args.output_dir, layer)
       sys.stderr.write("Wrote SQL to {0}\n".format(layer_exporter.export_axl()))
       sys.stderr.write("Wrote SQL to {0}\n".format(layer_exporter.export_sql()))
-      sys.stderr.write("Wrote CSS to {0}\n".format(layer_exporter.export_css()))
+      #sys.stderr.write("Wrote CSS to {0}\n".format(layer_exporter.export_css()))
       sys.stderr.write("Wrote SLD to {0}\n".format(layer_exporter.export_sld()))
       sys.stderr.write("-----\n")

@@ -17,7 +17,9 @@ if __name__ == "__main__":
     ArgP.add_argument("geotiff_path")
     ArgP.add_argument("worldfile_path")
     ArgP.add_argument("prj_path")
+    ArgP.add_argument("projection")
     Args = ArgP.parse_args()
 
     api = layer_importer.GeoserverApi(Args.api_url, Args.api_user, Args.api_password)
-    api.create_worldfile_geotiff_store_layer(Args.workspace, Args.layer_name, Args.geotiff_path, Args.worldfile_path, Args.prj_path)
+    api.delete_coveragestore(Args.workspace, Args.layer_name, recurse=True)
+    api.create_worldfile_geotiff_store_layer(Args.workspace, Args.layer_name, Args.geotiff_path, Args.worldfile_path, Args.prj_path, Args.projection)
