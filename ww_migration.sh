@@ -55,4 +55,15 @@ do
     layer_id=`PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/axl_layer_id_by_name "$axlpath" "$tiffilename"`
     PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/worldimage_importer "$axlname" "$layer_id" "$tifpath" "$tfwpath" "../whittlewood_ahrb_2006/rasters/27700.prj" "EPSG:27700"
   done
+
+  toclibrarypath="../../../geoserver-2.8.0/webapps/journal/issue19/5/archds-leaflet-mapping/libs/toc.js"
+  tocjsonpath="../geoserver-2.8.0/webapps/journal/issue19/5/archds-leaflet-mapping/tocs/$axlname.toc.json"
+  tocpath="../geoserver-2.8.0/webapps/journal/issue19/5/archds-leaflet-mapping/tocs/$axlname.toc"
+
+  ./tooling/bin/toc2json.js "$toclibrarypath" "$tocpath" | \
+    PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/build_layergroups_from_tocjson "$axlname" -o "$tocjsonpath"
+
+  cat "$tocjsonpath" | PYTHONPATH=./tooling:$PYTHONPATH ./tooling/bin/update_tocjson_bounds_from_axl \
+    -o "$tocjsonpath" \
+    -j "$axlpath"
 done

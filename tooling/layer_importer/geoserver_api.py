@@ -1,4 +1,4 @@
-import json, requests, os, time
+import json, requests, os, time, sys
 from subprocess import call
 
 # curl -u admin:geoserver -XPOST -H 'Content-type: application/json' -d 'json data' http://localhost:8080/geoserver/rest/styles
@@ -17,7 +17,7 @@ class GeoserverApi:
     defaults = {"content-type": "application/json"}
     defaults.update(headers)
     r = requests.request(method, endpoint_url, auth=(self.api_username, self.api_password), headers=defaults, data=payload, files=files)
-    print "REQUEST(" + r.url + ", " + payload + ", " + str(defaults) + ") =", r.status_code, r.text
+    sys.stderr.write("REQUEST(" + r.url + ", " + payload + ", " + str(defaults) + ") = {} {}".format(r.status_code, r.text))
     return r
 
   def get(self, endpoint, payload="", headers={}):
@@ -47,7 +47,7 @@ class GeoserverApi:
         "name": workspace
       }
     }
-    print self.post("/rest/workspaces.json", json.dumps(workspace))
+    self.post("/rest/workspaces.json", json.dumps(workspace))
 
   def create_postgis_datastore(self, workspace, datastore, db_host, db_port, db_name, db_user, db_password, schema="public"):
     datastore = {
@@ -66,7 +66,7 @@ class GeoserverApi:
       }
     }
     endpoint = "/rest/workspaces/{0}/datastores.json".format(workspace)
-    print self.post(endpoint, json.dumps(datastore))
+    self.post(endpoint, json.dumps(datastore))
 
   def create_postgis_featuretype(self, workspace, datastore, name, native_name, srs):
     featuretype = {
@@ -79,7 +79,7 @@ class GeoserverApi:
       }
     }
     endpoint = "/rest/workspaces/{0}/datastores/{1}/featuretypes.json?recalculate=nativebbox,latlonbbox"
-    print self.post(endpoint.format(workspace, datastore), json.dumps(featuretype)) # @TODO: Handle errors!
+    self.post(endpoint.format(workspace, datastore), json.dumps(featuretype)) # @TODO: Handle errors!
 
   def create_style(self, workspace, name, sld):
     style = {
@@ -89,12 +89,12 @@ class GeoserverApi:
         "filename": "{0}.sld".format(name)
       }
     }
-    print self.post("/rest/workspaces/{0}/styles.json".format(workspace), json.dumps(style)) # @TODO: Handle errors!
+    self.post("/rest/workspaces/{0}/styles.json".format(workspace), json.dumps(style)) # @TODO: Handle errors!
 
-    print self.put("/rest/workspaces/{0}/styles/".format(workspace) + name, sld, {"content-type": "application/vnd.ogc.sld+xml"}) # @TODO: Handle errors!
+    self.put("/rest/workspaces/{0}/styles/".format(workspace) + name, sld, {"content-type": "application/vnd.ogc.sld+xml"}) # @TODO: Handle errors!
 
   def set_layer_style(self, workspace, name, style):
-    url = "/rest/layers/{}.json".format(name)
+    url = "/rest/layers/{}:{}.json".format(workspace, name)
     layer = self.get(url).json() # @TODO: Handle errors!
     style_endpoint = "/rest/workspaces/{0}/styles/{1}.json".format(workspace, style)
     layer["layer"]["defaultStyle"] = {
@@ -102,38 +102,38 @@ class GeoserverApi:
       "href": self.full_url(style_endpoint),
       "name": style
     }
-    print self.put(url, json.dumps(layer)) # @TODO: Handle errors!
+    self.put(url, json.dumps(layer)) # @TODO: Handle errors!
 
   def create_geotiff_store_layer(self, workspace, name, geotiff_path):
     endpoint = "/rest/workspaces/{0}/coveragestores/{1}/file.geotiff".format(workspace, name)
-    print self.curl(endpoint, ["-X", "PUT", "-H", "Content-type:image/tiff", "--data-binary", "@{}".format(os.path.abspath(geotiff_path))])
+    self.curl(endpoint, ["-X", "PUT", "-H", "Content-type:image/tiff", "--data-binary", "@{}".format(os.path.abspath(geotiff_path))])
 
   def create_worldfile_geotiff_store_layer(self, workspace, name, tiff_path, worldfile_path, prj_path, projection):
     tmp_folder = os.path.dirname(tiff_path) + "/out"
-    print call(["mkdir", "-p", tmp_folder])
+    call(["mkdir", "-p", tmp_folder])
 
     tmp_tiff_path = tmp_folder + "/{0}.tif".format(name)
     tmp_worldfile_path = tmp_folder + "/{0}.tfw".format(name)
     tmp_prj_path = tmp_folder + "/{0}.prj".format(name)
-    print call(["cp", tiff_path, tmp_tiff_path])
-    print call(["cp", worldfile_path, tmp_worldfile_path])
-    print call(["cp", prj_path, tmp_prj_path])
+    call(["cp", tiff_path, tmp_tiff_path])
+    call(["cp", worldfile_path, tmp_worldfile_path])
+    call(["cp", prj_path, tmp_prj_path])
 
     tmp_geotiff_path = tmp_folder + "/{0}-geotiff.tif".format(name)
-    print call(["gdal_translate", "-of", "GTiff", "-a_srs", projection, tmp_tiff_path, tmp_geotiff_path])
+    call(["gdal_translate", "-of", "GTiff", "-a_srs", projection, tmp_tiff_path, tmp_geotiff_path])
 
-    print self.create_geotiff_store_layer(workspace, name, tmp_geotiff_path)
+    self.create_geotiff_store_layer(workspace, name, tmp_geotiff_path)
 
     payload = '{"coverage": {"srs": "' + projection + '", "projectionPolicy": "FORCE_DECLARED", "enabled": true}}'
     endpoint = "/rest/workspaces/{0}/coveragestores/{1}/coverages/{1}.json".format(workspace, name)
-    print self.put(endpoint, payload)
+    self.put(endpoint, payload)
 
-    #print call(["rm", "-rf", tmp_folder])
+    #call(["rm", "-rf", tmp_folder])
 
   def delete_coveragestore(self, workspace, coveragestore, recurse=False):
     endpoint = "/rest/workspaces/{0}/coveragestores/{1}.json".format(workspace, coveragestore)
     endpoint += "?recurse={0}".format(recurse)
-    print self.delete(endpoint)
+    self.delete(endpoint)
 
   def create_layergroup_from_layers(self, workspace, layergroup_name, layer_names):
     layergroup = {
@@ -151,9 +151,9 @@ class GeoserverApi:
 
     for layer_name in layer_names:
       layergroup["layerGroup"]["publishables"]["published"].append({
-        "name": layer_name
-        #,
-        #"@type": "layer"
+        "name": layer_name,
+        "workspace": workspace,
+        "@type": "layer"
       })
 
-    print self.post("/rest/workspaces/{0}/layergroups.json".format(workspace), json.dumps(layergroup)) # @TODO: Handle errors!
+    self.post("/rest/workspaces/{0}/layergroups.json".format(workspace), json.dumps(layergroup)) # @TODO: Handle errors!

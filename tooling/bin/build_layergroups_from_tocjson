@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-##### TOC2JSON USAGE
+##### TOC2JSON USAGE FOR THIS SCRIPT'S .TOC.JSON INPUT
 # node
 #   ./geoserver-2.8.0/webapps/archds/deps/toc2json/toc2json.js
 #   ./node_toc.js
@@ -9,14 +9,22 @@
 # > whittlewood_6.toc.json
 
 def build_layergroups_tree_loop(node, api, workspace):
+  sys.stderr.write("Examining node caption '{}'!\n".format(node["caption"]))
+
   # If not a GROUP, skip this node and loop on down.
-  if node["element_type"] != "GROUP" or len(node["layersAndGroups"]):
+  if node["element_type"] != "GROUP":
+    sys.stderr.write("Not a GROUP: node caption '{}'!\n".format(node["caption"]))
     return build_layergroups_tree_loop_descend(node, api, workspace)
   # Otherwise it's a GROUP!
+
+  # @TODO: Remove hardcoding to leave this alone. Move to config parameter.
+  if node["caption"] == "1st Edition OS":
+    return build_layergroups_tree_loop_descend(node, api, workspace)
 
   # No point making a layergroup for an empty GROUP.
   # However we `descend' anyway, to make things consistent.
   if len(node["layersAndGroups"]) == 0:
+    sys.stderr.write("GROUP has no children: node caption '{}'!\n".format(node["caption"]))
     return build_layergroups_tree_loop_descend(node, api, workspace)
 
   # Check that:
@@ -25,22 +33,31 @@ def build_layergroups_tree_loop(node, api, workspace):
   # - Children are all LAYER (no GROUP children) AND
   # - Child LAYERs are all not visible
   # If any conditions failed, do nothing and return node.
-  if node["expanded"]:
+  if node["opened"]:
+    sys.stderr.write("GROUP opened: node caption '{}'!\n".format(node["caption"]))
     for child in node["layersAndGroups"]:
       if child["element_type"] != "LAYER" or child["visible"]:
+        sys.stderr.write("GROUP has visible child: node caption '{}'!\n".format(node["caption"]))
         return build_layergroups_tree_loop_descend(node, api, workspace)
 
   # Make layergroup.
   # N.B. we checked above that all the children are LAYER.
-  layer_names = [layer["code"] for layer in node["layersAndGroups"]]
-  api.create_layergroup_from_layers(Args.workspace, node["name"], layer_names)
+  layer_names = [workspace + ":" + layer["name"] for layer in node["layersAndGroups"]]
+  api.create_layergroup_from_layers(Args.workspace, node["caption"], layer_names)
 
-  # Add load_as_layergroup flag to node.
-  node["load_as_layergroup"] = True
+  # Make GROUP into a LAYER.
+  node["element_type"] = "LAYER"
+  node["name"] = node["caption"]
+  node["built_layergroup_from_group"] = True
+  node["visible"] = True
+  # Remove non-LAYER attributes.
+  del node["opened"]
+  del node["layersAndGroups"]
 
   return node
 
 def build_layergroups_tree_loop_descend(node, api, workspace):
+  sys.stderr.write("Descending from node caption '{}'!\n".format(node["caption"]))
   if "layersAndGroups" in node:
     for i in range(0, len(node["layersAndGroups"])):
       node["layersAndGroups"][i] = build_layergroups_tree_loop(node["layersAndGroups"][i], api, workspace)

@@ -1,0 +1,50 @@
+#!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
+
+if __name__ == "__main__":
+  import os, sys, argparse, layer_importer, json
+  import xml.etree.ElementTree as ET
+
+  try:
+      from StringIO import StringIO
+  except ImportError:
+      from io import StringIO, BytesIO
+
+  ArgP = argparse.ArgumentParser(description="Converts undividable TOC GROUPs into GeoServer LayerGroups, and provides updated TOC JSON.")
+  ArgP.add_argument("-i", "--in_tocjson", nargs='?', type=argparse.FileType('r'), default='-', help="Path to input TOC JSON file.")
+  ArgP.add_argument("-j", "--in_axl", nargs='?', type=argparse.FileType('r'), default='-', help="Path to corresponding input AXL file.")
+  # argparse.FileType interprets r and "-" as Stdin.
+  ArgP.add_argument("-o", "--out_tocjson", nargs='?', type=argparse.FileType('w'), default='-', help="Path to output TOC JSON file.")
+  # argparse.FileType interprets w and "-" as Stdout.
+  Args = ArgP.parse_args()
+
+  in_tocjson = Args.in_tocjson.read()
+  Args.in_tocjson.close()
+  tocjson = json.loads(in_tocjson)
+
+  axl = Args.in_axl.read()
+  Args.in_axl.close()
+  axl_root = ET.fromstring(axl)
+
+  initial_extent = axl_root.find("CONFIG").find("MAP").find("PROPERTIES").findall("ENVELOPE")[0]
+  minx = initial_extent.attrib["minx"]
+  maxx = initial_extent.attrib["maxx"]
+  miny = initial_extent.attrib["miny"]
+  maxy = initial_extent.attrib["maxy"]
+
+  feature_coord_sys = axl_root.find("CONFIG").find("MAP").find("PROPERTIES").findall("FEATURECOORDSYS")[0]
+  feature_coord_sys_name = feature_coord_sys.attrib["id"]
+
+  tocjson["bounds"] = {
+    "points": [
+      [minx, miny],
+      [maxx, miny],
+      [maxx, maxy],
+      [minx, maxy]
+    ],
+    "crs": feature_coord_sys_name
+  }
+
+  # Save new TOCJSON.
+  out_tocjson = json.dumps(tocjson)
+  Args.out_tocjson.write(out_tocjson)
